@@ -1,0 +1,1837 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0511.0935                               -->
+<workbook original-version='18.1' source-build='2021.1.2 (20211.21.0511.0935)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Data (order_detail)' inline='true' name='federated.0xk97rz0w7r7my14s74qp1p919ie' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='order_detail' name='excel-direct.19a9dpy11zyit116yv2l90z1f09b'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/DELL/mr_tableau/DATA/order_detail.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.19a9dpy11zyit116yv2l90z1f09b' name='Data' table='[Data$]' type='table'>
+          <columns gridOrigin='A1:AM10001:no:A1:AM10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='Mã Công Ty/CN' ordinal='0' />
+            <column datatype='string' name='Công Ty/CN' ordinal='1' />
+            <column datatype='string' name='Địa Chỉ Công Ty/CN' ordinal='2' />
+            <column datatype='string' name='Mã NV' ordinal='3' />
+            <column datatype='string' name='Tên CVBH' ordinal='4' />
+            <column datatype='datetime' name='Ngày Chứng Từ' ordinal='5' />
+            <column datatype='string' name='Số Đơn Đặt Hàng' ordinal='6' />
+            <column datatype='string' name='Mã Đơn Hàng PN' ordinal='7' />
+            <column datatype='string' name='Hóa Đơn' ordinal='8' />
+            <column datatype='string' name='Ngày Tới Hạn TT' ordinal='9' />
+            <column datatype='string' name='Số Hợp Đồng' ordinal='10' />
+            <column datatype='string' name='Trạng Thái' ordinal='11' />
+            <column datatype='string' name='Mã KH Thuế' ordinal='12' />
+            <column datatype='string' name='Tên KH Thuế' ordinal='13' />
+            <column datatype='string' name='Mã Số Thuế' ordinal='14' />
+            <column datatype='string' name='Mã KH DMS' ordinal='15' />
+            <column datatype='string' name='Mã KH Cũ' ordinal='16' />
+            <column datatype='string' name='Tên Khách Hàng' ordinal='17' />
+            <column datatype='string' name='Địa Chỉ KH' ordinal='18' />
+            <column datatype='string' name='Tên Tỉnh KH' ordinal='19' />
+            <column datatype='string' name='Quận/HUyện' ordinal='20' />
+            <column datatype='string' name='Phường/Xã' ordinal='21' />
+            <column datatype='string' name='Tên Kênh KH' ordinal='22' />
+            <column datatype='string' name='Kênh Phụ' ordinal='23' />
+            <column datatype='string' name='Mã Sản Phẩm' ordinal='24' />
+            <column datatype='string' name='Tên Sản Phẩm' ordinal='25' />
+            <column datatype='string' name='Số Lô' ordinal='26' />
+            <column datatype='string' name='Hạn Dùng' ordinal='27' />
+            <column datatype='integer' name='Số Lượng' ordinal='28' />
+            <column datatype='integer' name='Doanh Số (Có VAT)' ordinal='29' />
+            <column datatype='real' name='Doanh Số (Chưa VAT)' ordinal='30' />
+            <column datatype='datetime' name='Ngày Đặt Đon' ordinal='31' />
+            <column datatype='string' name='Người Tạo Đơn' ordinal='32' />
+            <column datatype='string' name='Ngày Giao Hàng' ordinal='33' />
+            <column datatype='string' name='Người Giao hàng' ordinal='34' />
+            <column datatype='string' name='Trạng Thái Giao Hàng' ordinal='35' />
+            <column datatype='string' name='Sổ Xuất Hàng' ordinal='36' />
+            <column datatype='string' name='Đơn Vị Giao Hàng' ordinal='37' />
+            <column datatype='string' name='Người Chịu Trách Nhiệm Nợ' ordinal='38' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.19a9dpy11zyit116yv2l90z1f09b' name='Data' table='[Data$]' type='table'>
+          <columns gridOrigin='A1:AM10001:no:A1:AM10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='Mã Công Ty/CN' ordinal='0' />
+            <column datatype='string' name='Công Ty/CN' ordinal='1' />
+            <column datatype='string' name='Địa Chỉ Công Ty/CN' ordinal='2' />
+            <column datatype='string' name='Mã NV' ordinal='3' />
+            <column datatype='string' name='Tên CVBH' ordinal='4' />
+            <column datatype='datetime' name='Ngày Chứng Từ' ordinal='5' />
+            <column datatype='string' name='Số Đơn Đặt Hàng' ordinal='6' />
+            <column datatype='string' name='Mã Đơn Hàng PN' ordinal='7' />
+            <column datatype='string' name='Hóa Đơn' ordinal='8' />
+            <column datatype='string' name='Ngày Tới Hạn TT' ordinal='9' />
+            <column datatype='string' name='Số Hợp Đồng' ordinal='10' />
+            <column datatype='string' name='Trạng Thái' ordinal='11' />
+            <column datatype='string' name='Mã KH Thuế' ordinal='12' />
+            <column datatype='string' name='Tên KH Thuế' ordinal='13' />
+            <column datatype='string' name='Mã Số Thuế' ordinal='14' />
+            <column datatype='string' name='Mã KH DMS' ordinal='15' />
+            <column datatype='string' name='Mã KH Cũ' ordinal='16' />
+            <column datatype='string' name='Tên Khách Hàng' ordinal='17' />
+            <column datatype='string' name='Địa Chỉ KH' ordinal='18' />
+            <column datatype='string' name='Tên Tỉnh KH' ordinal='19' />
+            <column datatype='string' name='Quận/HUyện' ordinal='20' />
+            <column datatype='string' name='Phường/Xã' ordinal='21' />
+            <column datatype='string' name='Tên Kênh KH' ordinal='22' />
+            <column datatype='string' name='Kênh Phụ' ordinal='23' />
+            <column datatype='string' name='Mã Sản Phẩm' ordinal='24' />
+            <column datatype='string' name='Tên Sản Phẩm' ordinal='25' />
+            <column datatype='string' name='Số Lô' ordinal='26' />
+            <column datatype='string' name='Hạn Dùng' ordinal='27' />
+            <column datatype='integer' name='Số Lượng' ordinal='28' />
+            <column datatype='integer' name='Doanh Số (Có VAT)' ordinal='29' />
+            <column datatype='real' name='Doanh Số (Chưa VAT)' ordinal='30' />
+            <column datatype='datetime' name='Ngày Đặt Đon' ordinal='31' />
+            <column datatype='string' name='Người Tạo Đơn' ordinal='32' />
+            <column datatype='string' name='Ngày Giao Hàng' ordinal='33' />
+            <column datatype='string' name='Người Giao hàng' ordinal='34' />
+            <column datatype='string' name='Trạng Thái Giao Hàng' ordinal='35' />
+            <column datatype='string' name='Sổ Xuất Hàng' ordinal='36' />
+            <column datatype='string' name='Đơn Vị Giao Hàng' ordinal='37' />
+            <column datatype='string' name='Người Chịu Trách Nhiệm Nợ' ordinal='38' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AM10001:no:A1:AM10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mã Công Ty/CN</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Mã Công Ty/CN]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Mã Công Ty/CN</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Công Ty/CN</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Công Ty/CN]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Công Ty/CN</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Địa Chỉ Công Ty/CN</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Địa Chỉ Công Ty/CN]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Địa Chỉ Công Ty/CN</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mã NV</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Mã NV]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Mã NV</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tên CVBH</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Tên CVBH]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Tên CVBH</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ngày Chứng Từ</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Ngày Chứng Từ]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Ngày Chứng Từ</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số Đơn Đặt Hàng</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Số Đơn Đặt Hàng]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số Đơn Đặt Hàng</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mã Đơn Hàng PN</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Mã Đơn Hàng PN]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Mã Đơn Hàng PN</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hóa Đơn</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Hóa Đơn]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Hóa Đơn</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ngày Tới Hạn TT</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ngày Tới Hạn TT]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Ngày Tới Hạn TT</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số Hợp Đồng</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Số Hợp Đồng]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số Hợp Đồng</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Trạng Thái</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Trạng Thái]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Trạng Thái</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mã KH Thuế</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Mã KH Thuế]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Mã KH Thuế</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tên KH Thuế</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Tên KH Thuế]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Tên KH Thuế</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mã Số Thuế</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Mã Số Thuế]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Mã Số Thuế</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mã KH DMS</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Mã KH DMS]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Mã KH DMS</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mã KH Cũ</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Mã KH Cũ]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Mã KH Cũ</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tên Khách Hàng</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Tên Khách Hàng]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Tên Khách Hàng</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Địa Chỉ KH</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Địa Chỉ KH]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Địa Chỉ KH</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tên Tỉnh KH</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Tên Tỉnh KH]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Tên Tỉnh KH</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quận/HUyện</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Quận/HUyện]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Quận/HUyện</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Phường/Xã</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Phường/Xã]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Phường/Xã</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tên Kênh KH</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Tên Kênh KH]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Tên Kênh KH</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kênh Phụ</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Kênh Phụ]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Kênh Phụ</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mã Sản Phẩm</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Mã Sản Phẩm]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Mã Sản Phẩm</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tên Sản Phẩm</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Tên Sản Phẩm]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Tên Sản Phẩm</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số Lô</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Số Lô]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số Lô</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hạn Dùng</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Hạn Dùng]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Hạn Dùng</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số Lượng</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Số Lượng]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số Lượng</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Doanh Số (Có VAT)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Doanh Số (Có VAT)]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Doanh Số (Có VAT)</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Doanh Số (Chưa VAT)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Doanh Số (Chưa VAT)]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Doanh Số (Chưa VAT)</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ngày Đặt Đon</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Ngày Đặt Đon]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Ngày Đặt Đon</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Người Tạo Đơn</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Người Tạo Đơn]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Người Tạo Đơn</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ngày Giao Hàng</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ngày Giao Hàng]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Ngày Giao Hàng</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Người Giao hàng</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Người Giao hàng]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Người Giao hàng</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Trạng Thái Giao Hàng</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Trạng Thái Giao Hàng]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Trạng Thái Giao Hàng</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sổ Xuất Hàng</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sổ Xuất Hàng]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Sổ Xuất Hàng</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Đơn Vị Giao Hàng</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Đơn Vị Giao Hàng]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Đơn Vị Giao Hàng</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Người Chịu Trách Nhiệm Nợ</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Người Chịu Trách Nhiệm Nợ]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Người Chịu Trách Nhiệm Nợ</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='AOV' datatype='real' name='[Calculation_470626212732076032]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Doanh Số (Có VAT)]) / COUNTD([Số Đơn Đặt Hàng])' />
+      </column>
+      <column caption='Cancelled Orders' datatype='integer' name='[Calculation_470626212733714433]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD(&#13;&#10;IF [Trạng Thái Giao Hàng] == &quot;Chưa xác nhận&quot;&#13;&#10;    then [Số Đơn Đặt Hàng]&#13;&#10;END)' />
+      </column>
+      <column caption='Tỷ Lệ Hủy Đơn' datatype='real' name='[Calculation_470626212734763010]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_470626212733714433] / COUNTD([Số Đơn Đặt Hàng])' />
+      </column>
+      <column caption='Mã Kh Cũ' datatype='string' name='[Mã KH Cũ]' role='dimension' type='nominal' />
+      <column caption='Mã Kh Dms' datatype='string' name='[Mã KH DMS]' role='dimension' type='nominal' />
+      <column caption='Mã Nv' datatype='string' name='[Mã NV]' role='dimension' type='nominal' />
+      <column aggregation='CountD' datatype='string' name='[Số Đơn Đặt Hàng]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Data' datatype='table' name='[__tableau_internal_object_id__].[Data_E2BF21E695CC4CCEB713585E6D0688D8]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Viet Nam&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Data' id='Data_E2BF21E695CC4CCEB713585E6D0688D8'>
+            <properties context=''>
+              <relation connection='excel-direct.19a9dpy11zyit116yv2l90z1f09b' name='Data' table='[Data$]' type='table'>
+                <columns gridOrigin='A1:AM10001:no:A1:AM10001:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Mã Công Ty/CN' ordinal='0' />
+                  <column datatype='string' name='Công Ty/CN' ordinal='1' />
+                  <column datatype='string' name='Địa Chỉ Công Ty/CN' ordinal='2' />
+                  <column datatype='string' name='Mã NV' ordinal='3' />
+                  <column datatype='string' name='Tên CVBH' ordinal='4' />
+                  <column datatype='datetime' name='Ngày Chứng Từ' ordinal='5' />
+                  <column datatype='string' name='Số Đơn Đặt Hàng' ordinal='6' />
+                  <column datatype='string' name='Mã Đơn Hàng PN' ordinal='7' />
+                  <column datatype='string' name='Hóa Đơn' ordinal='8' />
+                  <column datatype='string' name='Ngày Tới Hạn TT' ordinal='9' />
+                  <column datatype='string' name='Số Hợp Đồng' ordinal='10' />
+                  <column datatype='string' name='Trạng Thái' ordinal='11' />
+                  <column datatype='string' name='Mã KH Thuế' ordinal='12' />
+                  <column datatype='string' name='Tên KH Thuế' ordinal='13' />
+                  <column datatype='string' name='Mã Số Thuế' ordinal='14' />
+                  <column datatype='string' name='Mã KH DMS' ordinal='15' />
+                  <column datatype='string' name='Mã KH Cũ' ordinal='16' />
+                  <column datatype='string' name='Tên Khách Hàng' ordinal='17' />
+                  <column datatype='string' name='Địa Chỉ KH' ordinal='18' />
+                  <column datatype='string' name='Tên Tỉnh KH' ordinal='19' />
+                  <column datatype='string' name='Quận/HUyện' ordinal='20' />
+                  <column datatype='string' name='Phường/Xã' ordinal='21' />
+                  <column datatype='string' name='Tên Kênh KH' ordinal='22' />
+                  <column datatype='string' name='Kênh Phụ' ordinal='23' />
+                  <column datatype='string' name='Mã Sản Phẩm' ordinal='24' />
+                  <column datatype='string' name='Tên Sản Phẩm' ordinal='25' />
+                  <column datatype='string' name='Số Lô' ordinal='26' />
+                  <column datatype='string' name='Hạn Dùng' ordinal='27' />
+                  <column datatype='integer' name='Số Lượng' ordinal='28' />
+                  <column datatype='integer' name='Doanh Số (Có VAT)' ordinal='29' />
+                  <column datatype='real' name='Doanh Số (Chưa VAT)' ordinal='30' />
+                  <column datatype='datetime' name='Ngày Đặt Đon' ordinal='31' />
+                  <column datatype='string' name='Người Tạo Đơn' ordinal='32' />
+                  <column datatype='string' name='Ngày Giao Hàng' ordinal='33' />
+                  <column datatype='string' name='Người Giao hàng' ordinal='34' />
+                  <column datatype='string' name='Trạng Thái Giao Hàng' ordinal='35' />
+                  <column datatype='string' name='Sổ Xuất Hàng' ordinal='36' />
+                  <column datatype='string' name='Đơn Vị Giao Hàng' ordinal='37' />
+                  <column datatype='string' name='Người Chịu Trách Nhiệm Nợ' ordinal='38' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='AOV'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (order_detail)' name='federated.0xk97rz0w7r7my14s74qp1p919ie' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xk97rz0w7r7my14s74qp1p919ie'>
+            <column caption='AOV' datatype='real' name='[Calculation_470626212732076032]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Doanh Số (Có VAT)]) / COUNTD([Số Đơn Đặt Hàng])' />
+            </column>
+            <column datatype='integer' name='[Doanh Số (Có VAT)]' role='measure' type='quantitative' />
+            <column aggregation='CountD' datatype='string' name='[Số Đơn Đặt Hàng]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_470626212732076032]' derivation='User' name='[usr:Calculation_470626212732076032:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='303' />
+            <format attr='height' value='98' />
+            <format attr='color' data-class='subtotal' scope='rows' value='#000000' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='cols' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-size' scope='cols' value='1' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-color' scope='cols' value='#00a651' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-color' scope='rows' value='#000000' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='header-div'>
+            <format attr='stroke-size' scope='rows' value='3' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0xk97rz0w7r7my14s74qp1p919ie].[usr:Calculation_470626212732076032:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'>AOV</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#00a651' fontsize='16'><![CDATA[<[federated.0xk97rz0w7r7my14s74qp1p919ie].[usr:Calculation_470626212732076032:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{CDC01ACA-809F-411C-9247-1A8E69B2C735}' />
+    </worksheet>
+    <worksheet name='Sales Over View'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (order_detail)' name='federated.0xk97rz0w7r7my14s74qp1p919ie' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xk97rz0w7r7my14s74qp1p919ie'>
+            <column datatype='integer' name='[Doanh Số (Có VAT)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Kênh Phụ]' role='dimension' type='nominal' />
+            <column-instance column='[Kênh Phụ]' derivation='None' name='[none:Kênh Phụ:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Doanh Số (Có VAT)]' derivation='Sum' name='[sum:Doanh Số (Có VAT):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Kênh Phụ:nk]'>
+            <groupfilter function='level-members' level='[none:Kênh Phụ:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Kênh Phụ:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='303' />
+            <format attr='height' value='98' />
+            <format attr='color' data-class='subtotal' scope='rows' value='#000000' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Doanh Số (Có VAT):qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='cols' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-size' scope='cols' value='1' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-color' scope='cols' value='#00a651' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-color' scope='rows' value='#000000' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='header-div'>
+            <format attr='stroke-size' scope='rows' value='3' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Doanh Số (Có VAT):qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'>TỔNG DOANH SỐ</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#00a651' fontsize='16'><![CDATA[<[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Doanh Số (Có VAT):qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5D6FF579-A220-404A-ADD5-9A67482FE196}' />
+    </worksheet>
+    <worksheet name='Tổng Số Khách Hàng'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (order_detail)' name='federated.0xk97rz0w7r7my14s74qp1p919ie' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xk97rz0w7r7my14s74qp1p919ie'>
+            <column datatype='string' name='[Tên Khách Hàng]' role='dimension' type='nominal' />
+            <column-instance column='[Tên Khách Hàng]' derivation='CountD' name='[ctd:Tên Khách Hàng:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='303' />
+            <format attr='height' value='98' />
+            <format attr='color' data-class='subtotal' scope='rows' value='#000000' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='cols' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-size' scope='cols' value='1' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-color' scope='cols' value='#00a651' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-color' scope='rows' value='#000000' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='header-div'>
+            <format attr='stroke-size' scope='rows' value='3' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0xk97rz0w7r7my14s74qp1p919ie].[ctd:Tên Khách Hàng:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'>TỔNG SỐ KHÁCH HÀNG</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#00a651' fontsize='16'><![CDATA[<[federated.0xk97rz0w7r7my14s74qp1p919ie].[ctd:Tên Khách Hàng:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{25F54D53-B41D-4342-B35F-8083F5904503}' />
+    </worksheet>
+    <worksheet name='Tổng Số Đơn Hàng'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (order_detail)' name='federated.0xk97rz0w7r7my14s74qp1p919ie' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xk97rz0w7r7my14s74qp1p919ie'>
+            <column aggregation='CountD' datatype='string' name='[Số Đơn Đặt Hàng]' role='dimension' type='nominal' />
+            <column-instance column='[Số Đơn Đặt Hàng]' derivation='CountD' name='[ctd:Số Đơn Đặt Hàng:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='303' />
+            <format attr='height' value='98' />
+            <format attr='color' data-class='subtotal' scope='rows' value='#000000' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='cols' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-size' scope='cols' value='1' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-color' scope='cols' value='#00a651' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-color' scope='rows' value='#000000' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='header-div'>
+            <format attr='stroke-size' scope='rows' value='3' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0xk97rz0w7r7my14s74qp1p919ie].[ctd:Số Đơn Đặt Hàng:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'>TỔNG SỐ ĐƠN HÀNG</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#00a651' fontsize='16'><![CDATA[<[federated.0xk97rz0w7r7my14s74qp1p919ie].[ctd:Số Đơn Đặt Hàng:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{ECFA4BDD-650F-4206-944C-C20D7414B552}' />
+    </worksheet>
+    <worksheet name='Tỷ Lệ Hủy Đơn'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (order_detail)' name='federated.0xk97rz0w7r7my14s74qp1p919ie' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xk97rz0w7r7my14s74qp1p919ie'>
+            <column caption='Cancelled Orders' datatype='integer' name='[Calculation_470626212733714433]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD(&#13;&#10;IF [Trạng Thái Giao Hàng] == &quot;Chưa xác nhận&quot;&#13;&#10;    then [Số Đơn Đặt Hàng]&#13;&#10;END)' />
+            </column>
+            <column caption='Tỷ Lệ Hủy Đơn' datatype='real' name='[Calculation_470626212734763010]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_470626212733714433] / COUNTD([Số Đơn Đặt Hàng])' />
+            </column>
+            <column aggregation='CountD' datatype='string' name='[Số Đơn Đặt Hàng]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Trạng Thái Giao Hàng]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_470626212734763010]' derivation='User' name='[usr:Calculation_470626212734763010:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='303' />
+            <format attr='height' value='98' />
+            <format attr='color' data-class='subtotal' scope='rows' value='#000000' />
+            <format attr='text-format' field='[federated.0xk97rz0w7r7my14s74qp1p919ie].[usr:Calculation_470626212734763010:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='cols' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-size' scope='cols' value='1' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-color' scope='cols' value='#00a651' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-color' scope='rows' value='#000000' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='header-div'>
+            <format attr='stroke-size' scope='rows' value='3' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0xk97rz0w7r7my14s74qp1p919ie].[usr:Calculation_470626212734763010:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'>Tỷ Lệ Hủy Đơn</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#00a651' fontsize='16'><![CDATA[<[federated.0xk97rz0w7r7my14s74qp1p919ie].[usr:Calculation_470626212734763010:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{827E4A9B-5E74-47F1-837F-62D9D6B30E9B}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Sales Report'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#f5f5f5' />
+        </style-rule>
+      </style>
+      <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' preset-index='0' sizing-mode='fixed' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='17' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97916' id='20' param='vert' w='98828' x='586' y='1042'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='97916' id='18' w='98828' x='586' y='1042' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' h='13151' id='7' is-centered='0' is-scaled='1' param='C:/Users/DELL/mr_tableau/DATA/LOGO-MERAP-XXANH.png' w='25256' x='220' y='130' />
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='8203' id='8' w='25988' x='1098' y='11198'>
+          <formatted-text>
+            <run bold='true' fontcolor='#00a651' fontsize='20'>BÁO CÁO DOANH SỐ</run>
+          </formatted-text>
+        </zone>
+        <zone h='16146' id='15' name='Sales Over View' show-title='false' w='17716' x='30966' y='2083' />
+        <zone h='12240' id='29' name='Tổng Số Khách Hàng' w='14348' x='48170' y='3255' />
+        <zone h='13932' id='42' name='Tổng Số Đơn Hàng' w='12518' x='61567' y='2474' />
+        <zone h='12370' id='43' name='AOV' w='12225' x='73280' y='3385' />
+        <zone h='10026' id='46' name='Tỷ Lệ Hủy Đơn' w='9370' x='85432' y='4427' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='50' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97916' id='49' param='vert' w='98828' x='586' y='1042'>
+                <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='101' h='13151' id='7' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/DELL/mr_tableau/DATA/LOGO-MERAP-XXANH.png' w='25256' x='220' y='130'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='124' h='16146' id='15' is-fixed='true' name='Sales Over View' show-title='false' w='17716' x='30966' y='2083'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='107' h='13932' id='42' is-fixed='true' name='Tổng Số Đơn Hàng' w='12518' x='61567' y='2474'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='94' h='12240' id='29' is-fixed='true' name='Tổng Số Khách Hàng' w='14348' x='48170' y='3255'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='95' h='12370' id='43' is-fixed='true' name='AOV' w='12225' x='73280' y='3385'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='77' h='10026' id='46' is-fixed='true' name='Tỷ Lệ Hủy Đơn' w='9370' x='85432' y='4427'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='8203' id='8' w='25988' x='1098' y='11198'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#00a651' fontsize='20'>BÁO CÁO DOANH SỐ</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{6901C3B2-AF6D-4BF9-A75A-A1F1DF900A26}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sales Over View'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Kênh Phụ:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[mn:Ngày Đặt Đon:ok]</field>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Kênh Phụ:nk]</field>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái Giao Hàng:nk]</field>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái:nk]</field>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Doanh Số (Có VAT):qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{94C02AC7-2185-49BD-B27F-0EB8ABA2463C}' />
+    </window>
+    <window class='worksheet' name='Tổng Số Khách Hàng'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái:nk]</field>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Tên Khách Hàng:nk]</field>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Doanh Số (Có VAT):qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E742A555-2828-4FF7-985F-335FC0D13A59}' />
+    </window>
+    <window class='worksheet' name='Tổng Số Đơn Hàng'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Số Đơn Đặt Hàng:nk]</field>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái:nk]</field>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Tên Khách Hàng:nk]</field>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Doanh Số (Có VAT):qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B3384BAE-641B-4845-AD62-27D5A03C67EA}' />
+    </window>
+    <window class='worksheet' name='AOV'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Số Đơn Đặt Hàng:nk]</field>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái:nk]</field>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Tên Khách Hàng:nk]</field>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Doanh Số (Có VAT):qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{29A35657-AF97-41F5-8AD8-98CEFAED959A}' />
+    </window>
+    <window class='worksheet' name='Tỷ Lệ Hủy Đơn'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Số Đơn Đặt Hàng:nk]</field>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái:nk]</field>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Tên Khách Hàng:nk]</field>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Doanh Số (Có VAT):qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B894EB9B-411E-434E-8161-5F36966F37C3}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Sales Report'>
+      <viewpoints>
+        <viewpoint name='AOV'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sales Over View'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Tổng Số Khách Hàng'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Tổng Số Đơn Hàng'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Tỷ Lệ Hủy Đơn'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{DCA7600A-DDC4-434B-837A-8D0C54D93296}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='AOV' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAEU0lEQVR4nO3Zv2tddRyH8fdNW2xuiklRrsU20cWANHUrFAd1CjgoKKg4Z/QvcLBUsjpY
+      OtT/wBYSEU2MDqJiEwwhKt5Y2wQtaYiSnze3ze/b5jgIweLiIol5ntf8OfBZHr7nfE+pKIoi
+      ElTTXi8g7SUDEJoBCM0AhGYAQjMAoRmA0AxAaAYgNAMQmgEIzQCEZgBCMwChGYDQDEBoBiA0
+      AxCaAQjNAIRmAEIzAKEZgNAMQGgGIDQDEJoBCM0AhGYAQjMAoRmA0AxAaAYgNAMQmgEIzQCE
+      ZgBCMwChGYDQDEBoBiA0AxCaAQjNAIRmAEIzAKEZgNAMQGgGIDQDEJoBCM0AhGYAQjMAoRmA
+      0AxAaAYgNAMQmgEIzQCEZgBCMwChGYDQDEBoBiA0AxCaAQjNAIRmAEIzAKEZgNAMQGgGIDQD
+      EJoBCM0AhGYAQjMAoRmA0AxAaAYgNAMQmgEIzQCEZgBCMwChGYDQDEBoBiA0AxCaAQjNAIRm
+      ADqQVldX09vbm0ajkb6+vvT392doaCiLi4sZGRnZnTu8hztK/5mxsbFUKpVUq9VUKpW0tLSk
+      XC5neHg43d3du3OeADqQyuVyenp6srW1lUajkVqtls7OzqytraW5uXl3rlQURbGHe0p7yhNA
+      aAYgNAPQvlbbXs3FmwMZX/41SVLfXs+lyc8yujj5wFx1ZTpfz03ko5nv8uXcT0mSuY2VvPfL
+      x5nfrCdJlrbu5tLkYHaKnSRJURQGoP3tq7mJ1Bvr+X75tyTJNws/525jI6NLUw/MnWl7Ii88
+      1pVvF66n8lBrkuT9yYHMrC9lYetOiqLIxZsDubZwIzt/++z1GlT72qvt53Ls8NFMry0kSV4+
+      eTbHj7Tkh9qtf8zOb9Yzv1lPV2tHfqzdyomjbaltryVJbtyZzbEjzWkqlXbnS6WSAejguDz1
+      ed566sWUSqWcr17J0w+fyujSX69K1+sz6Wh5NBMrt/Pp7FheaT+XxBNA+9yV6WsZ/H089e21
+      nGhuy/bOvQzOjuePzVpOlR/J/WInjzcfzzNtT2aifjvnu15Pknzy3NtJkgvVq3mt49mcbm1P
+      URSZ3VjOSyfP5oOpL/J85bT/AfT/VRRF3ql+mHe73sihpkP/+rl7O/dzYeJqes+8aQBi8xZI
+      aAYgNAMQmgEIzQCEZgBCMwChGYDQDEBoBiA0AxCaAQjNAIRmAEIzAKEZgNAMQGgGIDQDEJoB
+      CM0AhGYAQjMAoRmA0AxAaAYgNAMQmgEIzQCEZgBCMwChGYDQDEBoBiA0AxCaAQjNAIRmAEIz
+      AKEZgNAMQGgGIDQDEJoBCM0AhGYAQjMAoRmA0AxAaAYgNAMQmgEIzQCEZgBCMwChGYDQDEBo
+      BiA0AxCaAQjNAIRmAEIzAKEZgNAMQGgGIDQDEJoBCM0AhGYAQjMAoRmA0AxAaAYgNAMQmgEI
+      zQCEZgBCMwChGYDQDEBoBiA0AxCaAQjNAIRmAEL7E3W84mLCXkwMAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sales Over View' width='192'>
+      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
+      NzRDxguWAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sales Report' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Tổng Số Khách Hàng' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAE3UlEQVR4nO3YwUukdRzH8c/jOOMMu+4g5i6sG+7spmBkmmDOQT2EHbp1C+oQEd36C4LI
+      S7ftEESnFC+REB02oQ4dRIgMp5XYJAebGXZdD046po478wwOPd2MKFihJbXP+3V7fnwf+B2e
+      9/N7eIIoiiIBplpOewPAaSIAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWCMAWCMAWCMAnHk7Ozs6PDw80WwURSqXy4qi6ETzBIAzbXt7W/l8XmEYPnK2Wq1q
+      YWFByWRSQRD840w+n9fR0dHxdWxqamrqcW0WeBzCMNT09LTa2tq0urqqZrOpVCqlmZkZ1Wo1
+      hWF4vN7R0aG5uTnFYjHl83m1traq0WgokUhocXFRxWJRa2trqlarkqTZ2VmNj49rfn5eURRx
+      AuDsSSaTymQy6uvrkyRls1mVSiVlMhkVCgUVCgUNDAyoVCqppaVFPT092t7eVr1e18TEhDY2
+      NiRJi4uLGhkZUblc1vr6uur1urq7u7WysqJUKqX+/n4F0Uk/loD/UC6X09DQkHK5nGq1mgYH
+      B1Uul7WysqLJycnjt/3Y2JiWl5cVhqHS6bQODg7U29ur9vZ2FYtF7e/vKx6Pq7OzU5VKRdls
+      VktLS2o2m+rq6iIAeOMTCNYIANZaT3sDwL+VqxR0/+Gv2mlU9caNF9QWi0uS7u7d04+/3VMs
+      CDTccVM3Ll7RR+tf6aWrw+q/dE253QInAM6/D/K39fK1UV1OpjV3/9vj9WQsodeuT2i0s0+f
+      FL/Rnd2idhpV/by/qSAI9HxnLycAzr8n2i7piwdL2gr3tFXfO17va7+qtf1NvXP3U73/7Kt6
+      Ov2kHtQqf7mXAHDufTj8pr6vrKvx+5ESLX8+0nd2i7q1dlszo2+rI3Hhb/dFUcRvUJx/X27m
+      9MNuQVvhnm4997oWyqtqj6f0+cZ3ChTocjKtoY7rSscv6ONfvlagQG899aJuXrxCAPh/iaJI
+      7/70md575hXFW2KPnCcAWOMvEKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwR
+      AKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwR
+      AKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwR
+      AKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwR
+      AKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwR
+      AKwRAKz9AbiWGleOHY65AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Tổng Số Đơn Hàng' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAFBklEQVR4nO3aX0hedRzH8c/zR03dNKfO6cxHnTpxS9TNwZYTihoUjKgIuqyLFRHRn8vY
+      xaK67KabGESUQUFBUSMo9q/StpuNuRlT27PnSaeWfzbzX4971Od0EXhRkN2Z+7xfd+ec38U5
+      F2/O93c4oSAIAgGmwut9A8B6IgBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBY
+      IwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBY
+      IwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBY
+      IwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBY
+      IwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBY
+      IwBYIwBYIwBYIwBYIwBYIwBsGLO3JjQ9l/rP6yfGJxSssYYAsCEsTI+rbyCuVOr2mmuXUjM6
+      e/Z7hXPyFPr7xSBQIplcPQwFQbBWJMC6yKT/0Cfvdyl23/1KjfysnGhYJQ2N+rLrax3qaFB2
+      RUwjI1OKVVWqqb5GX3z2sXbs2qv5ySEFkWxF88u0r6Va7x3vUml5pepjxZqaS+vXyTlpJqHW
+      Bx/nDYD/r3B2nupqatTYWKd0JqKDne365VpSzQ2Vujw4rPjVhHa37lIikZAkVcdiGp+Y0vRC
+      Wgc6OjU1ltDi/IzSmWxtzZMuJKfUebBDm3MClcaaNJ78SdF1fkbgXxVsKVJWSKoovVvdP17R
+      nn2tGotPaaX/vNoOtKm/t095ubmSVhQoopCWVXdPuc71dGvnve26a1Ohykvylc4t1iONxfqh
+      55zKq+ql5QVtyQ0YgeCNEQjWCADW2ANgw5q9fUvvDn6lxrJOPVpWq9HZhN653q2sSL5e2/2E
+      8sJ/fQQ9eeM79Uz/psWVtI7sfEzLqWF9dOOSljLL7AGwcZ0YOqOrM0MqKNyj52PNeuH82zrW
+      /rIGxk6qN1OhF6ubJUlLmWVlhaO6MHpapxcL9GTpdsU2V2ji98uMQNi4Dsce0P6i7avH0ysZ
+      lUQiaiqs1LW5sdXz0cyCjvZ+oFf7e/RMVYtqCyo0NDOol/q+YQTCnSNLIaUVaGJxRiU5Bavn
+      Q9FCvdnytIZuXtRbA2f03LZivXH9ko7vf4URCBvX58lvdWLsoiaDTTqy4yFtDSbVNRZXemlB
+      x9qeVe/oKRUW7VV8vFvD6WVNL97UwzWHdSr+oeZzarUtK0oAuEMFK3r9yqc62vyUIqF//BG0
+      igBgjU0wrBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArP0J0RoS4SKk
+      skcAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Tỷ Lệ Hủy Đơn' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAEfUlEQVR4nO3YT29UVRyH8e+dQJ2W0NoxCDXyp20oaKEh6caFURKNhjdg1MSdO96DJr4E
+      N3XBwg1Jt6TG6EYiLDANxOAAwqhgtSWBW1smtTBQmOuukbgw0UUzeZ7P8nfP4tzFk3Nyiqqq
+      qkhQta3egLSVDEBoBiA0AxCaAQjNAIRmAEIzAKEZgNAMQGgGIDQDEJoBCM0AhGYAQjMAoRmA
+      0AxAaAYgNAMQmgEIzQCEZgBCMwChGYDQDEBoBiA0AxCaAQjNAIRmAEIzAKEZgNAMQGgGIDQD
+      EJoBCM0AhGYAQjMAoRmA0AxAaAYgNAMQmgEIzQCEZgBCMwChGYDQDEBoBiA0AxCaAQjNAIRm
+      AEIzAKEZgNAMQGgGIDQDEJoBCM0AhGYAQjMAoRmA0AxAaAYgNAMQmgEIzQCEZgBCMwChGYDQ
+      DEBoBiA0AxCaAQjNAIRmAEIzAKEZgNAMQGgGIDQDEJoBCM0AhGYAQjMAoRmA0AxAaAYgNANQ
+      TyvLMuvr6/+6bmNjI4uLi/+YG4B6TqfTyczMTJrNZu7fv5+lpaVUVZW5ublUVZVTp05leXk5
+      N2/ezNWrVzM3N5d2u52yLFOWZVZWVtLtdjM7O2sA6j31ej2jo6M5dOhQms1mFhYWNr+1Wq00
+      Go20Wq0kyfXr11OWZS5cuJDV1dXMz8/n4sWLKYoi7XbbANSbGo1GarVa+vr6Mj4+nqIo0ul0
+      kiQDAwMZHR1NvV7P9PR0Dh8+nOHh4aytrWVycjLdbjdFUWRsbCxFVVXVFv+L9J9dvnw5U1NT
+      KYpic3bjxo1MTEw8Nfv7t3379qW/vz9JDEBsXoGEtm2rNyD9H817C/nj4VpWHv2Zoe0DeWPP
+      VJKk8+RRPr91NmM7dueF/kYO7hzJ6YVzeeW5ibw0+GLOLM1n/fFDTwD1tqPP7s/x3Udyvvwx
+      u+qDm/PPfv46Lw/uzVsjxzI5tDeXVn7JxpPHudb+PU+qbr5bbmWkf9gTQL3vbqedO517OTq0
+      f3P2/eqt3Hu0ntO/fpvXn5/M+wdey/jOPTl/91pqRS1rGw9y7u41TwD1vpmfvsrJgyeeevXZ
+      9cxgPjhwPJ9Of5gvbl96an2tKPLJ1Ht5e+SYJ4B629rGg1xp/5aPjryTJDmzOJ++2racPHgi
+      HzdnM7R9R97d/2rO3rmSL29fysJ6maG+HXlz91S+ufODz6Bi8wokNAMQmgEIzQCEZgBCMwCh
+      GYDQDEBoBiA0AxCaAQjNAIRmAEIzAKEZgNAMQGgGIDQDEJoBCM0AhGYAQjMAoRmA0AxAaAYg
+      NAMQmgEIzQCEZgBCMwChGYDQDEBoBiA0AxCaAQjNAIRmAEIzAKEZgNAMQGgGIDQDEJoBCM0A
+      hGYAQjMAoRmA0AxAaAYgNAMQmgEIzQCEZgBCMwChGYDQDEBoBiA0AxCaAQjNAIRmAEIzAKEZ
+      gNAMQGgGIDQDEJoBCM0AhGYAQjMAoRmA0AxAaAYgNAMQmgEIzQCEZgBCMwChGYDQDEBoBiA0
+      AxCaAQjNAIRmAEIzAKEZgND+AgFm48+zxuGAAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
