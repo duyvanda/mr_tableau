@@ -4,6 +4,7 @@
 <workbook original-version='18.1' source-build='2021.1.2 (20211.21.0511.0935)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AutoCreateAndUpdateDSDPhoneLayouts />
+    <CustomReferenceLineTooltips />
     <_.fcp.MarkAnimation.true...MarkAnimation />
     <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
     <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
@@ -27,7 +28,7 @@
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.19a9dpy11zyit116yv2l90z1f09b' name='Data' table='[Data$]' type='table'>
-          <columns gridOrigin='A1:AM10001:no:A1:AM10001:0' header='yes' outcome='2'>
+          <columns gridOrigin='A1:AM10001:no:A1:AM2147483647:0' header='yes' outcome='2'>
             <column datatype='string' name='Mã Công Ty/CN' ordinal='0' />
             <column datatype='string' name='Công Ty/CN' ordinal='1' />
             <column datatype='string' name='Địa Chỉ Công Ty/CN' ordinal='2' />
@@ -58,9 +59,9 @@
             <column datatype='string' name='Hạn Dùng' ordinal='27' />
             <column datatype='integer' name='Số Lượng' ordinal='28' />
             <column datatype='integer' name='Doanh Số (Có VAT)' ordinal='29' />
-            <column datatype='real' name='Doanh Số (Chưa VAT)' ordinal='30' />
-            <column datatype='datetime' name='Ngày Đặt Đon' ordinal='31' />
-            <column datatype='string' name='Người Tạo Đơn' ordinal='32' />
+            <column datatype='string' name='Doanh Số (Chưa VAT)' ordinal='30' />
+            <column datatype='string' name='Ngày Đặt Đon' ordinal='31' />
+            <column datatype='real' name='Người Tạo Đơn' ordinal='32' />
             <column datatype='string' name='Ngày Giao Hàng' ordinal='33' />
             <column datatype='string' name='Người Giao hàng' ordinal='34' />
             <column datatype='string' name='Trạng Thái Giao Hàng' ordinal='35' />
@@ -70,7 +71,7 @@
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
         <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.19a9dpy11zyit116yv2l90z1f09b' name='Data' table='[Data$]' type='table'>
-          <columns gridOrigin='A1:AM10001:no:A1:AM10001:0' header='yes' outcome='2'>
+          <columns gridOrigin='A1:AM10001:no:A1:AM2147483647:0' header='yes' outcome='2'>
             <column datatype='string' name='Mã Công Ty/CN' ordinal='0' />
             <column datatype='string' name='Công Ty/CN' ordinal='1' />
             <column datatype='string' name='Địa Chỉ Công Ty/CN' ordinal='2' />
@@ -101,9 +102,9 @@
             <column datatype='string' name='Hạn Dùng' ordinal='27' />
             <column datatype='integer' name='Số Lượng' ordinal='28' />
             <column datatype='integer' name='Doanh Số (Có VAT)' ordinal='29' />
-            <column datatype='real' name='Doanh Số (Chưa VAT)' ordinal='30' />
-            <column datatype='datetime' name='Ngày Đặt Đon' ordinal='31' />
-            <column datatype='string' name='Người Tạo Đơn' ordinal='32' />
+            <column datatype='string' name='Doanh Số (Chưa VAT)' ordinal='30' />
+            <column datatype='string' name='Ngày Đặt Đon' ordinal='31' />
+            <column datatype='real' name='Người Tạo Đơn' ordinal='32' />
             <column datatype='string' name='Ngày Giao Hàng' ordinal='33' />
             <column datatype='string' name='Người Giao hàng' ordinal='34' />
             <column datatype='string' name='Trạng Thái Giao Hàng' ordinal='35' />
@@ -113,20 +114,6 @@
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
         <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[Data]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='context'>0</attribute>
-              <attribute datatype='string' name='gridOrigin'>&quot;A1:AM10001:no:A1:AM10001:0&quot;</attribute>
-              <attribute datatype='boolean' name='header'>true</attribute>
-              <attribute datatype='integer' name='outcome'>2</attribute>
-            </attributes>
-          </metadata-record>
           <metadata-record class='column'>
             <remote-name>Mã Công Ty/CN</remote-name>
             <remote-type>130</remote-type>
@@ -141,7 +128,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Công Ty/CN</remote-name>
@@ -157,7 +143,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Địa Chỉ Công Ty/CN</remote-name>
@@ -173,7 +158,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Mã NV</remote-name>
@@ -189,7 +173,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Tên CVBH</remote-name>
@@ -205,7 +188,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Ngày Chứng Từ</remote-name>
@@ -220,7 +202,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Số Đơn Đặt Hàng</remote-name>
@@ -236,7 +217,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Mã Đơn Hàng PN</remote-name>
@@ -252,7 +232,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Hóa Đơn</remote-name>
@@ -268,7 +247,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Ngày Tới Hạn TT</remote-name>
@@ -284,7 +262,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Số Hợp Đồng</remote-name>
@@ -300,7 +277,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Trạng Thái</remote-name>
@@ -316,7 +292,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Mã KH Thuế</remote-name>
@@ -332,7 +307,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Tên KH Thuế</remote-name>
@@ -348,7 +322,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Mã Số Thuế</remote-name>
@@ -364,7 +337,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Mã KH DMS</remote-name>
@@ -380,7 +352,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Mã KH Cũ</remote-name>
@@ -396,7 +367,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Tên Khách Hàng</remote-name>
@@ -412,7 +382,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Địa Chỉ KH</remote-name>
@@ -428,7 +397,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Tên Tỉnh KH</remote-name>
@@ -444,7 +412,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Quận/HUyện</remote-name>
@@ -460,7 +427,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Phường/Xã</remote-name>
@@ -476,7 +442,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Tên Kênh KH</remote-name>
@@ -492,7 +457,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Kênh Phụ</remote-name>
@@ -508,7 +472,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Mã Sản Phẩm</remote-name>
@@ -524,7 +487,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Tên Sản Phẩm</remote-name>
@@ -540,7 +502,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Số Lô</remote-name>
@@ -556,7 +517,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Hạn Dùng</remote-name>
@@ -572,7 +532,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Số Lượng</remote-name>
@@ -587,7 +546,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Doanh Số (Có VAT)</remote-name>
@@ -602,46 +560,14 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Doanh Số (Chưa VAT)</remote-name>
-            <remote-type>5</remote-type>
+            <remote-type>130</remote-type>
             <local-name>[Doanh Số (Chưa VAT)]</local-name>
             <parent-name>[Data]</parent-name>
             <remote-alias>Doanh Số (Chưa VAT)</remote-alias>
             <ordinal>30</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>15</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Ngày Đặt Đon</remote-name>
-            <remote-type>7</remote-type>
-            <local-name>[Ngày Đặt Đon]</local-name>
-            <parent-name>[Data]</parent-name>
-            <remote-alias>Ngày Đặt Đon</remote-alias>
-            <ordinal>31</ordinal>
-            <local-type>datetime</local-type>
-            <aggregation>Year</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Người Tạo Đơn</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Người Tạo Đơn]</local-name>
-            <parent-name>[Data]</parent-name>
-            <remote-alias>Người Tạo Đơn</remote-alias>
-            <ordinal>32</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
@@ -649,7 +575,36 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ngày Đặt Đon</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ngày Đặt Đon]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Ngày Đặt Đon</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Người Tạo Đơn</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Người Tạo Đơn]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Người Tạo Đơn</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Ngày Giao Hàng</remote-name>
@@ -665,7 +620,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Người Giao hàng</remote-name>
@@ -681,7 +635,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Trạng Thái Giao Hàng</remote-name>
@@ -697,7 +650,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Sổ Xuất Hàng</remote-name>
@@ -713,7 +665,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Đơn Vị Giao Hàng</remote-name>
@@ -729,7 +680,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Người Chịu Trách Nhiệm Nợ</remote-name>
@@ -745,11 +695,36 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_E2BF21E695CC4CCEB713585E6D0688D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AM10001:no:A1:AM2147483647:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
           </metadata-record>
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
+      <column caption='Goal Doanh Số' datatype='real' name='[Calculation_245164756645072896]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Người Tạo Đơn] * [Doanh Số (Có VAT)]' />
+      </column>
+      <column caption='% Archievement' datatype='real' name='[Calculation_245164756648316929]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='sum([Doanh Số (Có VAT)])/ SUM([Calculation_245164756645072896])' />
+      </column>
+      <column caption='Goal Doanh Số 1.5' datatype='real' name='[Calculation_245164756654424066]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_245164756645072896]*1.5' />
+      </column>
+      <column caption='Tên Kênh' datatype='string' name='[Calculation_332140524442304512]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='if CONTAINS([Tên Kênh KH],&quot;INS&quot;) then&#13;&#10;    &quot;INS&quot;&#13;&#10;ELSE&#13;&#10;    &quot;OCM&quot;&#13;&#10;END' />
+      </column>
       <column caption='AOV' datatype='real' name='[Calculation_470626212732076032]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='SUM([Doanh Số (Có VAT)]) / COUNTD([Số Đơn Đặt Hàng])' />
       </column>
@@ -759,9 +734,12 @@
       <column caption='Tỷ Lệ Hủy Đơn' datatype='real' name='[Calculation_470626212734763010]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='[Calculation_470626212733714433] / COUNTD([Số Đơn Đặt Hàng])' />
       </column>
+      <column caption='Mã Công Ty' datatype='string' name='[Mã Công Ty/CN]' role='dimension' type='nominal' />
       <column caption='Mã Kh Cũ' datatype='string' name='[Mã KH Cũ]' role='dimension' type='nominal' />
       <column caption='Mã Kh Dms' datatype='string' name='[Mã KH DMS]' role='dimension' type='nominal' />
       <column caption='Mã Nv' datatype='string' name='[Mã NV]' role='dimension' type='nominal' />
+      <column caption='Target Doanh Số' datatype='real' name='[Người Tạo Đơn]' role='measure' type='quantitative' />
+      <column caption='Mã Ngành Hàng' datatype='string' name='[Số Lô]' role='dimension' type='nominal' />
       <column aggregation='CountD' datatype='string' name='[Số Đơn Đặt Hàng]' role='dimension' type='nominal' />
       <_.fcp.ObjectModelTableType.true...column caption='Data' datatype='table' name='[__tableau_internal_object_id__].[Data_E2BF21E695CC4CCEB713585E6D0688D8]' role='measure' type='quantitative' />
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
@@ -773,7 +751,7 @@
           <object caption='Data' id='Data_E2BF21E695CC4CCEB713585E6D0688D8'>
             <properties context=''>
               <relation connection='excel-direct.19a9dpy11zyit116yv2l90z1f09b' name='Data' table='[Data$]' type='table'>
-                <columns gridOrigin='A1:AM10001:no:A1:AM10001:0' header='yes' outcome='2'>
+                <columns gridOrigin='A1:AM10001:no:A1:AM2147483647:0' header='yes' outcome='2'>
                   <column datatype='string' name='Mã Công Ty/CN' ordinal='0' />
                   <column datatype='string' name='Công Ty/CN' ordinal='1' />
                   <column datatype='string' name='Địa Chỉ Công Ty/CN' ordinal='2' />
@@ -804,9 +782,9 @@
                   <column datatype='string' name='Hạn Dùng' ordinal='27' />
                   <column datatype='integer' name='Số Lượng' ordinal='28' />
                   <column datatype='integer' name='Doanh Số (Có VAT)' ordinal='29' />
-                  <column datatype='real' name='Doanh Số (Chưa VAT)' ordinal='30' />
-                  <column datatype='datetime' name='Ngày Đặt Đon' ordinal='31' />
-                  <column datatype='string' name='Người Tạo Đơn' ordinal='32' />
+                  <column datatype='string' name='Doanh Số (Chưa VAT)' ordinal='30' />
+                  <column datatype='string' name='Ngày Đặt Đon' ordinal='31' />
+                  <column datatype='real' name='Người Tạo Đơn' ordinal='32' />
                   <column datatype='string' name='Ngày Giao Hàng' ordinal='33' />
                   <column datatype='string' name='Người Giao hàng' ordinal='34' />
                   <column datatype='string' name='Trạng Thái Giao Hàng' ordinal='35' />
@@ -827,15 +805,27 @@
         <datasource caption='Data (order_detail)' name='federated.0xk97rz0w7r7my14s74qp1p919ie' />
       </datasources>
       <datasource-dependencies datasource='federated.0xk97rz0w7r7my14s74qp1p919ie'>
+        <column caption='Tên Kênh' datatype='string' name='[Calculation_332140524442304512]' role='dimension' type='nominal'>
+          <calculation class='tableau' formula='if CONTAINS([Tên Kênh KH],&quot;INS&quot;) then&#13;&#10;    &quot;INS&quot;&#13;&#10;ELSE&#13;&#10;    &quot;OCM&quot;&#13;&#10;END' />
+        </column>
         <column datatype='string' name='[Kênh Phụ]' role='dimension' type='nominal' />
+        <column caption='Mã Ngành Hàng' datatype='string' name='[Số Lô]' role='dimension' type='nominal' />
         <column datatype='string' name='[Trạng Thái Giao Hàng]' role='dimension' type='nominal' />
         <column datatype='string' name='[Trạng Thái]' role='dimension' type='nominal' />
+        <column-instance column='[Calculation_332140524442304512]' derivation='None' name='[none:Calculation_332140524442304512:nk]' pivot='key' type='nominal' />
         <column-instance column='[Kênh Phụ]' derivation='None' name='[none:Kênh Phụ:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Số Lô]' derivation='None' name='[none:Số Lô:nk]' pivot='key' type='nominal' />
         <column-instance column='[Trạng Thái Giao Hàng]' derivation='None' name='[none:Trạng Thái Giao Hàng:nk]' pivot='key' type='nominal' />
         <column-instance column='[Trạng Thái]' derivation='None' name='[none:Trạng Thái:nk]' pivot='key' type='nominal' />
       </datasource-dependencies>
+      <filter class='categorical' column='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Calculation_332140524442304512:nk]'>
+        <groupfilter function='level-members' level='[none:Calculation_332140524442304512:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
       <filter class='categorical' column='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Kênh Phụ:nk]'>
         <groupfilter function='level-members' level='[none:Kênh Phụ:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Số Lô:nk]'>
+        <groupfilter function='level-members' level='[none:Số Lô:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
       </filter>
       <filter class='categorical' column='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái Giao Hàng:nk]'>
         <groupfilter function='level-members' level='[none:Trạng Thái Giao Hàng:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
@@ -858,15 +848,22 @@
             <datasource caption='Data (order_detail)' name='federated.0xk97rz0w7r7my14s74qp1p919ie' />
           </datasources>
           <datasource-dependencies datasource='federated.0xk97rz0w7r7my14s74qp1p919ie'>
+            <column caption='Tên Kênh' datatype='string' name='[Calculation_332140524442304512]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='if CONTAINS([Tên Kênh KH],&quot;INS&quot;) then&#13;&#10;    &quot;INS&quot;&#13;&#10;ELSE&#13;&#10;    &quot;OCM&quot;&#13;&#10;END' />
+            </column>
             <column caption='AOV' datatype='real' name='[Calculation_470626212732076032]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='SUM([Doanh Số (Có VAT)]) / COUNTD([Số Đơn Đặt Hàng])' />
             </column>
             <column datatype='integer' name='[Doanh Số (Có VAT)]' role='measure' type='quantitative' />
             <column datatype='string' name='[Kênh Phụ]' role='dimension' type='nominal' />
+            <column caption='Mã Ngành Hàng' datatype='string' name='[Số Lô]' role='dimension' type='nominal' />
             <column aggregation='CountD' datatype='string' name='[Số Đơn Đặt Hàng]' role='dimension' type='nominal' />
             <column datatype='string' name='[Trạng Thái Giao Hàng]' role='dimension' type='nominal' />
             <column datatype='string' name='[Trạng Thái]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Tên Kênh KH]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_332140524442304512]' derivation='None' name='[none:Calculation_332140524442304512:nk]' pivot='key' type='nominal' />
             <column-instance column='[Kênh Phụ]' derivation='None' name='[none:Kênh Phụ:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Số Lô]' derivation='None' name='[none:Số Lô:nk]' pivot='key' type='nominal' />
             <column-instance column='[Trạng Thái Giao Hàng]' derivation='None' name='[none:Trạng Thái Giao Hàng:nk]' pivot='key' type='nominal' />
             <column-instance column='[Trạng Thái]' derivation='None' name='[none:Trạng Thái:nk]' pivot='key' type='nominal' />
             <column-instance column='[Calculation_470626212732076032]' derivation='User' name='[usr:Calculation_470626212732076032:qk]' pivot='key' type='quantitative' />
@@ -875,6 +872,8 @@
             <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Kênh Phụ:nk]</column>
             <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái:nk]</column>
             <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái Giao Hàng:nk]</column>
+            <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Số Lô:nk]</column>
+            <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Calculation_332140524442304512:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -944,6 +943,137 @@
       </table>
       <simple-id uuid='{CDC01ACA-809F-411C-9247-1A8E69B2C735}' />
     </worksheet>
+    <worksheet name='DOANH SỐ MTD vs RR &amp; TARGET'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (order_detail)' name='federated.0xk97rz0w7r7my14s74qp1p919ie' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xk97rz0w7r7my14s74qp1p919ie'>
+            <column caption='Goal Doanh Số' datatype='real' name='[Calculation_245164756645072896]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Người Tạo Đơn] * [Doanh Số (Có VAT)]' />
+            </column>
+            <column caption='% Archievement' datatype='real' name='[Calculation_245164756648316929]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum([Doanh Số (Có VAT)])/ SUM([Calculation_245164756645072896])' />
+            </column>
+            <column caption='Goal Doanh Số 1.5' datatype='real' name='[Calculation_245164756654424066]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_245164756645072896]*1.5' />
+            </column>
+            <column caption='Tên Kênh' datatype='string' name='[Calculation_332140524442304512]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='if CONTAINS([Tên Kênh KH],&quot;INS&quot;) then&#13;&#10;    &quot;INS&quot;&#13;&#10;ELSE&#13;&#10;    &quot;OCM&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='integer' name='[Doanh Số (Có VAT)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Kênh Phụ]' role='dimension' type='nominal' />
+            <column caption='Target Doanh Số' datatype='real' name='[Người Tạo Đơn]' role='measure' type='quantitative' />
+            <column caption='Mã Ngành Hàng' datatype='string' name='[Số Lô]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Trạng Thái Giao Hàng]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Trạng Thái]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Tên Kênh KH]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_332140524442304512]' derivation='None' name='[none:Calculation_332140524442304512:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Kênh Phụ]' derivation='None' name='[none:Kênh Phụ:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Số Lô]' derivation='None' name='[none:Số Lô:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Trạng Thái Giao Hàng]' derivation='None' name='[none:Trạng Thái Giao Hàng:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Trạng Thái]' derivation='None' name='[none:Trạng Thái:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_245164756645072896]' derivation='Sum' name='[sum:Calculation_245164756645072896:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_245164756654424066]' derivation='Sum' name='[sum:Calculation_245164756654424066:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Doanh Số (Có VAT)]' derivation='Sum' name='[sum:Doanh Số (Có VAT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_245164756648316929]' derivation='User' name='[usr:Calculation_245164756648316929:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Kênh Phụ:nk]</column>
+            <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Số Lô:nk]</column>
+            <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái Giao Hàng:nk]</column>
+            <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái:nk]</column>
+            <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Calculation_332140524442304512:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Doanh Số (Có VAT):qk]' value='62' />
+            <format attr='auto-subtitle' class='0' field='[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Doanh Số (Có VAT):qk]' scope='cols' value='false' />
+            <format attr='title' class='0' field='[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Doanh Số (Có VAT):qk]' scope='cols' value='' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' value='64' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='stroke-size' id='refline0' value='4' />
+            <format attr='stroke-color' id='refline0' value='#e15759' />
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='fill-below' id='refline1' value='#f5f5f5' />
+            <format attr='stroke-size' id='refline1' value='4' />
+            <format attr='text-align' id='refline1' value='right' />
+            <format attr='vertical-align' id='refline1' value='center' />
+            <format attr='text-format' id='refline1' value='n#,##0,,,B;-#,##0,,,B' />
+            <format attr='fill-below' id='refline2' value='#f5f5f5' />
+            <format attr='stroke-color' id='refline2' value='#e15759' />
+            <format attr='stroke-size' id='refline2' value='5' />
+            <format attr='stroke-color' id='refline1' value='#f28e2b' />
+            <format attr='vertical-align' id='refline2' value='center' />
+            <format attr='text-format' id='refline2' value='n#,##0,,,B;-#,##0,,,B' />
+            <format attr='fill-above' id='refline2' value='#f5f5f5' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Calculation_245164756645072896:qk]' />
+              <lod column='[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Calculation_245164756654424066:qk]' />
+              <text column='[federated.0xk97rz0w7r7my14s74qp1p919ie].[usr:Calculation_245164756648316929:qk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Doanh Số (Có VAT):qk]' enable-instant-analytics='true' formula='total' id='refline1' label-type='value' scope='per-cell' value-column='[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Calculation_245164756645072896:qk]' z-order='2' />
+            <reference-line axis-column='[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Doanh Số (Có VAT):qk]' enable-instant-analytics='true' formula='total' id='refline2' label-type='value' scope='per-pane' tooltip-type='none' value-column='[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Calculation_245164756654424066:qk]' z-order='3' />
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontalignment='0' fontsize='12'>&lt;</run>
+                <run bold='true' fontalignment='0' fontsize='12'>[federated.0xk97rz0w7r7my14s74qp1p919ie].[usr:Calculation_245164756648316929:qk]</run>
+                <run bold='true' fontalignment='0' fontsize='12'>&gt; % MTD Archiement</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#00a651' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Doanh Số (Có VAT):qk]</cols>
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Doanh Số (Có VAT):qk]</field>
+                  </x-fields>
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Doanh Số (Có VAT):qk]</field>
+                  <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[usr:Calculation_245164756648316929:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>121307509690</value>
+                <value>0.79968782827432328</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='0.445363' y='0.508475' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{03CE63D6-8FD9-4344-8603-E98983E51DC9}' />
+    </worksheet>
     <worksheet name='Sales Over View'>
       <layout-options>
         <title>
@@ -956,11 +1086,18 @@
             <datasource caption='Data (order_detail)' name='federated.0xk97rz0w7r7my14s74qp1p919ie' />
           </datasources>
           <datasource-dependencies datasource='federated.0xk97rz0w7r7my14s74qp1p919ie'>
+            <column caption='Tên Kênh' datatype='string' name='[Calculation_332140524442304512]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='if CONTAINS([Tên Kênh KH],&quot;INS&quot;) then&#13;&#10;    &quot;INS&quot;&#13;&#10;ELSE&#13;&#10;    &quot;OCM&quot;&#13;&#10;END' />
+            </column>
             <column datatype='integer' name='[Doanh Số (Có VAT)]' role='measure' type='quantitative' />
             <column datatype='string' name='[Kênh Phụ]' role='dimension' type='nominal' />
+            <column caption='Mã Ngành Hàng' datatype='string' name='[Số Lô]' role='dimension' type='nominal' />
             <column datatype='string' name='[Trạng Thái Giao Hàng]' role='dimension' type='nominal' />
             <column datatype='string' name='[Trạng Thái]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Tên Kênh KH]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_332140524442304512]' derivation='None' name='[none:Calculation_332140524442304512:nk]' pivot='key' type='nominal' />
             <column-instance column='[Kênh Phụ]' derivation='None' name='[none:Kênh Phụ:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Số Lô]' derivation='None' name='[none:Số Lô:nk]' pivot='key' type='nominal' />
             <column-instance column='[Trạng Thái Giao Hàng]' derivation='None' name='[none:Trạng Thái Giao Hàng:nk]' pivot='key' type='nominal' />
             <column-instance column='[Trạng Thái]' derivation='None' name='[none:Trạng Thái:nk]' pivot='key' type='nominal' />
             <column-instance column='[Doanh Số (Có VAT)]' derivation='Sum' name='[sum:Doanh Số (Có VAT):qk]' pivot='key' type='quantitative' />
@@ -969,6 +1106,8 @@
             <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái:nk]</column>
             <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái Giao Hàng:nk]</column>
             <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Kênh Phụ:nk]</column>
+            <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Calculation_332140524442304512:nk]</column>
+            <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Số Lô:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1075,12 +1214,19 @@
             <datasource caption='Data (order_detail)' name='federated.0xk97rz0w7r7my14s74qp1p919ie' />
           </datasources>
           <datasource-dependencies datasource='federated.0xk97rz0w7r7my14s74qp1p919ie'>
+            <column caption='Tên Kênh' datatype='string' name='[Calculation_332140524442304512]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='if CONTAINS([Tên Kênh KH],&quot;INS&quot;) then&#13;&#10;    &quot;INS&quot;&#13;&#10;ELSE&#13;&#10;    &quot;OCM&quot;&#13;&#10;END' />
+            </column>
             <column datatype='string' name='[Kênh Phụ]' role='dimension' type='nominal' />
+            <column caption='Mã Ngành Hàng' datatype='string' name='[Số Lô]' role='dimension' type='nominal' />
             <column datatype='string' name='[Trạng Thái Giao Hàng]' role='dimension' type='nominal' />
             <column datatype='string' name='[Trạng Thái]' role='dimension' type='nominal' />
             <column datatype='string' name='[Tên Khách Hàng]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Tên Kênh KH]' role='dimension' type='nominal' />
             <column-instance column='[Tên Khách Hàng]' derivation='CountD' name='[ctd:Tên Khách Hàng:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_332140524442304512]' derivation='None' name='[none:Calculation_332140524442304512:nk]' pivot='key' type='nominal' />
             <column-instance column='[Kênh Phụ]' derivation='None' name='[none:Kênh Phụ:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Số Lô]' derivation='None' name='[none:Số Lô:nk]' pivot='key' type='nominal' />
             <column-instance column='[Trạng Thái Giao Hàng]' derivation='None' name='[none:Trạng Thái Giao Hàng:nk]' pivot='key' type='nominal' />
             <column-instance column='[Trạng Thái]' derivation='None' name='[none:Trạng Thái:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
@@ -1088,6 +1234,8 @@
             <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Kênh Phụ:nk]</column>
             <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái:nk]</column>
             <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái Giao Hàng:nk]</column>
+            <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Số Lô:nk]</column>
+            <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Calculation_332140524442304512:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1169,12 +1317,19 @@
             <datasource caption='Data (order_detail)' name='federated.0xk97rz0w7r7my14s74qp1p919ie' />
           </datasources>
           <datasource-dependencies datasource='federated.0xk97rz0w7r7my14s74qp1p919ie'>
+            <column caption='Tên Kênh' datatype='string' name='[Calculation_332140524442304512]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='if CONTAINS([Tên Kênh KH],&quot;INS&quot;) then&#13;&#10;    &quot;INS&quot;&#13;&#10;ELSE&#13;&#10;    &quot;OCM&quot;&#13;&#10;END' />
+            </column>
             <column datatype='string' name='[Kênh Phụ]' role='dimension' type='nominal' />
+            <column caption='Mã Ngành Hàng' datatype='string' name='[Số Lô]' role='dimension' type='nominal' />
             <column aggregation='CountD' datatype='string' name='[Số Đơn Đặt Hàng]' role='dimension' type='nominal' />
             <column datatype='string' name='[Trạng Thái Giao Hàng]' role='dimension' type='nominal' />
             <column datatype='string' name='[Trạng Thái]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Tên Kênh KH]' role='dimension' type='nominal' />
             <column-instance column='[Số Đơn Đặt Hàng]' derivation='CountD' name='[ctd:Số Đơn Đặt Hàng:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_332140524442304512]' derivation='None' name='[none:Calculation_332140524442304512:nk]' pivot='key' type='nominal' />
             <column-instance column='[Kênh Phụ]' derivation='None' name='[none:Kênh Phụ:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Số Lô]' derivation='None' name='[none:Số Lô:nk]' pivot='key' type='nominal' />
             <column-instance column='[Trạng Thái Giao Hàng]' derivation='None' name='[none:Trạng Thái Giao Hàng:nk]' pivot='key' type='nominal' />
             <column-instance column='[Trạng Thái]' derivation='None' name='[none:Trạng Thái:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
@@ -1182,6 +1337,8 @@
             <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Kênh Phụ:nk]</column>
             <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái:nk]</column>
             <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái Giao Hàng:nk]</column>
+            <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Số Lô:nk]</column>
+            <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Calculation_332140524442304512:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1263,6 +1420,9 @@
             <datasource caption='Data (order_detail)' name='federated.0xk97rz0w7r7my14s74qp1p919ie' />
           </datasources>
           <datasource-dependencies datasource='federated.0xk97rz0w7r7my14s74qp1p919ie'>
+            <column caption='Tên Kênh' datatype='string' name='[Calculation_332140524442304512]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='if CONTAINS([Tên Kênh KH],&quot;INS&quot;) then&#13;&#10;    &quot;INS&quot;&#13;&#10;ELSE&#13;&#10;    &quot;OCM&quot;&#13;&#10;END' />
+            </column>
             <column caption='Cancelled Orders' datatype='integer' name='[Calculation_470626212733714433]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='COUNTD(&#13;&#10;IF [Trạng Thái Giao Hàng] == &quot;Chưa xác nhận&quot;&#13;&#10;    then [Số Đơn Đặt Hàng]&#13;&#10;END)' />
             </column>
@@ -1270,10 +1430,14 @@
               <calculation class='tableau' formula='[Calculation_470626212733714433] / COUNTD([Số Đơn Đặt Hàng])' />
             </column>
             <column datatype='string' name='[Kênh Phụ]' role='dimension' type='nominal' />
+            <column caption='Mã Ngành Hàng' datatype='string' name='[Số Lô]' role='dimension' type='nominal' />
             <column aggregation='CountD' datatype='string' name='[Số Đơn Đặt Hàng]' role='dimension' type='nominal' />
             <column datatype='string' name='[Trạng Thái Giao Hàng]' role='dimension' type='nominal' />
             <column datatype='string' name='[Trạng Thái]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Tên Kênh KH]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_332140524442304512]' derivation='None' name='[none:Calculation_332140524442304512:nk]' pivot='key' type='nominal' />
             <column-instance column='[Kênh Phụ]' derivation='None' name='[none:Kênh Phụ:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Số Lô]' derivation='None' name='[none:Số Lô:nk]' pivot='key' type='nominal' />
             <column-instance column='[Trạng Thái Giao Hàng]' derivation='None' name='[none:Trạng Thái Giao Hàng:nk]' pivot='key' type='nominal' />
             <column-instance column='[Trạng Thái]' derivation='None' name='[none:Trạng Thái:nk]' pivot='key' type='nominal' />
             <column-instance column='[Calculation_470626212734763010]' derivation='User' name='[usr:Calculation_470626212734763010:qk]' pivot='key' type='quantitative' />
@@ -1282,6 +1446,8 @@
             <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Kênh Phụ:nk]</column>
             <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái:nk]</column>
             <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái Giao Hàng:nk]</column>
+            <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Số Lô:nk]</column>
+            <column>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Calculation_332140524442304512:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1365,10 +1531,16 @@
         <datasource caption='Data (order_detail)' name='federated.0xk97rz0w7r7my14s74qp1p919ie' />
       </datasources>
       <datasource-dependencies datasource='federated.0xk97rz0w7r7my14s74qp1p919ie'>
+        <column caption='Tên Kênh' datatype='string' name='[Calculation_332140524442304512]' role='dimension' type='nominal'>
+          <calculation class='tableau' formula='if CONTAINS([Tên Kênh KH],&quot;INS&quot;) then&#13;&#10;    &quot;INS&quot;&#13;&#10;ELSE&#13;&#10;    &quot;OCM&quot;&#13;&#10;END' />
+        </column>
         <column datatype='string' name='[Kênh Phụ]' role='dimension' type='nominal' />
+        <column caption='Mã Ngành Hàng' datatype='string' name='[Số Lô]' role='dimension' type='nominal' />
         <column datatype='string' name='[Trạng Thái Giao Hàng]' role='dimension' type='nominal' />
         <column datatype='string' name='[Trạng Thái]' role='dimension' type='nominal' />
+        <column-instance column='[Calculation_332140524442304512]' derivation='None' name='[none:Calculation_332140524442304512:nk]' pivot='key' type='nominal' />
         <column-instance column='[Kênh Phụ]' derivation='None' name='[none:Kênh Phụ:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Số Lô]' derivation='None' name='[none:Số Lô:nk]' pivot='key' type='nominal' />
         <column-instance column='[Trạng Thái Giao Hàng]' derivation='None' name='[none:Trạng Thái Giao Hàng:nk]' pivot='key' type='nominal' />
         <column-instance column='[Trạng Thái]' derivation='None' name='[none:Trạng Thái:nk]' pivot='key' type='nominal' />
       </datasource-dependencies>
@@ -1395,17 +1567,26 @@
         <zone h='13932' id='42' name='Tổng Số Đơn Hàng' w='12518' x='61567' y='2474' />
         <zone h='12370' id='43' name='AOV' w='12225' x='73280' y='3385' />
         <zone h='10026' id='46' name='Tỷ Lệ Hủy Đơn' w='9370' x='85432' y='4427' />
-        <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9115' id='53' mode='checkdropdown' name='Sales Over View' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Kênh Phụ:nk]' values='database' w='13909' x='19034' y='21224' />
-        <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9115' id='54' mode='checkdropdown' name='Sales Over View' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái:nk]' values='database' w='13909' x='35432' y='21224' />
+        <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9115' id='53' mode='checkdropdown' name='Sales Over View' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Kênh Phụ:nk]' values='database' w='13909' x='35725' y='21094' />
+        <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9115' id='54' mode='checkdropdown' name='Sales Over View' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái:nk]' values='database' w='13909' x='52635' y='21094' />
         <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9115' id='55' mode='checkdropdown' name='Sales Over View' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái Giao Hàng:nk]' values='database' w='13909' x='2782' y='21224' />
-        <zone _.fcp.SetMembershipControl.false...type='empty' _.fcp.SetMembershipControl.true...type-v2='empty' h='33333' id='56' w='33309' x='39751' y='55599' />
+        <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9115' id='59' mode='checkdropdown' name='Sales Over View' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Calculation_332140524442304512:nk]' values='database' w='13909' x='19034' y='21094' />
+        <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9115' id='62' mode='checkdropdown' name='Sales Over View' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Số Lô:nk]' values='database' w='13909' x='69327' y='21094' />
+        <zone h='17708' id='65' name='DOANH SỐ MTD vs RR &amp; TARGET' w='95900' x='2782' y='34505'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#ffffff' />
+          </zone-style>
+        </zone>
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='900' minheight='900' sizing-mode='vscroll' />
+          <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='58' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97916' id='57' param='vert' w='98828' x='586' y='1042'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='69' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97916' id='68' param='vert' w='98828' x='586' y='1042'>
                 <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='101' h='13151' id='7' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/DELL/mr_tableau/DATA/LOGO-MERAP-XXANH.png' w='25256' x='220' y='130'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1415,7 +1596,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9115' id='53' mode='checkdropdown' name='Sales Over View' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Kênh Phụ:nk]' values='database' w='13909' x='19034' y='21224'>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9115' id='53' mode='checkdropdown' name='Sales Over View' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Kênh Phụ:nk]' values='database' w='13909' x='35725' y='21094'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1424,7 +1605,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9115' id='54' mode='checkdropdown' name='Sales Over View' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái:nk]' values='database' w='13909' x='35432' y='21224'>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9115' id='54' mode='checkdropdown' name='Sales Over View' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái:nk]' values='database' w='13909' x='52635' y='21094'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1434,6 +1615,24 @@
                   </zone-style>
                 </zone>
                 <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9115' id='55' mode='checkdropdown' name='Sales Over View' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái Giao Hàng:nk]' values='database' w='13909' x='2782' y='21224'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9115' id='59' mode='checkdropdown' name='Sales Over View' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Calculation_332140524442304512:nk]' values='database' w='13909' x='19034' y='21094'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9115' id='62' mode='checkdropdown' name='Sales Over View' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Số Lô:nk]' values='database' w='13909' x='69327' y='21094'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1499,6 +1698,16 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
+                <zone fixed-size='136' h='17708' id='65' is-fixed='true' name='DOANH SỐ MTD vs RR &amp; TARGET' w='95900' x='2782' y='34505'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
               </zone>
               <zone-style>
                 <format attr='border-color' value='#000000' />
@@ -1536,6 +1745,8 @@
         </edge>
         <edge name='right'>
           <strip size='160'>
+            <card mode='checkdropdown' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Số Lô:nk]' type='filter' />
+            <card mode='checkdropdown' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Calculation_332140524442304512:nk]' type='filter' />
             <card mode='checkdropdown' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái:nk]' type='filter' />
             <card mode='checkdropdown' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái Giao Hàng:nk]' type='filter' />
             <card mode='checkdropdown' param='[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Kênh Phụ:nk]' type='filter' />
@@ -1547,7 +1758,9 @@
         <highlight>
           <color-one-way>
             <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[mn:Ngày Đặt Đon:ok]</field>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Calculation_332140524442304512:nk]</field>
             <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Kênh Phụ:nk]</field>
+            <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Số Lô:nk]</field>
             <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái Giao Hàng:nk]</field>
             <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[none:Trạng Thái:nk]</field>
             <field>[federated.0xk97rz0w7r7my14s74qp1p919ie].[sum:Doanh Số (Có VAT):qk]</field>
@@ -1691,9 +1904,35 @@
       </viewpoint>
       <simple-id uuid='{B894EB9B-411E-434E-8161-5F36966F37C3}' />
     </window>
+    <window class='worksheet' name='DOANH SỐ MTD vs RR &amp; TARGET'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card size='26' type='pages' />
+            <card size='108' type='filters' />
+            <card size='212' type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4EC70BFB-A215-4564-BF25-BDE6DA08C372}' />
+    </window>
     <window class='dashboard' maximized='true' name='Sales Report'>
       <viewpoints>
         <viewpoint name='AOV'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='DOANH SỐ MTD vs RR &amp; TARGET'>
           <zoom type='entire-view' />
         </viewpoint>
         <viewpoint name='Sales Over View'>
@@ -1738,185 +1977,304 @@
       BiA0AxCaAQjNAIRmAEIzAKEZgNAMQGgGIDQDEJoBCM0AhGYAQjMAoRmA0AxAaAYgNAMQmgEI
       zQCEZgBCMwChGYDQDEBoBiA0AxCaAQjNAIRmAEL7E3W84mLCXkwMAAAAAElFTkSuQmCC
     </thumbnail>
+    <thumbnail height='130' name='DOANH SỐ MTD vs RR &amp; TARGET' width='192'>
+      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
+      DxMH0GHhZwAAAABJRU5ErkJggg==
+    </thumbnail>
     <thumbnail height='192' name='Sales Over View' width='192'>
       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
-      AAAHyElEQVR4nO3ZXWxT5x3H8d+JHdvBBAKEJhnMTgnJOhLyUkaYSpRBX9apoJHeVK1WtWo1
-      mLTdbVOlvUiTOlWVqk5rp3YT26SqWsVQqDohKKhZG+gWNSRpixMKbUhJCuTFNklInATbceyz
-      i01REUibFqpe/L+fO188z3keyV+f5xw7ruu6AozK+7IXAHyZCACmEQBMIwCYRgAwjQBgGgHA
-      NAKAaQQA0wgAphEATCMAmEYAMI0AYBoBwDQCgGkEANMIAKYRAEwjAJhGADCNAGAaAcA0AoBp
-      BADTCACmEQBMIwCYRgAwjQBgGgHANAKAaQQA0wgAphEATCMAmEYAMI0AYBoBwDQCgGkEANMI
-      AKYRAEwjAJhGADCNAGAaAcA0AoBpBADTCACmEQBMIwCYRgAwjQBgGgHANAKAaQQA0wgAphEA
-      TCMAmEYAMI0AYBoBwDQCgGkEANMIAKYRAEwjAJhGADCNAGAaAcA0AoBpBADTCACmEQBMIwCY
-      RgAwjQBgGgHANAKAaQQA0wgAphEATCMAmEYAMI0AYBoBwDQCgGkEANMIAKYRAG65VCqlaDT6
-      hV7DdV3FYrElz0MAuKUymYy6urqUTCa/sGskk0mdOHFC+fn5S57LcV3XvQVrgnFtbW1KJBIq
-      Li6Wx+ORz+dTe3u7WlpaNDc3p+HhYYXDYdXX1+vgwYNavXq1KioqFIlE5DiOGhsbdejQIe3d
-      u1f79+9XTU2NfD6fGhoa1NHRoV27dqm1tVW1tbWKxWLyeDwKBoPasmXLktbNHQC3RFVVlaqq
-      qjQzM6OmpibF43HV1dXp9OnTisViCoVCGhoakiQtX75czc3NOnXqlEKhkEpLS3Xy5EkVFBRo
-      YmJC4XBYg4ODcl1Xvb29SiQSchxH4XBY8Xhcs7OzampquiXHLO+SZwAkBQIB5XI5VVRUqKOj
-      Q5s2bdLU1JT8fr/C4bAuXLigQCAgSfL7/ers7NTu3bvV09OjvLw8NTc3q7i4WJFIRNXV1eru
-      7taqVatUWVkpn88n13XlOI5c11V5ebk6OjpUXV295HVzBIJpHIFgGgHANJ4BcFNjyat67bN3
-      1bJ+myoLy3Rs9EOlcxldSU3rodB2LbhZ/WXopO4prVVtUfniuCMjPfLleXVx7op2r/uGsm5O
-      7dEzms8t6JFwk4bm4ppIz2hyflZFvqDuLtksSeoc79fk/KyCHr/qV92useRVRaaGNJtJ6fEN
-      O3Vq/Lwm0jO6kp7WkxvukTfPI0lKZK7prxc7FFpWrMrCMs0upNSfGNFUZk6Plu/QtWxaR4Z7
-      5Eras36riv0rrtsndwDcVFs0omhqSgMzY5KkiuUlalnXqGVev9qiEb0TPaPJ+Vn1TV28btz9
-      ZQ26v6xBq32Fejvap2fPvqH7yupUWVimPw++rc1FYe0oqdE/4ue09nNfxneifWpcU6kdJTVa
-      mb9Mz5x9Xd9dt1VBr19/u3xKLw8c1571jfI4eXpz9IPFcS/0H9U311TpO2UNqlhequc/PqyW
-      9dtUHrxNrw6164VPjmhbcaW2rqnQ7/rfvGGf3AFwU4/fvlOvDLYvfv7ainV6ayyiw8Pd+lPj
-      D1XkCyownK+Zhev/8EoupPXLcwfUNX5eR7/1Cx0Z6VFpoEhex6NDl96TJMVT07qSnlbNytDi
-      uLvW3qGXzh/T+cSonqn7ntK5jILegDat/KqOjryvoNevw8PdiqamNJGekfTvf4N7r34mR9KL
-      54/qwfXbVFawSq2X3tO1bEr9iVFNzs9oQ7BEC25Ol6+N37BPAsD/5JXBdn06M6YDd/1Y+f85
-      ftzMSl9Qz9U/pn/Gz+nlgeMq8Ph0LTuveGpaa/yFkqTfDxzXj6oekOM4i+N23laju0s26/Bw
-      t9pjfXLkKOvmFE9Na21ghZ7a9KC6JgZUlAwuzuM4jtYGVmjfxm/L63j0s97X9IetP1D3xIAu
-      z40rtKxYOdfV5PycXLlakb/shvXyGhQ39cdP23Rs9EMFvQHt23ivft57QDtLauR1PNr9lS36
-      ODGiY6MfKJ3LaF/FfRpJTqpxTaWOj53WbCapseRVfX/jvVrI5fTq0Amlshn9uvZhrfYV6smu
-      l9S6/adyHEcnYx/pamZO2VxWfVMXNTgX03P1j+n9iQt6KxrRbCap3975hP4e7dPZ6UsaTyf0
-      mzuf0BuXO1VVuE4FHp+e/+SwCjw+PRTarlR2Xp3j/YqmpvRs3aMaSU7oxf6jyrmufnLHHtUU
-      ha7bJwFgybJuTr86c1BPb35EeZ/7Vf9vXNfV0x+16qmvt6jA6/8/rvew8pylPcYSAEzjLRBM
-      IwCYRgAwjQBgGgHANAKAaQQA0wgAphEATCMAmEYAMI0AYBoBwDQCgGkEANMIAKYRAEwjAJhG
-      ADCNAGAaAcA0AoBpBADTCACmEQBMIwCYRgAwjQBgGgHANAKAaQQA0wgAphEATCMAmEYAMI0A
-      YBoBwDQCgGkEANMIAKYRAEwjAJhGADCNAGAaAcA0AoBpBADTCACmEQBMIwCYRgAwjQBgGgHA
-      NAKAaQQA0wgAphEATCMAmEYAMI0AYBoBwDQCgGkEANMIAKYRAEwjAJhGADCNAGAaAcA0AoBp
-      BADTCACmEQBMIwCYRgAwjQBgGgHANAKAaQQA0wgAphEATCMAmEYAMI0AYBoBwDQCgGn/AlQI
-      NzRDxguWAAAAAElFTkSuQmCC
+      AAAHoklEQVR4nO3Ya2zVdx3H8c85bc/phdIW1pJy6U5ppbOFjkIoJEg3F1RkICM+UcR42Qwm
+      YkyM8ckWEw3BqQ+WmSFqMmO2COJg2XBQicgl4EqpXLoCkxXKtdBTeqHQ9pxeTv8+0DQhRu1m
+      miX7vF/PTnK+53d+D97n9zv/UBAEgQBT4Q/7CwAfJgKANQKANQKANQKANQKANQKANQKANQKA
+      NQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKA
+      NQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKA
+      NQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKA
+      NQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKA
+      NQKANQKANQKANQKANQKANQKANQKANQKANQKANQLAB5ZMJhWPxyd9nclcgwDwgYyMjKixsVGJ
+      RGLS1kgmkzp06JDS09MnbY1QEATBpH06PnLq6+uVSCRUUFCg9PR0RaNRHTx4UOvXr9fg4KCu
+      X7+uWCymmpoa7dixQ9OnT1dZWZnOnj0rSVq2bJl27dqlTZs2afv27VqwYIEikYhqamp0/Phx
+      rV27Vjt37lR1dbW6uroUDocVjUZVW1s7KfvhBMD7UlFRoYqKCvX392vFihWKx+NauHChTp06
+      pY6ODsViMbW1tUmScnNzVVdXpxMnTqikpETFxcU6fPiwsrOz1d3drVgspsuXL0uSmpub1dfX
+      J0kqLS1VZ2en7t27N77GZJm8swUfSZmZmQqHwyotLdWxY8dUVVWl3t5eZWRkaO7cubp06ZKy
+      srIkSZFIRA0NDVqzZo2ampoUDodVV1enwsJCnTlzRpWVlRoYGFBBQYHKy8sViUQUBIFCoZCC
+      IHhgjcnCFQjWuALBGgHAGv8BzLUPduvVq0f1hZJPKDalSHvbmxQEgW4ne/Wlh+uUTA3rlatH
+      tKp4kary5ozPvXnzpLLSIroy0Kl1s5ZoeCylw50tGkqNaEOsTm39cfUM3VfPcL/yIzl6YsYC
+      SVJD10X1DPcrJy2qhQWl6kje1emeNvWPJvTVuU/oZHer7iT7FE/26ZmylUoPp0mSBkaTevXq
+      UcVyihTLKdLoWEotfdfUNzyojbHHNBqktPvG2worrCdnLdaMzPwJ7Z8TwFz97TO6lejR1YFO
+      SdK83JlaN7tWGaE0HY6f0587mtU9dF8X+m48MPfZmYv06eKFys/I1qF4i7ae361VxTUqzy3W
+      y5cPqjr/YT0+Y76Odp5XUTRvfO4vHe+odtrH9PiM+cqP5GjLudf0udlLlJeRo93XG/TixX1a
+      N3upstOjerP95Pjcixff0pJp5VpVXKOK3Jl6/sLrWj97qSrzZutXlw7o5+/t06KCMtUVVeqn
+      774x4f1zAph7pmyltrXWj79+ZOos7Ws/pQO3z+o3SzdrSkamXrv+9r/NDY4O6dnzv1NTT6ve
+      euw57blxYvxXd8+NBklSZ7JPXUP3ND+/ZHxueeEjeql1vy7ea9fWRzcqkRrWlPRMVeXN0e4b
+      DcrLyNIbNxt1K9Gj0SA1Ptd896pSwZi2t/5Jq2cu1pych/T7a39VoEB/v9+uodSIKqbOVDSc
+      ofbB7gnvnwDwgF9eOqCOxF3tXP5dpYX+8wUhP5Kjn9V8RUfi5/SL1nplpUWUGB1SZ7JPhdGp
+      kqRtrfXaPG/1A3OPF83XJ2cs0B/bm3Swo1nhUEipYGx87tmqz6uxu1V3hvqUnRYdn3soOlVP
+      l63U1Ixsfetvv9Zvl35bjd2tiifvqiS7UL3D/eoauqfc9CzlpmdNeL88BjW37b167b99SoXR
+      PH2j7FP6zumX9eTMxQoppKdm1+ps7xXtv3Va0j9PiysDca0orNTe9iYlUsNqH+zWN8s/o+TY
+      iF65ckTJ1LC2VG9QfmSKnm58SX9Y/j2FQiEd6Tyn3qEBjWlMzb1X1dYf108Wfllneq+o/vZp
+      3R9J6IVFX9eheIta7l5T51CfXqj5mva2N6kkp1DTIlO09fweTcnI1LpZtQqHQjp2513dHOzW
+      jx/dqN7hfj1/4XWFFNLmeau1aNrcCe2fADBhqbEx/aBlp7ZUb1AoFHpfsz9s2aXvf/wpZaVH
+      //eb/yUIAj33zg79qPqL//U0+n8QAKzxFAjWCADWCADWCADWCADWCADWCADWCADWCADWCADW
+      CADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADW
+      CADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADW
+      CADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADW
+      CADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADW
+      CADWCADWCADWCADW/gG3bxtU9ywEDgAAAABJRU5ErkJggg==
     </thumbnail>
     <thumbnail height='192' name='Sales Report' width='192'>
       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
-      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
-      iQAETRMBCJomAhA0TQQgaJoIQNA0EYCgaSIAQdNEAIKmiQAETRMBCJomAhA0TQQgaJoIQNA0
-      EYCgaSIAQdNEAIKmiQAETRMBCJomAhA0TQQgaJoIQNA0EYCgaSIAQdNEAIKmiQAETRMBCJom
-      AhA0TQQgaJoIQNA0EYCgaSIAQdNEAIKmiQAETRMBCJomAhA0TQQgaJoIQNA0EYCgaSIAQdNE
-      AIKmiQAETRMBCJomAhA0TQQgaJoIQNA0EYCgaSIAQdNEAIKmiQAETRMBCJomAhA0TQQgaJoI
-      QNA0EYCgaSIAQdNEAIKmiQAETRMBCJomAhA0TQQgaJoIQNA0EYCgaSIAQdNEAIKmiQAETRMB
-      CJomAhA0TQQgaJoIQNA0EYCgaSIAQdNEAIKmiQAETRMBCJomAhA0TQQgaJoIQNA0EYCgaSIA
-      QdNEAIKmiQAETRMBCJomAhA0TQQgaJoIQNA0EYCgaSIAQdNEAIKmiQAETRMBCJomAhA0TQQg
-      aJoIQNA0EYCgaSIAQdNEAIKmiQAETRMBCJomAhA0TQQgaNr/B1GvUKUbvdVmAAAAAElFTkSu
-      QmCC
+      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
+      AISq9v8BHs5jSeUlwy4AAAAASUVORK5CYII=
     </thumbnail>
     <thumbnail height='192' name='Tổng Số Khách Hàng' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
