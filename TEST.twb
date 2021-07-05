@@ -1,0 +1,2401 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0511.0935                               -->
+<workbook original-version='18.1' source-build='2021.1.2 (20211.21.0511.0935)' source-platform='win' version='18.1' xml:base='http://203.205.27.73' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <ISO8601DefaultCalendarPref />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='TEST' path='/workbooks' revision='1.2' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='raw_data' inline='true' name='sqlproxy.105trfy0zv7i9n11vc1a71y0lpz9' version='18.1'>
+      <repository-location id='raw_data' path='/datasources' revision='1.0' />
+      <connection channel='http' class='sqlproxy' dbname='raw_data' directory='/dataserver' port='80' server='203.205.27.73' username='bimerap.main@gmail.com'>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='sqlproxy' table='[sqlproxy]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='sqlproxy' table='[sqlproxy]' type='table' />
+        <calculations>
+          <calculation column='[Calculation_930556330356690944]' formula='[DoanhSo(CoVAT)]+[DonGia(CoVAT)]' />
+        </calculations>
+        <metadata-records>
+          <metadata-record class='measure'>
+            <remote-name>Calculation_930556330356690944</remote-name>
+            <remote-type>-1</remote-type>
+            <local-name>[Calculation_930556330356690944]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Calculation_930556330356690944</remote-alias>
+            <ordinal>66</ordinal>
+            <layered>true</layered>
+            <caption>F_sum_doanhthu</caption>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>0</attribute>
+              <attribute datatype='string' name='formula'>&quot;[DoanhSo(CoVAT)]+[DonGia(CoVAT)]&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CongTy/CN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CongTy/CN]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>CongTy/CN</remote-alias>
+            <ordinal>1</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DiaChiKH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DiaChiKH]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>DiaChiKH</remote-alias>
+            <ordinal>16</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>DoanhSo(ChuaVAT)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DoanhSo(ChuaVAT)]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>DoanhSo(ChuaVAT)</remote-alias>
+            <ordinal>44</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>DoanhSo(CoVAT)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DoanhSo(CoVAT)]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>DoanhSo(CoVAT)</remote-alias>
+            <ordinal>42</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>DonGia(ChuaVAT)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DonGia(ChuaVAT)]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>DonGia(ChuaVAT)</remote-alias>
+            <ordinal>43</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>DonGia(CoVAT)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DonGia(CoVAT)]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>DonGia(CoVAT)</remote-alias>
+            <ordinal>41</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DonViGiaoHang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DonViGiaoHang]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>DonViGiaoHang</remote-alias>
+            <ordinal>54</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>HoaDon</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HoaDon]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>HoaDon</remote-alias>
+            <ordinal>6</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KieuDonHang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[KieuDonHang]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>KieuDonHang</remote-alias>
+            <ordinal>58</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaCSBH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaCSBH]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaCSBH</remote-alias>
+            <ordinal>60</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaCTKM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaCTKM]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaCTKM</remote-alias>
+            <ordinal>61</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaCTTL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaCTTL]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaCTTL</remote-alias>
+            <ordinal>62</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaCongTy/CN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaCongTy/CN]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaCongTy/CN</remote-alias>
+            <ordinal>0</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaHCO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaHCO]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaHCO</remote-alias>
+            <ordinal>30</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaKHCu</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaKHCu]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaKHCu</remote-alias>
+            <ordinal>14</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaKHDMS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaKHDMS]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaKHDMS</remote-alias>
+            <ordinal>13</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaKHThue</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaKHThue]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaKHThue</remote-alias>
+            <ordinal>10</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaKenhKH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaKenhKH]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaKenhKH</remote-alias>
+            <ordinal>26</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaKenhPhu</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaKenhPhu]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaKenhPhu</remote-alias>
+            <ordinal>28</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>MaKhuVuc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MaKhuVuc]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaKhuVuc</remote-alias>
+            <ordinal>19</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaLyDo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaLyDo]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaLyDo</remote-alias>
+            <ordinal>59</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaNVGH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaNVGH]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaNVGH</remote-alias>
+            <ordinal>50</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaNV</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaNV]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaNV</remote-alias>
+            <ordinal>48</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaPhanHangHCO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaPhanHangHCO]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaPhanHangHCO</remote-alias>
+            <ordinal>34</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaPhanLoaiHCO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaPhanLoaiHCO]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaPhanLoaiHCO</remote-alias>
+            <ordinal>32</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>MaQuan/HUyen</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MaQuan/HUyen]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaQuan/HUyen</remote-alias>
+            <ordinal>23</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaSanPham</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaSanPham]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaSanPham</remote-alias>
+            <ordinal>36</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>MaSoThue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MaSoThue]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaSoThue</remote-alias>
+            <ordinal>12</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>MaTinhKH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MaTinhKH]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaTinhKH</remote-alias>
+            <ordinal>21</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaVungBH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaVungBH]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>MaVungBH</remote-alias>
+            <ordinal>17</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>NgayChungTu</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NgayChungTu]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>NgayChungTu</remote-alias>
+            <ordinal>2</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>NgayDatDon</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NgayDatDon]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>NgayDatDon</remote-alias>
+            <ordinal>45</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NgayGiaoHang</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[NgayGiaoHang]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>NgayGiaoHang</remote-alias>
+            <ordinal>47</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NgayToiHanTT</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[NgayToiHanTT]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>NgayToiHanTT</remote-alias>
+            <ordinal>7</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NgayTraHang</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[NgayTraHang]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>NgayTraHang</remote-alias>
+            <ordinal>5</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NguoiChiuTrachNhiemNo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NguoiChiuTrachNhiemNo]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>NguoiChiuTrachNhiemNo</remote-alias>
+            <ordinal>57</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NguoiGiaohang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NguoiGiaohang]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>NguoiGiaohang</remote-alias>
+            <ordinal>51</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NguoiTaoDon</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NguoiTaoDon]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>NguoiTaoDon</remote-alias>
+            <ordinal>46</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Phuong/Xa</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Phuong/Xa]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Phuong/Xa</remote-alias>
+            <ordinal>25</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SoDonDatHang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SoDonDatHang]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>SoDonDatHang</remote-alias>
+            <ordinal>3</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SoDonTraHang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SoDonTraHang]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>SoDonTraHang</remote-alias>
+            <ordinal>4</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SoHopDong</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SoHopDong]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>SoHopDong</remote-alias>
+            <ordinal>8</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>SoLo</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SoLo]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>SoLo</remote-alias>
+            <ordinal>39</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>SoLuong</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SoLuong]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>SoLuong</remote-alias>
+            <ordinal>40</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SoXe</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SoXe]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>SoXe</remote-alias>
+            <ordinal>56</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SoXuatHang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SoXuatHang]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>SoXuatHang</remote-alias>
+            <ordinal>53</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TenCVBH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TenCVBH]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>TenCVBH</remote-alias>
+            <ordinal>49</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TenHCO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TenHCO]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>TenHCO</remote-alias>
+            <ordinal>31</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TenKHThue</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TenKHThue]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>TenKHThue</remote-alias>
+            <ordinal>11</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TenKenhKH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TenKenhKH]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>TenKenhKH</remote-alias>
+            <ordinal>27</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TenKenhPhu</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TenKenhPhu]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>TenKenhPhu</remote-alias>
+            <ordinal>29</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TenKhachHang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TenKhachHang]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>TenKhachHang</remote-alias>
+            <ordinal>15</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TenKhuVuc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TenKhuVuc]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>TenKhuVuc</remote-alias>
+            <ordinal>20</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TenNhaVanChuyen</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TenNhaVanChuyen]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>TenNhaVanChuyen</remote-alias>
+            <ordinal>55</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TenPhanHangHCO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TenPhanHangHCO]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>TenPhanHangHCO</remote-alias>
+            <ordinal>35</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TenPhanLoaiHCO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TenPhanLoaiHCO]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>TenPhanLoaiHCO</remote-alias>
+            <ordinal>33</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TenQuan/HUyen</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TenQuan/HUyen]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>TenQuan/HUyen</remote-alias>
+            <ordinal>24</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TenSanPhamNB</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TenSanPhamNB]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>TenSanPhamNB</remote-alias>
+            <ordinal>37</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TenSanPhamVietTat</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TenSanPhamVietTat]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>TenSanPhamVietTat</remote-alias>
+            <ordinal>38</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TenTinhKH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TenTinhKH]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>TenTinhKH</remote-alias>
+            <ordinal>22</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TenVungBH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TenVungBH]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>TenVungBH</remote-alias>
+            <ordinal>18</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TrangThaiGiaoHang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TrangThaiGiaoHang]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>TrangThaiGiaoHang</remote-alias>
+            <ordinal>52</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TrangThai</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TrangThai]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>TrangThai</remote-alias>
+            <ordinal>9</ordinal>
+            <layered>true</layered>
+            <family>raw_data.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='integer' name='field-type'>2</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='boolean' name='CAP_CREATE_TEMP_TABLES'>true</attribute>
+              <attribute datatype='boolean' name='CAP_QUERY_BLENDING_ALWAYS_USE_LOCAL_MAPPING_TABLES'>false</attribute>
+              <attribute datatype='boolean' name='CAP_QUERY_BLENDING_PREFER_LOCAL_MAPPING_TABLES'>true</attribute>
+              <attribute datatype='boolean' name='CAP_QUERY_BLENDING_REMOTE_MAPPING_TABLES'>true</attribute>
+              <attribute datatype='boolean' name='CAP_QUERY_CASE_INSENSITIVE_CONTAINS'>true</attribute>
+              <attribute datatype='boolean' name='CAP_QUERY_IGNORE_HINT_CHECK_NOT_NULL'>true</attribute>
+              <attribute datatype='boolean' name='CAP_QUERY_SORT_BY'>true</attribute>
+              <attribute datatype='boolean' name='CAP_QUERY_SUBQUERIES'>true</attribute>
+              <attribute datatype='boolean' name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT'>true</attribute>
+              <attribute datatype='boolean' name='CAP_QUERY_SUPPORTS_LODJOINS'>true</attribute>
+              <attribute datatype='boolean' name='CAP_QUERY_SUPPORT_ANALYTIC_FUNCTIONS'>true</attribute>
+              <attribute datatype='boolean' name='CAP_QUERY_TOP_N'>true</attribute>
+              <attribute datatype='boolean' name='CAP_QUERY_USE_QUERY_FUSION'>true</attribute>
+              <attribute datatype='boolean' name='CAP_SUPPORTS_SPLIT_FROM_LEFT'>true</attribute>
+              <attribute datatype='boolean' name='CAP_SUPPORTS_SPLIT_FROM_RIGHT'>true</attribute>
+              <attribute datatype='integer' name='charset'>0</attribute>
+              <attribute datatype='string' name='collation'>&quot;binary&quot;</attribute>
+              <attribute datatype='string' name='datasource'>&quot;<![CDATA[<?xml version='1.0' encoding='utf-8' ?>
+
+<datasource :source-version='18.1' formatted-name='federated.1o8rw1k0dmidzn1fi533o16p9wyc' inline='true' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+  </document-format-change-manifest>
+  <repository-location id='raw_data' path='/datasources' revision='1.0' />
+  <connection channel='http' class='sqlproxy' dbname='raw_data' directory='/dataserver' port='80' server='203.205.27.73'>
+    <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='sqlproxy' table='[sqlproxy]' type='table' />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='sqlproxy' table='[sqlproxy]' type='table' />
+    <cols>
+      <map key='[Calculation_930556330356690944]' value='[sqlproxy].[Calculation_930556330356690944]' />
+      <map key='[CongTy/CN]' value='[sqlproxy].[CongTy/CN]' />
+      <map key='[DiaChiKH]' value='[sqlproxy].[DiaChiKH]' />
+      <map key='[DoanhSo(ChuaVAT)]' value='[sqlproxy].[DoanhSo(ChuaVAT)]' />
+      <map key='[DoanhSo(CoVAT)]' value='[sqlproxy].[DoanhSo(CoVAT)]' />
+      <map key='[DonGia(ChuaVAT)]' value='[sqlproxy].[DonGia(ChuaVAT)]' />
+      <map key='[DonGia(CoVAT)]' value='[sqlproxy].[DonGia(CoVAT)]' />
+      <map key='[DonViGiaoHang]' value='[sqlproxy].[DonViGiaoHang]' />
+      <map key='[HoaDon]' value='[sqlproxy].[HoaDon]' />
+      <map key='[KieuDonHang]' value='[sqlproxy].[KieuDonHang]' />
+      <map key='[MaCSBH]' value='[sqlproxy].[MaCSBH]' />
+      <map key='[MaCTKM]' value='[sqlproxy].[MaCTKM]' />
+      <map key='[MaCTTL]' value='[sqlproxy].[MaCTTL]' />
+      <map key='[MaCongTy/CN]' value='[sqlproxy].[MaCongTy/CN]' />
+      <map key='[MaHCO]' value='[sqlproxy].[MaHCO]' />
+      <map key='[MaKHCu]' value='[sqlproxy].[MaKHCu]' />
+      <map key='[MaKHDMS]' value='[sqlproxy].[MaKHDMS]' />
+      <map key='[MaKHThue]' value='[sqlproxy].[MaKHThue]' />
+      <map key='[MaKenhKH]' value='[sqlproxy].[MaKenhKH]' />
+      <map key='[MaKenhPhu]' value='[sqlproxy].[MaKenhPhu]' />
+      <map key='[MaKhuVuc]' value='[sqlproxy].[MaKhuVuc]' />
+      <map key='[MaLyDo]' value='[sqlproxy].[MaLyDo]' />
+      <map key='[MaNVGH]' value='[sqlproxy].[MaNVGH]' />
+      <map key='[MaNV]' value='[sqlproxy].[MaNV]' />
+      <map key='[MaPhanHangHCO]' value='[sqlproxy].[MaPhanHangHCO]' />
+      <map key='[MaPhanLoaiHCO]' value='[sqlproxy].[MaPhanLoaiHCO]' />
+      <map key='[MaQuan/HUyen]' value='[sqlproxy].[MaQuan/HUyen]' />
+      <map key='[MaSanPham]' value='[sqlproxy].[MaSanPham]' />
+      <map key='[MaSoThue]' value='[sqlproxy].[MaSoThue]' />
+      <map key='[MaTinhKH]' value='[sqlproxy].[MaTinhKH]' />
+      <map key='[MaVungBH]' value='[sqlproxy].[MaVungBH]' />
+      <map key='[NgayChungTu]' value='[sqlproxy].[NgayChungTu]' />
+      <map key='[NgayDatDon]' value='[sqlproxy].[NgayDatDon]' />
+      <map key='[NgayGiaoHang]' value='[sqlproxy].[NgayGiaoHang]' />
+      <map key='[NgayToiHanTT]' value='[sqlproxy].[NgayToiHanTT]' />
+      <map key='[NgayTraHang]' value='[sqlproxy].[NgayTraHang]' />
+      <map key='[NguoiChiuTrachNhiemNo]' value='[sqlproxy].[NguoiChiuTrachNhiemNo]' />
+      <map key='[NguoiGiaohang]' value='[sqlproxy].[NguoiGiaohang]' />
+      <map key='[NguoiTaoDon]' value='[sqlproxy].[NguoiTaoDon]' />
+      <map key='[Phuong/Xa]' value='[sqlproxy].[Phuong/Xa]' />
+      <map key='[SoDonDatHang]' value='[sqlproxy].[SoDonDatHang]' />
+      <map key='[SoDonTraHang]' value='[sqlproxy].[SoDonTraHang]' />
+      <map key='[SoHopDong]' value='[sqlproxy].[SoHopDong]' />
+      <map key='[SoLo]' value='[sqlproxy].[SoLo]' />
+      <map key='[SoLuong]' value='[sqlproxy].[SoLuong]' />
+      <map key='[SoXe]' value='[sqlproxy].[SoXe]' />
+      <map key='[SoXuatHang]' value='[sqlproxy].[SoXuatHang]' />
+      <map key='[TenCVBH]' value='[sqlproxy].[TenCVBH]' />
+      <map key='[TenHCO]' value='[sqlproxy].[TenHCO]' />
+      <map key='[TenKHThue]' value='[sqlproxy].[TenKHThue]' />
+      <map key='[TenKenhKH]' value='[sqlproxy].[TenKenhKH]' />
+      <map key='[TenKenhPhu]' value='[sqlproxy].[TenKenhPhu]' />
+      <map key='[TenKhachHang]' value='[sqlproxy].[TenKhachHang]' />
+      <map key='[TenKhuVuc]' value='[sqlproxy].[TenKhuVuc]' />
+      <map key='[TenNhaVanChuyen]' value='[sqlproxy].[TenNhaVanChuyen]' />
+      <map key='[TenPhanHangHCO]' value='[sqlproxy].[TenPhanHangHCO]' />
+      <map key='[TenPhanLoaiHCO]' value='[sqlproxy].[TenPhanLoaiHCO]' />
+      <map key='[TenQuan/HUyen]' value='[sqlproxy].[TenQuan/HUyen]' />
+      <map key='[TenSanPhamNB]' value='[sqlproxy].[TenSanPhamNB]' />
+      <map key='[TenSanPhamVietTat]' value='[sqlproxy].[TenSanPhamVietTat]' />
+      <map key='[TenTinhKH]' value='[sqlproxy].[TenTinhKH]' />
+      <map key='[TenVungBH]' value='[sqlproxy].[TenVungBH]' />
+      <map key='[TrangThaiGiaoHang]' value='[sqlproxy].[TrangThaiGiaoHang]' />
+      <map key='[TrangThai]' value='[sqlproxy].[TrangThai]' />
+    </cols>
+  </connection>
+  <aliases enabled='yes' />
+  <column aggregation='Sum' caption='F_sum_doanhthu' datatype='integer' default-type='quantitative' name='[Calculation_930556330356690944]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default'>
+    <calculation class='tableau' formula='[DoanhSo(CoVAT)]+[DonGia(CoVAT)]' />
+  </column>
+  <_.fcp.ObjectModelTableType.true...column aggregation='Count' caption='raw_data.csv' datatype='table' default-type='quantitative' name='[__tableau_internal_object_id__].[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]' pivot='key' role='measure' type='quantitative' user-datatype='table' visual-totals='Default' />
+  <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+  <semantic-values>
+    <semantic-value key='[Country].[Name]' value='&quot;Viet Nam&quot;' />
+  </semantic-values>
+  <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    <objects>
+      <object caption='raw_data.csv' id='raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09'>
+        <properties context=''>
+          <relation name='sqlproxy' table='[sqlproxy]' type='table' />
+        </properties>
+      </object>
+    </objects>
+  </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+</datasource>
+]]>&quot;</attribute>
+              <attribute datatype='string' name='dialect-definition'>&quot;<![CDATA[<dialect-definition>
+  <primary-dialect class='hyper' version='0.0.0'>
+  </primary-dialect>
+  <overlay-dialect-set>
+    <overlay-dialect class='vizengine' version='0.1.0'>
+    </overlay-dialect>
+  </overlay-dialect-set>
+</dialect-definition>
+]]>&quot;</attribute>
+              <attribute datatype='boolean' name='extract-active'>false</attribute>
+              <attribute datatype='boolean' name='fast-get-server-time'>true</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <overridable-settings>
+        <date-options fiscal-year-start='january' start-of-week='sunday' />
+        <default-date-format />
+        <default-calendar-type>Gregorian</default-calendar-type>
+      </overridable-settings>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' caption='F_sum_doanhthu' datatype='integer' default-type='quantitative' layered='true' name='[Calculation_930556330356690944]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default'>
+        <calculation class='tableau' formula='[DoanhSo(CoVAT)]+[DonGia(CoVAT)]' />
+      </column>
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[CongTy/CN]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[DiaChiKH]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[DoanhSo(ChuaVAT)]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+      <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[DoanhSo(CoVAT)]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+      <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[DonGia(ChuaVAT)]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+      <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[DonGia(CoVAT)]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[DonViGiaoHang]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[HoaDon]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[KieuDonHang]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[MaCSBH]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[MaCTKM]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[MaCTTL]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[MaCongTy/CN]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[MaHCO]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[MaKHCu]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[MaKHDMS]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[MaKHThue]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[MaKenhKH]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[MaKenhPhu]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[MaKhuVuc]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[MaLyDo]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[MaNVGH]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[MaNV]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[MaPhanHangHCO]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[MaPhanLoaiHCO]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[MaQuan/HUyen]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[MaSanPham]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[MaSoThue]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+      <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[MaTinhKH]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[MaVungBH]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[NgayChungTu]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+      <column aggregation='Sum' datatype='real' default-type='quantitative' layered='true' name='[NgayDatDon]' pivot='key' role='measure' type='quantitative' user-datatype='real' visual-totals='Default' />
+      <column aggregation='Year' datatype='date' default-type='ordinal' layered='true' name='[NgayGiaoHang]' pivot='key' role='dimension' type='ordinal' user-datatype='date' visual-totals='Default' />
+      <column aggregation='Year' datatype='date' default-type='ordinal' layered='true' name='[NgayToiHanTT]' pivot='key' role='dimension' type='ordinal' user-datatype='date' visual-totals='Default' />
+      <column aggregation='Year' datatype='date' default-type='ordinal' layered='true' name='[NgayTraHang]' pivot='key' role='dimension' type='ordinal' user-datatype='date' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[NguoiChiuTrachNhiemNo]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[NguoiGiaohang]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[NguoiTaoDon]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[Phuong/Xa]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[SoDonDatHang]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[SoDonTraHang]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[SoHopDong]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[SoLo]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+      <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[SoLuong]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[SoXe]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[SoXuatHang]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[TenCVBH]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[TenHCO]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[TenKHThue]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[TenKenhKH]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[TenKenhPhu]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[TenKhachHang]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[TenKhuVuc]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[TenNhaVanChuyen]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[TenPhanHangHCO]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[TenPhanLoaiHCO]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[TenQuan/HUyen]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[TenSanPhamNB]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[TenSanPhamVietTat]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[TenTinhKH]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[TenVungBH]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[TrangThaiGiaoHang]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[TrangThai]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+      <_.fcp.ObjectModelTableType.true...column aggregation='Count' caption='raw_data.csv' datatype='table' default-type='quantitative' layered='true' name='[__tableau_internal_object_id__].[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]' pivot='key' role='measure' type='quantitative' user-datatype='table' visual-totals='Default' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Viet Nam&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='raw_data.csv' id='raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09'>
+            <properties context=''>
+              <relation name='sqlproxy' table='[sqlproxy]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='raw_data' name='sqlproxy.105trfy0zv7i9n11vc1a71y0lpz9' />
+          </datasources>
+          <datasource-dependencies datasource='sqlproxy.105trfy0zv7i9n11vc1a71y0lpz9'>
+            <column aggregation='Sum' caption='F_sum_doanhthu' datatype='integer' default-type='quantitative' layered='true' name='[Calculation_930556330356690944]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default'>
+              <calculation class='tableau' formula='[DoanhSo(CoVAT)]+[DonGia(CoVAT)]' />
+            </column>
+            <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[DoanhSo(ChuaVAT)]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+            <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[DoanhSo(CoVAT)]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+            <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[DonGia(ChuaVAT)]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+            <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[DonGia(CoVAT)]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+            <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[HoaDon]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+            <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[MaKhuVuc]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+            <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[MaQuan/HUyen]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+            <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[MaSoThue]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+            <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[MaTinhKH]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+            <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[NgayChungTu]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+            <column aggregation='Sum' datatype='real' default-type='quantitative' layered='true' name='[NgayDatDon]' pivot='key' role='measure' type='quantitative' user-datatype='real' visual-totals='Default' />
+            <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[SoLo]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+            <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[SoLuong]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+            <_.fcp.ObjectModelTableType.false...column aggregation='Count' caption='raw_data.csv' datatype='integer' default-type='quantitative' layered='true' name='[__tableau_internal_object_id__].[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+            <column-instance column='[__tableau_internal_object_id__].[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column aggregation='Count' caption='raw_data.csv' datatype='table' default-type='quantitative' layered='true' name='[__tableau_internal_object_id__].[raw_data.csv_C0F35A703F62487CB3BDE210B8A65E09]' pivot='key' role='measure' type='quantitative' user-datatype='table' visual-totals='Default' />
+            <column-instance column='[Calculation_930556330356690944]' derivation='Sum' name='[sum:Calculation_930556330356690944:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DoanhSo(ChuaVAT)]' derivation='Sum' name='[sum:DoanhSo(ChuaVAT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DoanhSo(CoVAT)]' derivation='Sum' name='[sum:DoanhSo(CoVAT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DonGia(ChuaVAT)]' derivation='Sum' name='[sum:DonGia(ChuaVAT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DonGia(CoVAT)]' derivation='Sum' name='[sum:DonGia(CoVAT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[HoaDon]' derivation='Sum' name='[sum:HoaDon:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MaKhuVuc]' derivation='Sum' name='[sum:MaKhuVuc:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MaQuan/HUyen]' derivation='Sum' name='[sum:MaQuan/HUyen:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MaSoThue]' derivation='Sum' name='[sum:MaSoThue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MaTinhKH]' derivation='Sum' name='[sum:MaTinhKH:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NgayChungTu]' derivation='Sum' name='[sum:NgayChungTu:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NgayDatDon]' derivation='Sum' name='[sum:NgayDatDon:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SoLo]' derivation='Sum' name='[sum:SoLo:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SoLuong]' derivation='Sum' name='[sum:SoLuong:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[sqlproxy.105trfy0zv7i9n11vc1a71y0lpz9].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <slices>
+            <column>[sqlproxy.105trfy0zv7i9n11vc1a71y0lpz9].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[sqlproxy.105trfy0zv7i9n11vc1a71y0lpz9].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[sqlproxy.105trfy0zv7i9n11vc1a71y0lpz9].[:Measure Names]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{6F75D286-AE76-4371-9140-B62B536EA6E8}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='raw_data' name='sqlproxy.105trfy0zv7i9n11vc1a71y0lpz9' />
+          </datasources>
+          <datasource-dependencies datasource='sqlproxy.105trfy0zv7i9n11vc1a71y0lpz9'>
+            <column aggregation='Count' datatype='string' default-type='nominal' layered='true' name='[CongTy/CN]' pivot='key' role='dimension' type='nominal' user-datatype='string' visual-totals='Default' />
+            <column aggregation='Sum' datatype='integer' default-type='quantitative' layered='true' name='[HoaDon]' pivot='key' role='measure' type='quantitative' user-datatype='integer' visual-totals='Default' />
+            <column-instance column='[CongTy/CN]' derivation='None' name='[none:CongTy/CN:nk]' pivot='key' type='nominal' />
+            <column-instance column='[HoaDon]' derivation='Sum' name='[sum:HoaDon:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[sqlproxy.105trfy0zv7i9n11vc1a71y0lpz9].[sum:HoaDon:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[sqlproxy.105trfy0zv7i9n11vc1a71y0lpz9].[none:CongTy/CN:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{53D727EE-EE8E-453E-AF75-77763C1BCFC6}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FCF21CF3-F196-4048-9680-4F4AAD911F4F}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[sqlproxy.105trfy0zv7i9n11vc1a71y0lpz9].[none:_Ten_HCO:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{09EDE0AC-7749-4225-99AC-49C9C593F602}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAgAElEQVR4nOy9d3hc5Z3o/znTRzOakUa9996w5N67jYltMJgWspBACFkSkt2Q3N1kf7/N
+      3dw8m2Q3NwlLKgQwBseAe7fci2xZtpol2ZKs3qWRZiSNppdz/xAebCyDDLsJYH2ex49HR+e8
+      5z2j833LtwqiKIpMMcVdiuRv3YEppvhbMiUAU9zVTAnAFHc1sg8f8Pl8OByOv0Vfppjir84t
+      AuD1ehkbG/tb9GWKKf7qCFNaoCnuZia3BxB92EaMtDY30dbZh93t/R/u1ofxMTLQTXNLC8P2
+      v969vc4xensGcf/V7jjFX5tblkATYW67xJtbj6GNS0Lu8JGzagVFcWGf6sYdVcXUOVK4d3bK
+      x57rGWzgt79+i5DcQpYsjyFILf1U954stvaL/Ofvq/jer/6B6Al+b6w7xjlzPGvmpyH/q/Ro
+      ig8jiiLt7e0UFxdjsVgoKChg0aJFlJeXc/r0af95MTExbNiwAbVaDYDH4+HIkSOTEQA3Ozdt
+      Jmr1P/LQrEQEUUQUBPC5qC8/T8ugg+j0e8hPDsfed426YTVFmXE4+q9Ra1JxT5yKmtougsMl
+      NDX2Epp6D3kGBwf37eSSJR3vYBEzl88hXDX+CrnGBqmprKLfJiG7cBaxQV7O7t1GTbeb9Qu0
+      yN9/9z3uISoudZOaaqC+tpe8Bdl0VFbSPjCMQh/NjOn5SIYaabQEU5AZjrG+kg53OIW5cYy2
+      VdMtSSQvIQhhgice7W+ivKoRy0ALVpcPAGNbDZcbOnH45GQWziEqYIQTu3ewbygJwV5I0Yz5
+      aO3tVNY2MeYWSMqeQWZCCNIbbuC1DXHxQjlmj5ycabOJC1VPeP8pJo/P58NkMrF27Vr0ej07
+      duzgwoULzJkzh8LCQgD6+/s5duwYUukHA6fNZqOrq2syS6BeGruV5CZEIBEEBIkEiejm8sE3
+      2HGpn2CdkqObXuJc+xhDV07yVnE1XhHMV0/xVnElNmMLb77yCjVGH4HiEFv+vA2TUkuIXoNG
+      H0psbAQq6fvd8Nk5sOl3lPV4CVMM8+Yrr9FsEjGEBKEO0BMVE41WOf4Qbnsbb72yhX3vbeHE
+      hQYcY4N0jvoIj4qg+8J7/OVkI4w0smnrEcZsI5zce4L9J/Zitlo4t20zNcaJtz6e4Wbe+NNb
+      9Pj0hAVrkAjjr2hfdxfKoHBCpb388Y9bGHKqCDFoCdCFEB0VRYBCwlBvNz5NCFE6B5te+TPt
+      Jqe/Xa9zhF2v/4Eak5QQvYqR4VGmNl+fHqlUSmFhIZGRkUgkEoKDg1EoFEilUv//FRUVzJ49
+      G7n8g3naarXi9XonMwO48HhkyKQfyIrXZubQoVqW/Pg/mBMiQ2+8wNZTtTwVO3ELSnUMhbOn
+      EdruYee+Qzi1oSRGh3BlNIl77sn44MShGs40y/nmEytI1Qu0Xfw+l5oH+VJiHLogE9n5edy4
+      8HKODBEz9wW+fE80Up+TKEkFZ063MtDVz7C6C/Xi6QSO/g5jVyFd+hgy5WYGe7qp6dfwUG7w
+      BKOvSPeVC7QpMvnGvfNwNbpQHxsGIDo6gqoj5+gfNdHXOYbdpyEhPhQ9SeTmZqECpFFRVBw6
+      TsWQha6+VkyjdpJDlACMmRo52QA/eXoRQapJrTynmCROp5MtW7bQ3d1NXl4e+fn5/t8NDAww
+      PDxMWloagvDBXzwgIIDo6OjJzACxxISN0Dpg/uCQKCKKIHm/PREQfb5PP6K9v7wa76eI6APf
+      RyipFIZ4cpLDkCLScf49tl6y8uBXn+PJ+xehVYJUHk5WuIyLDU1EhseSEayntvEK1vBE0lQT
+      t+l2O0Eu/9DIMMDvf/kGCfMf4lvf+jqZIRN9bQ7eevkl5NmreP5bLzAjUXHLGYJkyu74P4FC
+      oeDxxx/n6aefpr+/n8uXLwPj+4OKigry8/NvWv4A6PV61q1bNxkBULF69Vwu7N1FeX0Ll8+V
+      0jQGSxYlc3L3Ma7UVnO0fIiF83PQ6IPxDnXS2lRP1dX2j2w1OCoea+dVrrV0Y/W8r9kJyWFG
+      9BinTpfSWH6MK44IClNjbtvGDQKNKEjA58Fs7KS8ogabCwSJlIwUHaWnKwgMjyMhKYiLZy8Q
+      mZh927V3dHIu2sEaTpQ30NjUgtXhBUQEiRSnZYiGi+doGR3fF4TGJGPvuUJDcwcWhxckUjz2
+      YVprzlHf6wE81B/ZxP995ShiUAozYm3sO1XBtcYGmjqNXDnxJv/6x0MA7H35R2wtufbxf44p
+      bsLn8zE6OopEIiEyMpJZs2bR3NyMKIqYzWaMRiPp6em3XGexWBgcHET64x//+Mcfd5OwxFzS
+      wqCm6jLDBJKelkJ6wXS0o83UtQyQvfwhFmaEoQ6JJcTTR/OAk9TsXOITEkmOCUWrDyExORal
+      REqAPoSk5FgiwhMJlZm53GAkJi0JrVwKEgXpudk4uupp6HezcsPDZEZqECQytIYIkuPD/doW
+      QZASoDGQnBqHQipBHxFPgL2Pa90W8mbNJyk+lviIIHTBIUhVWooKC4gMDcYjqpg+q4jQQOUE
+      Tyog10eREa2mofYqysh0MjJSSElKIz02gOZr7SgTCpiZGkNcYgLBMWlECkYa2wYIjU0nPyOK
+      jqYmPIZM5ubGEhefjFriQaINJzk5joKCHAavXaa510JMcho6hQ9BE056fBhOmxV9TCrRBs2n
+      eyPuMjweDwcOHODIkSOUlpbS1NTEkiVLMBgMnDp1iuTkZBISEoBxYSkrK0MQBBwOB7t27bp7
+      DWGOviu88c5ehsY8NxzV8eh3vk2K9m/WrSnuEFEU8Xq9uN1uRFFEJpP5N7sejwepVIrk/aXn
+      wMAAR44cYePGjcjlcjwez90rAFPcfdjtdlwuF3q93n/sFgHw+Xx4PJ5bLp5iii8iE+rjpgRg
+      iruFz71ezmkdZcT62XTfFn1eRsxmnN6pVeZnlUlZZCqPbOFC8yhI5GTPWs7s3HgU0k9pxLcZ
+      OXqykpylK4m6QSfvdQxz6fQxqlqGCI7LYNHCOUQE3qpTB8AzwuEtm5BPf5B7p8Vg6W/ixPGz
+      9DvkFC1eTX5AH/vq3KxadA937j4kcnbfDqJmryIlVAt4uVJSzFjEdGakhuEc7aN49y4UGatY
+      PjMJGSb2vrqNbo/P34IuuZB480U6o1by0MIpf6HPIpMSgCvnLhG0+lnuTQnk4JZX+VPTCp59
+      cC63eS0nh91EyckzRMy7WQBObX2ZKtVCnn58GX2N9fQNmYkIjLj1etFHS8leWrTTeK4gGmvn
+      JV567RgLNz7OwjCRZqMNj+0axeftLF7wSQQARtouUq/OJWVZBjh7OHrwLAVfXQCAseEcDYNW
+      LE3HmJb3NSLUepY98hjGrjP88tUm/r9/eZIAlRq1JJaXf/EGV1O/Q370F0PFabVa+elPf8rC
+      hQtZvXo1LS0tnDhxApPJhFKpZN26dSQmJgLjWpqWlhb279+P0+kkIyODJUuWsHfvXrq7uwEY
+      Hh5m1qxZ3HfffbS1tbF3717y8vJYtmzZTfcVRZEzZ874VZlr1qwhMzOTqqoq9uzZQ0BAAFKp
+      lIceeojg4GB27txJf38/CoWCjRs3EhUV5bcG+3w+GhsbJycAIKAM0KAPjeH+jev4+Uv7aV42
+      mzhnE4cOHqN10EH6zBWsmJMNxqu8s+coQ6MuNHEFPL5hGfRd4O1jvaQF2ahp7iNzycOsSgLR
+      5+Ja2WFO1VQhjZnFUxsX098/SNisUDRaPRnTZ4931m3l0vE9lNR0o4xIZ/3aFURpoKSsmcKH
+      1qDCy9lTxegK7mNudhxSoCgMHHWXcNsGObXzTa61dpO76ikWJ4q8s+kQK77zNcJGetnyxgFW
+      fOdpJPUl7DlygRG7l5i8xdy/cjpZBTlcqG7AtTQDR0cLRmU8WfFaBNFFQ009cbM30HfgdToH
+      RolICCIgMBCtRoVMqiBQG4hKLgGiyU+QUH6lnfzo7P+O9+9vitvt5vjx4+Tk5CCTffD6rF69
+      mqioKKqqqqitrfULAEBISAhPPfUUEomEt956C4/Hw+OPPw6MB2Dt27ePnJwcRkZGaG1tJSEh
+      gYmUk8PDwzQ3N/P1r38dh8PBoUOHiIuLw2g08uijj5KRMe5WI4oiJ06cICkpiccff5yGhgaO
+      HTvGo48+6leRjoyMUFZWdud7AFVEFFESC119Zna/+RrelOX84wtPYjy1lRNXevHJ9Nz72Nf5
+      7gtPo2k8SEmbDffYANWXW8hYvJEnVqVw/PBZHG7w+pwExBTx7BPr6L94nBYrzFu+gqbDm/nd
+      G+9S227Gh5e2kvfYfy2Ap57/NgsM3by+7Rxj7lHarQKpwRrweenqNBOVFMGHB3q7w0Peso08
+      tzqNfQdOM2q30Xy1CTvgc9v9n5VBsTzw1PP8wzcfZOD8Li53u4jLyEfR10CHFdqu1RGcXkC4
+      HMSxTi63imSnp5Edq6Sqqf8jv7O41Hh627vv9Kv+TNLc3IzX6yUzM9M/miYnJxMTE4MgCPT1
+      9REaGuo/XxAEgoKCCAwMpLW1FbVa7XdJBujq6sLj8ZCYmIjBYGD58uXEx8ff5Ldzne7ubuLj
+      49Hr9URERKDRaDCZTPT29nLgwAFee+01ampq/NbhhIQEZDIZKSkpOByOm0J9e3p68Pl8k50B
+      bsDlwo6UgAAzTZ1yHvlKLFKFmtx0Neev9TFTZeXtHW/jk/nobutmrlUEJQSGRhIaqMIul4Fv
+      XMskkwUSExOKwmtCIvHh9ULctHv558wF9DZX8pc//ZyaVV8h+MpVkgu+Q7BaiT4/jzfOVzJg
+      S0VAiVQqAcGHUinB7vhwsIyAzhCJQadGIZfj87mY2OrhZaC5kj1nGkDqpX1wmHucLuRxKWSG
+      WrnS1I/tSi+59yUC0NdUR4vJRkfNWYadXmpKq3Esy+A27kXIZHIsY5Y7/qo/awwPD1NTU8OK
+      FStoaWm56XeDg4MUFxcTFRXld0O+kX379tHR0cHMmTP9o7Aoily+fJmcnJxbfHUmwu12ExgY
+      6P9Zo9EgiiIPP/wwLpcLu93Orl27EEWRnJwcDhw4QHp6Oi6XC5PJdNOsYrPZsFgsdyYAouil
+      q7aaQVU8qVGhlAW6MFmsiOEyhgZdBGdKKD14lNjl32DDPYEU/+6n2O/kBnixjFhQaANJzFvA
+      8sYLHG0bJCXEQL1xALc3kpHBQZTaEAJVWiTYcLg9IFGSlZfGOxcrGL4nAr0cHC7fbfx9BARB
+      xOcV8bhdeL0iMMz5oxcp2PgiS1M8bPnNb94/VUteXjLFDaXYhlXMijAAcK22nuQZMwlTqwjL
+      LaLuQC0tw16ygyb+IzrsNoKDEu7om/gsUldXR2VlJW1tbQwODuJyuZDL5eTk5FBcXEx+fj7Z
+      2dl+y+uNrF27lsHBQfbs2UNcXBwRERGYTCb/SD0ZAgICaGlp8b/Io6OjKBQKVCoVKpUKnU7H
+      9OnT6e3tZcWKFcjlcoxGI1KpFIPBcNOSTaPREBMTM1kBsHBu73sYz6uxjcHaLz9MhDyIdWtn
+      s33XW9QECoyIGXy5KI1Rdxyv738HV3MUvZ2DJE3uBu/j5uKBLdQNS1ApwGyUsfiRHO4JiuXy
+      5m387o/nsY+MsmLdk4SrtWSFyLnSZyHBoCZz4QMU9rzLn3//B3QaOcHpi/hS6K13UGiDyEmV
+      svX3b5BukGC2eQANcUl6Tu18E1NGBK2DVuLfPz8iI4eh7b/Em/NVwvUKwE5Vo5H5T3+dmYnB
+      IFpovVhG9ZVusubG33pDoPlqO/H58+/om/gsMm/ePObNmwdARUUFZrOZhQsXcuDAAfLy8sjN
+      zb3lGp/PR319PWFhYSiVSmw2Gx6PB5/Px/nz5ykqKrppSfRRxMbGcuLECXp7e7FYLDidTgID
+      Azl16hTZ2dnodDpqa2vJy8vDarWiUqnIz8/n5MmTpKeno1J9MEdHR0dz5MiRiS3BH06L4rCO
+      YHf5AAGlWoNaKUMQBESfF7vNitPtQ6XRopJLEb1uLGM2BJkcuUREIg9ALrixOUU0ASpEr3P8
+      s1qGzeZAGaBFhgerzYEyQAMeJza7A68P5EoVAWolEgHcDhtWhxuJTIlWo0ICDNUf5bUTI3zt
+      6Q2EKCV4PS5sVhteUUAVoEUp8TD2/n0Fr/P9z0q8ThtjDjdyuRK8XtQ6LaLLjtXmRKJQIRM9
+      SJUBKGQSRJ8H69gYgkJDgEqOgA/rmA2lWoNMKgAiTrsVn1SFSiFD9Lqw2r1oNSoEAZzGKn71
+      aimP//0zxOu/OIrQ5uZmrFYr+fn5vPfeezQ3N/uXMTNnzmTatGm89957bNy4EbPZzKFDh3A6
+      nf5ILYfDQWlpKQsWLEChGNcntrS0sG/fPsbGxhBFEb1ezyOPPMLp06fJyckhIyOD1tZWDh8+
+      jEKh4P7778dgMPhDIsfGxigsLGTu3Lk4nU527NjB0NAQubm5LF26FK/Xy/bt25k/fz5xcXH0
+      9/dPTgA+s/gcnNvzHkPR81k7887mmr8GPpeV49u2ICtcx4LMWzfoX1REUaSyshKNRkN6evqE
+      G9rJYjKZqKqqYv78+X5B+aT09fVRX1/PwoUL/cu0z7cATDHFp+QWAZhyDp3ibuKWTfCnma6m
+      mOLzxufeGa6voZzSK11/1Xua2qo5W906ldXhC8Ck1KDv/ex5TpmDiQxUoY9IZ9W6e0mPCPz4
+      Cz8KUxM/+/U7rH3xR+ToPjg8cO087+05xbDdh1IXwbL19zMtIWSCBkScg3Vs3V3Cyie/Dm4r
+      Zcf3c6qyCY8gJ2P+A2yYl3rLVR3l2/ndcR///v2NCICjuZh/+UsP//zikxiUsOePP6T4iosn
+      X/wpM+NVNJ/bztYT9XTW1yKPSSEyMJwNTz9A67a3cam/wZK0YO62SVMURWprawkNDSUqKsp/
+      bHBwkL6+PjIzM29KQeLxeKioqMDpdKLRaCgoKEAqleJ0OmlpaSExMRG1Wo0oivT29tLW1obB
+      YCA1NfUm3T2A0WikubkZtVpNVlYWCoUCj8fDtWvXMJlMhIWFkZKS4tdI2Ww26uvrycjIQKP5
+      wBfL5/PR1NQ0uRnANiqw6PFn+eE/vcjMsCE2bdrDiI9xFeHoMENDJmxON6IIPo+LkWETQ0Mm
+      RsYciKKIz+1g1GLFZhnBZDJjd3kQfW5GR0aw262YTSZGrQ5E4MSurSjyvsQPf/RPPPPIvUTp
+      lICIyz6GyWRi2GLDJ4qIopfKo4cIyF9GRriK7qpD7LgwzEPf+C7/6x//nrnpYYiiiMsx3v7w
+      qBWfCEERyThaqujzAqKHxvIyNIm5BCoF8BmpbZcyO0VPxdUWRBFS5j7Ij370I2bFGFjy5W/w
+      ox+9QFZkHAsWJnFi/wk8d9meSRRFurq6eP3117l06ZL/uN1u58CBA2zfvh2r1XrTNUNDQ5w6
+      dQqv14vPN+4tOzAwwKZNm9i8eTNDQ0MAtLe3s2fPHhwOBydOnOD8+fM37UlNJhPbtm3DbDZz
+      6dIljh8/jsfj4eTJk1RXV+NwODhy5AiNjY3+vpaVlfH666/T09NzU5/sdjuHDx++M0uwRKZi
+      5vIVHDv9e2q7NhLesZutp1ox6KWYnKE89bVHCOgrY+vJGnA6aOlx8I1/fpHgrv28+F+VrF+e
+      Q0dDJbaE+3hxdTge1zDlp45S2VNDzUAQP/zf30Ipg86WNizubIIixhMSugav8epr72BX6rEN
+      DzN7wzMsTddypmaAVS/EI/W5KTtdQvqi75AUHABAZBh4xzr480uvY9cE4xgycc+Dz7IqM46C
+      0BHKrtlZl2jh3KV+Fr5wDwoBbA1nGQwsZP0sD68eq4aVWXAbe3JE8gzcW99g0LOeKMXdouCE
+      sbExDh06xJo1a/B6x11PRFGkvLyc2NhYLJZbXT76+vooKipi8eLFN7XzwAMPsH//fv+xq1ev
+      Mm/ePPLy8sjOzmb79u3+hFaiKFJdXc2MGTOYPn06DoeDV155henTpzN37lxUKhWCIKDT6ejq
+      6iIzM5OOjg66u7uZMWPGLX2y2WwEBwff+R5ACNCgl3oZsw6wY1cJSx76Gn//9y8wTXmNQ+Vt
+      6BNyWTR7JtOKCohw1lPZNp4dTRMSy7K1j/DEA7PpvdaEywsyeSDTFq/h6SceItDaQZ8NVnzl
+      u0xTNvOfP/3fvPLOMXpHLFw6tBVr4hpe+NbzPL8ul0M7j9DvNDMmaghTKUH0MTbmIUB3o57Y
+      R8Pxd+iNXMo3v/UtXvj6Qo68tZ0hTxDzZyVRceEyQ8YemoQYZkTLwGfn4ukLJM+aSUJCLkJX
+      Bd0fERinUmkw+Gx02ny3P+kLhs/n4+LFi+Tm5t4UV9vZ2UlPTw/z5s2bUIni8Xg4c+YMP//5
+      z/0zQXJyMmFhN+eXlcvlDA0N4fP5kMvluFwuXC6X//cqlYqBgQHc7vF0xQqFAqvVSkDA+KDX
+      2tpKdXU1ubm5OJ1Ozp49y5IlS26yAN/4LL29vXfuDOcdGWbIp2K2wcWoRYFBp0GQyAkOklJn
+      NFN3/BS7mwKYkx+OQiHD5xVBBlK5AplMglsYt54CCIIMpUKOxHs9w5ZIQEgi9z/1bVaautn5
+      2ktsPqwke2iI4PwI5FIJQQYDTksLVtf1NgSQSAgJUdExMIbI9THbw9CAmcCoSFRSCd6wUHzm
+      QZxukYSZc7D/8iLNsQY08XnoJOAZHeR8XSsdra/zmzMOejtrudBoJSZHO/EcILyfl+guWgG1
+      tbXR3d3NypUruXLlCjabDavVyqlTp8jLy8Nut+NwOLBYLOh0Or+xqaioiKKiIgYHB9m0aRN5
+      eXkYDIZb2i8oKGD37t2UlJSg1+sxmz9IxiYIgt/q/Itf/AKdTsfIyAgw/jKXlpZSW1vLfffd
+      R0REBKWlpeh0Or/7hcViwe12+/cmERERfP/7378zAfB5bBzfuQsxdR7ZEbHUxLupqG8nIySM
+      yitjZG4IpulYE2lLX2Reqp3GA3eaWNxB5ZkyDNnTSQgOI1ijoBcZWbm5lFSWMjTrPjoqKghO
+      yiMq0IBGsGK0O4jUaZm5ZAlHN+2kJu8b5Bh8NPe5SZ+Wy/a95zAujsVyoRRFRgF6jRx5YCHx
+      uj2cOddBxrLnATD1NtIbvJSX/+05JPhoPvArfn/qImuylqCeYJ502q2YhABiNXfPDvj6C79t
+      2zZ6e3txOp2EhITg8XgoKSmhpKSEuro6jh49ysMPP+z31vR6vUilUvR6PTqdzr90+jBhYWE8
+      88wzwLi7cnFx8U2jt0aj4amnngLG1/CbN28mKCiIiooKent7efLJJ1EqlXg8Hux2Ox0dHXR0
+      dHD16lV6enoICwsjLi4OGI9DEARhcgIQnRbJiR2v03BASVrBYp5fVIQaBQ8+/Rz79x3mZ+ft
+      ZK18ihUFqTh06/jTu6+yqT6d2PzZ6HUyFIoIslK1SAVQaMPJTFUjVWpIzUxDKwMkAaRlphMo
+      k+ORWzmw+beYHD6iEufz5XsLiVTlsd65k1d//X9RRWbx3GML0MjlzM8Oo6y6i+yVWYRmLefb
+      X9Zw+J0/sN+jYvrKB1le8ABfHtzFmy/9CklQMi984z4C5YCoYPa0NA5VjzEjczyhqWPERuG8
+      Oe+vCSUkTl9MdHsrNqeIWi0QnZaFRvvBH6O/rQJpTD5hsrtn/Z+bm+t3eLt48SImk4mFCxey
+      cOFC/zm//e1veeCBB1Cr1bS0tBAdHU1JSQmjo6PA+Git0+loamrCaDTS0dFBZWUldrudwMBA
+      ampqCAgI4MqVK8yZMwepVEpvby8qlQqZTMb58+dRq9U0NjYybdo0VCoVpaWlpKamUlFRAUBS
+      UhLLli3zR5S9++67TJs2jdjYWLq6utDpdAwMDFBSUvJ5zgsk4hio4bevn+JLTz9LRuhEmd7+
+      Z/A6+tj68muE3/ccyzMNd50aFMY1Mm63m4iIm8NVm5ubiYuLY2BggOLiYh577DFkMhm1tbU4
+      HA5ycnLQarXU19fT29vrvy4iIoKUlBQaGhowmUwkJiaSkJCAz+dj8+bNLFu2jNjYWK5cuYLR
+      aCQyMtIfAXb58mVMJpO/rfT0dP9ID+N7lODgYERR5C9/+QsPPvggQUFBdHZ2fp4FYJzeq2W0
+      eKKYlxf38Sf/NzHUUkHNsJ5FhSlT+f0nQBRFmpqaiIqKQqv9dGn2RkZGGBoaIikp6VN7KVyP
+      P7gxXHNCX6Drutoppviic8seQBRFnE7nROdOMcUXjs+9L9AUU3waJqUF6muto8fsBEFCaHQS
+      MWE6pJI7XY+JDPe109FnxouciLhEIoPVDHW14NDEEBcSMOFVPq+D83u2YE++l2X5kbhtZlpb
+      O7F5ZUQnJhMks9M2YCcj6fZ1BG6Lz0VvWwuyiHTCNBIQRUw9zdiUUcSGasA9RmNjC77AKDLi
+      QhE9TtpbGjFbP7CQqXXBDF09w2jEYlbPiPOXVJri88Et9QFEUbwlN+jul35MpUNHEFZOHzzA
+      qC6RlEj9pDeAouijr+YYm/aUIihVeCwDNHeYiE6I5Pw7v6bcmc70lFsNIyAy2nKedy7aWX/v
+      TGSuAd7545/pdKuQui0Yh30oXY386u0LrFk8/c6f3mfn7Fu/ptSbQ1GiDhDZ89uf0BFcQG5M
+      EKMt5/nl6zsobzKyfF4hgs9NT2cLXQ0VvPXOGULSYlHL9WSkRbL/3X2kzppBoPzum1R9Ph+D
+      g4Ps3r2bpKSkmyK33G43hw8fZteuXZSUlHD+/Hlyc3ORyWRcvnyZrVu3Ul9fT2JiIlKplO3b
+      t3PgwAHOnTvHwMAAWVlZ/rbq6+vZvHkzZ8+epaSkhMuXL5OUlOTPLXTw4EGMRqM/HYrT6eT4
+      8ePYbLZbtFUw/q5P0hCmJmP6HFbkxTEzLYifv/YO2ZkvEsMwVRfO09TvIGvmQnITgjE2XuKa
+      XYfC3EybWcaCVcsI8Q3wxtvFrP6HHzMt8sbsaF4KFq4jVmPA57Fz9eJZrnSYkAdGMnfRPMJV
+      DkqKT5C37LsEKaFh/3u0BM/hfz2wCNX76ve+qz2IXjcNF49R0z5GatE87klSUW7/eX8AACAA
+      SURBVH6qkqh7ZhOtd1JxqpKIglno3d2UllYyaPUSlzODGTkJzFlQyNGjF7DM30AgfVwxBvCV
+      xHAAGmqqSJ+xAnv5CerGRAp0AeROX0hisJSSKg9zly0bL58qOlmYMMr+0h6eXhJ/160rm5qa
+      KCkpobOz8ybXBRh3b1izZg1r1qxhZGSEXbt2oVAoqK+vp66ujm9+85tYrVYEQfBba7/3ve9N
+      mFkiMzOTzMxMYDwjxO7du1EqlVRWVpKdnc26des4fPiwvyzSzp07sVgsN3mm3ogoinf+t9Il
+      pBAjDNLcZeHEO3+ibEDFzMJEjr75J8pajXRfPsG24gr0CRkEDJxn2+km7NZ2Br0xpASpsA52
+      UllZydWmLpxeDy1lxZTUD+L12rH7dBTNnIHeXM7mvRexm3up7g4gP1OPwBhXarrIzMtB+SHb
+      k3eoG5suiUSDjTffPQSMcGbfQdpNLmCUM/vHP4+OWghNzGHWjAxOvv0adX2j6LJnozFeZnDE
+      gaPpIvaIIsKDVYCbmqv9ZOVnMC1JSml5F7fVjQkK8u/JoeVyHbbPtVL5kxEXF8fDDz/8selN
+      GhoaSE5ORiaTUV1dTXp6OvX19QwPD6PVahkZGcFms3H58mWamppuq4zx+XxcunSJ3NxctFot
+      8+bNIzMzE6lUilqtRqFQoFar2bBhAzNnzpxQfSqKIq2trZ/AGU4iQSYAopEL1cMsmDeTpNRp
+      zEr2caluPPtZWHI2GckJxIQGMDJmQxR9IEoQAI/DwmD9GX7z6i4GbxgspJIAZK4u9u/awbm6
+      dvp6+rDZHDhUGoLkACJer4hEcqvlVRaeyLSMZOKiw3Fax27b96BADU0VJ9i+/RCdHUb6bQ4E
+      ZRypQQ6ajUZqL10mZcZMAuUCor2FhgEZEVo9KZnx1F8qx+K53dstEBgYyJjZiP0uLCuvVqtR
+      Kj/aEHm9oHVBQQFer5fe3l5aW1vp6+vj2LFjVFVVERwcTHp6OgMDA5w+fZri4uIJVfJ2u52u
+      ri5/5UepVIrb7ebkyZMMDg6SnZ2NTCb7SBuExWLhwoULdy4AY51tdPoMJMZoEATR76/t9fgQ
+      brMxVqlj0YqdtI860cdms2JuPgrZzbceuXaUt85YePy5f+BbX/sSOkAqkyFxuXGKAIGkZ0XQ
+      cOUq7k9gphB9Xva8+Sq+9BX8w4vfY2XhuAuEgITCogTqK+q40OBh/ow4JIj0XTzNgExO8fZN
+      7Kwexd5VRt/Q7dN8ud1uVAE6FFMVUCfE7XZTVFSETqdDEASCg4NZsWIFq1atYv369TQ1NaHV
+      alm0aBErV67k0Ucfpbu7G7v95u/8ejBOYmKiP8DFZrOxbds2BEHw+yB9HGfPnqWjo2OyewAX
+      3U0NVLq7qTp5ioJ77yc+IIxFs6M5cfQE7mwtF7oCWLEsHl/prVcrdVE8tCqXPVv+gnnuNLTD
+      XWh1Om7cL0oVAci8I1y7UslAVTk2MpAHhZKqMdPQ6SQiXknGkvs5/V9vs/+kQEKggINg4iYU
+      ci0hBin1lytQGkfpeb9+gDZARVdvGzWXuqho7Gc+gADJWQW89fJe7CEpPBcIomeU86WNrH/m
+      x6zP0iDg4+3/8z0udxjJiJhgmhc9NNY3EJW2Es3dtgGYJE1NTeh046F/crmcqKgoysvLWbJk
+      CWazGaVSiclkwuv1EhERgdlsHndW+1BE2NjYGNeuXWP9+vUIgoDX6+XUqVNkZWVRUFAwaWvx
+      nDlzyM7OnpwWKDA4EJwurA4P2fPvZX5ePDJBQkxaNnpG6TN7mLPqPrJiglBpg4mOiSUiKACl
+      JpjomDgigrVEpOSSZJAwMDCITR7GsqXziApSj1daj40lKjaBWJ0Ps00go2gG6fGxREVGYhC6
+      KK62Mz0nDpU6mIKCNMYG+xhxQGJGOmFBQURFRRMTGYJUriYyKobYyBjikqJwjJhRRSRTkJVJ
+      QmIs6ZkpeEdMeANimD+vgNiYKAKVcuTaIMICteQUzSIuNBC8ImgiycmKJ0AqAALh0RHogiIJ
+      06sQ5CrCoqOJjQpFDnhsg+zcdYZ5968nVnv3TQFHjx5l+/bt1NTU0NjYiNFoJCUlheLiYiIj
+      I1EoFJw5c4a4uDj/DBAaGsr58+c5fvw4vb29LF++HJfLxaFDhzh27Bh1dXXMmTOHuLg4ysrK
+      cDqdGAwGrly5gkKh8PsBud1udu/eTUNDA2VlZZw7dw61Wo3T6eSVV16hvLyc+vp6mpubSU5O
+      pry8HKlUSkREBEFBQZ/9vEBe1wjbXv0T0UufYn5m2GfP90Z0UX30L1wYzeLpB2Z8AvvIF4/r
+      0VtjY2PMnTt3Qo3OZBkZGeHIkSPce++9k1rafBT9/f2cPXuW+++/3x8z/JkXAEQRu8WEQ6Il
+      SKv8DAqAj1HTIBJtCBql9LPXv78Boij6c3N+eAlzp7jdblwuFwEBAZ/aGc7lcuHxePwRZHAb
+      Z7jbBSxMMcUXjc+9O/QUU3waPvs6C1HEOtRDv9n+Vw2/9dnNdPSYmCrw+MVmUgu0ku0vc/zq
+      MBKZgnsWrmfpzDTUsjuRHRHR5+VqyT4On7+KSxLIrBVrmZcbSfXhdxmMXsHqeyInvNLjHOa9
+      N18n9b5nCQ9SMtxVy67dR+hzqli89mFmpod9SIpFzE0XOFTrYf36+QQIYDW2sP1gFQ/+3QY0
+      opeWkl28fWGEx596hBRDAFfPbGPPmQZcPh+CIEWuC+W+1Ys5/N4eVj/zHDmfNgnYXcD1OBKJ
+      RHLLWl0URf+/GzfE148B/utujEe5XVs+n8/f1o1F7z587PpxGA+qv/7vxrYmJQBN5fVkPvID
+      HszQs/0Pv+BX9Yv43tdWMtkgRNHj4OSm/6REMoPnnn8RPcNcruvC5o5CKpMhu63mxEf7uffo
+      CVnCY6lhjHWU8G+/PMRXfvB9vhzio7V9GC8fFgABnU5O1amD5C+YQ06IlN76U5R3afk7wGc3
+      cmBfFfpoNWdrekhZnEbWwo1kzRrk1X/9HuFf28S69PGWVHPDeGf3OVKfXTXpZ70bsdlsnDp1
+      ir179/KTn/yEkJAPMvldT6S1ZcsW3G6332fHZrOxc+dOent7UavVPPTQQ4SFhbF79+7x6o0y
+      GWvXriU7++bCgpWVlZw8eRKn00lOTg6rV6+mpKSEixcv4vP5kEqlPP7440RGRnL69GkuXbqE
+      1+tl/vz5zJ071y8A15307iwxlkrP+sc28pOfv0v94DJiLVXs2neCvlEXsXmLuX9lEd0nNrGv
+      L5wUoZOKBhP3PvtdCnV97K+28e1/W0KoRg6EUTQzDHDhGR2kX2nH4zBR/O4WqjtH8KBk+aNf
+      Y1aMm5OnW5n39FMoJE5KjxwmZtkj5MXokAmQnhmE1zlK2bE9HK1qR64JY/GXHmRGcgZZITYa
+      WnvJCYmisaaF3JnjVQlHBtppkYfyzemhvFZWg31RGurbyF9SwQzE4p00m1eQHfzZXy3+rWhv
+      b0ev15ORkTHhiH3+/HnuvfdeEhMT2bx5M2NjY1RWVpKQkMATTzyBx+NBEARaWlrw+Xx8//vf
+      p7Ozk7Nnz5KRkeFXWVqtVqqqqnjiiScIDQ3F4XAgk8n8RTHkcjknTpygvr4euVxOe3s7zz33
+      HAEBAbhcrpv61tPTw9DQ0J3vARRhEURKbfQMmNmxeTO6wvv5px88j6dyN0dru7GZ++kdk7Pi
+      kWdYlwPHylpwOvtwiGEYVDJ6Kvfz05/+H/7w1iHMLhHLYC/GUSeCTMk9Szfyvf/1Ax6fE8Tu
+      veewDBlptoeQHqtAwEp3xzAxsTHjvkjv011zlPcuWPnm9/6Jh2aF8faW7TgFLQU5MVy92oro
+      6qWhy0t+RiIAfY2XCYzPISk1G0nnZVqHb+9XITXEEKcZpavv9v5FU0BWVhYzZ86cUE8vCAIx
+      MTG0trb6UyBKpVIaGhro7e3lP/7jP9i9ezeiKGI0GklMTEShUBATE4PH47nJIa6zsxOr1cqO
+      HTv45S9/SXt7uz8bnEwmo7u7m8bGRlJSUmhubsZut/PnP/+Zl19++aageRiPD46Njf0EVSId
+      dsZEKTqtidYuJV9JiUUqV5GVpuZ0Yz8JgC4sCp1ahkwmxev1IpGoEH12PKJI9LT7+FGwim/8
+      rpYvbVjib9Zj6WfXptcZQoV3tAdn8GLcHg8+hRyVACAnQCPHZLMjEuzXtw80NRGYuYBgpRR1
+      YgbKtgt0AfF5RQy+UcVg0xh92hwyYtWAnUtnyhhRudh9RsNwXytVVzvJnns7L0YpgsSH1W4H
+      dLc5Z4qPIzU1lbq6Ot59911mzpyJRCJheHiY2bNns3HjRk6fPs2+ffv8dcRgXEiUSuVNuUHH
+      xsbw+Xw8+uijSCQSXn/9dQIDAwkLC2PTpk0MDg6SmZlJUFAQ9fX1KJVKnnrqKYaHh9myZQvP
+      PvvsTVUmVSrVnc0Aos9N/YVSzPpMMqKjCDM46Taa8XkddHXZiYwJmvA6TWAymbp+TtR24vT6
+      8PnEWzKqjbWW0yjJ5YUXX+SrDyxABSjUGjR2C4NOAA33zMmj7vRRBsbc+DwuLKNWdFER2Ls6
+      sXt8mI09OELDCQOCIpNJ8g6yv+wKifn56AXwDDbQZI9j3X1Lyc6exbpV2VRXXb39A3ts2Bwy
+      QoOnXv5Pisfjobi4mBUrVvDtb3/bX2EyPDwcg8GAVCr1pzKUSqX+bG8OhwOn03mTIc1gMBAU
+      FIRWq0Wn05GWlsbo6ChKpZKvf/3rvPjii4SHh3P69Gl/+0qlkrCwMCIiIm6aTeRyOSMjI5Od
+      AYY5/OYfaDCoUagieOTJjYTKAnngoWW8teNPlO7yITEU8dVp8XRPUA9aFhDCY888wea/vM7P
+      DilR+mwkZcxHe0Ocgjo6HU3vn3j5ZSNx2jG8pCANimJagp2qK2ZSpwUTN2cDq1pe4w+/+jly
+      mZKsOfexsmg1M+pf52f//u8IXh9LHnhifKzWhjErw8u/HujiX34WjYBI19XLuOIKmHdPFkog
+      VDbAtl+fwcpqJjKy27ub6fBFszZ6clUMp7iV65qdrq4utFot/f39qNVqMjMzOXjwIE8++SRX
+      rlwhKCiIxMREduzYQX5+PtXV1QQGBt4UXRYTE8PQ0BB1dXUkJSXR0dFBXl4e586dIzs7G61W
+      y/DwMF6vl8TERA4ePMj06dORSqWMjo7eVI0yMjJy4iqREzHRKdcf7PYPjr8otfD+D59EpT7W
+      VsIvtjby3e/+HSEq6aTaEN5P2nlj927pDzc8lyAg+PsnvJ/oSuTQqz9hMOVRvrwkfcrF4SM4
+      dOgQ5eXliKKIIAikpKSwfPly3n77bb761a+iVqvZvXs3fX19rFq1itTUVHw+H2VlZZw+fZqs
+      rCzWrFmDVCqltbWVnTt3kpCQwJo1a1CpVLz55ptMnz6dnJwchoeH2b17NyaTiQ0bNhAfH09t
+      bS0nTpzAZrORm5vLypUrUSgU9Pb2smPHDgRB4NFHH0Wj0bBp0yZWr15NfHw8vb29n31LsM/r
+      pGz/FkbjV7Hinui/2ovo6q/mtQMdPPjovYSp7z4Pz0+DKIpUVVX5R/VPWyWyrq7Onyb909DX
+      10dLSwuzZ8++fZXIKaa4m7hlaPvMeYNOMcX/IFPWnSnuaqYEYIq7mkmFRP7lJ8/yp8Pl1FVc
+      pKJpgMTkVLQfzk3yV6S1/F3+8+0Gls3L+viTP4Keq/v4t9+VsXJx/k3Hu+rL6fdoMWiV2Pqb
+      +P9//CsKli1GMxXtBXxQfM7r9RIUFIQoivT391NaWkp3dzchISE3qS9tNhsXL16ksbERjUaD
+      RqPB5XJRUVFBbW0tHo8Hg8GAIAgMDg5y7tw5hoeHCQkJ8btBXKe2tpby8nKampowmUyEh4cj
+      kUjo7OykrKyM/v5+wsLCkEqlDAwMUFpaitlsJjIy8hYnuZqamsnZAXy+QJY+9jQPfEwKco/T
+      Sn/fAC5kBIWEEayVMNBjRhcWhkruGf8cGoJr1IgDJS7bKKJSh0ElMmS2oNCFEB6snTi9oOjD
+      Pmqi32ShZ8CMyxsKgNthwTgwhAsF4ZERBMgl2MfMGIdG8IgSgsMiCdLIsQ0bsaJCtI1g88iI
+      jo1GFH14PB7M/d2M2L3owyJQeS2c2PkmxpQH2DAvCz0+vF4P1mEjNosdpS6UiOAARoYGEAJC
+      0AdIGRk0QoABfcCn01J8HhBFkZaWFvbv38/cuXNJSEigp6eHY8eOkZ2djdvtxmq1+lOSXE+H
+      4nQ6UalUbNu2jaeeeoozZ84wNjZGcnIypaWluN1u4uLi2LNnD1lZWTQ3NzM6OsqiRYtuUltf
+      uHCB7OxsAgMD0Wg0SCQSWltbKSkpITs7G4fDgcPhwO12s2vXLgoKCmhubsbhcDBnzhy/9sdu
+      t3PhwoVP4ApxWzxcPvIWxS0yksMVOIOy+crqEP7w73/mwR/+kJyoAf74s1e5/8Xv0PTez6nR
+      LKQgxMrZc5eZtWI5grmZkmYZ//r9r6GfQO1oH2pl8ytvIcZnITX34CYURAvFb/2ZFtFAoGsA
+      W9gM/m7DPJounqRuwI1g66bREs93n11DzY6X2T2cxfIMOVVnS8n5yr9QKIC1p4VL1VV0XKui
+      XzWbZ5YY6O4fZki4yuVQFdOTg8Day6VLVXh7WijrlvJv//wYB994Cfmib/HQDD2HNv0GYcG3
+      eHhm9H/f1/kZxWKxcPr0aZYtW+ZfKVRVVTF9+vRbPDdh3OaSlZVFVlYWLpeLhoYGbDYb/f39
+      3HfffYSGhqJQKOjo6MDj8ZCQkMCcOXP8+n6Px+NXfzocDlQqFYWFhX6XCY/Hw6VLl1i6dCkx
+      MR/kh62pqSE5OZlZs2aRm5vL9u3bKSws9BvDbDbbuA/R5B57mKNbXqXJoEUfl81D6+/DcItx
+      1It5oB9BP5NZi2cTFRoIdN62xbTCRawrkDNY20bsjLlMUxVS+5vf4fJ4mShMoeliMQORi/jh
+      44tou+Sj6RiMXDnL2QED//iDrxAq9PPyj1+mZkYheflF2OqaGLbI6a+5yPDYMkAgJnsmq1bH
+      oh2o4WKnicJ40ESlsGzFGvriRH7xdhfhTy8jPz2a/uzlrF2chrXvGgREsWDZcrRDrZT/7M+M
+      3aWaY5/Px4ULFygsLMTr9fqL2LW3t9PW1sbBgwcBWLt2Lenp6TddW11dTWVlJampqYSEhFBU
+      VMSePXsICwtjcHCQNWvW0NzcTGjo+Myu0Wj8lSKvC4DH42F4eJiXXnoJURSZPXs2RUVFdHd3
+      s3fvXsbGxpBKpTz88MMMDQ0RHR2NIAgolUpUKhVut9svAIIgYDKZJisAQSx//JmPWQIpmb3u
+      SRTlleze9F9Ikpbw7MOxtz1bEMYzxSFIECQCAsLtSvIC4BgZQx6oQSJct9SC3W5FUKlRSQUE
+      lEhlHqwWM9u3vYI6fzVp0fHoA8r81mPh/WCJm1ZYEuHjMzoL18+5u/cATU1NdHV1kZSURGNj
+      I6Ojo5jNZmQyGYsXLyYtLY2GhgYqKir8WduuExwcTFRUFJ2dndjtdoaGhoiMjCQyMhK32+33
+      FL0ewHI98OXGNgIDA3n++ecRRRGLxcLWrVuJi4tDoVCwfv16IiIiqK6upry8HL1ef1Md4w9n
+      mAsNDeWb3/zmf6cWyEpH6wjZC7/EVzcuo6e8nCEUSAUXdqeTofZ2zJ6PKLz7MRjiYjE31jHq
+      8mDuH8ABhKZkE2Bs4GrXCObmKvo8ESREKegadJNXkE+0xo3Zduf3CtQGYBwaRvT5mLgOqgyV
+      TMRmc2Ad6qXbZJ3gnC8eUqkUnU5HRUUF9fX1tLS00NnZicFgwGaz+TO+TUR8fDzLly9HJpPR
+      1NTEtWvXWLp0KYWFhcyYMYOqqipUKhVGoxEY9/z0er03baY9Ho9fKAIDA/2juUajwel0IpFI
+      CAkJwev1EhoaSnd3t9+u5XK5JmxrUlogi2kQQ0oW0fqJc/iPI8Fpamb39h2cvzrEnLVryY+M
+      JVQzyvFjZ7Fow4lU60jLy0TqHCUwPpe4IBmjI6NEZaQTLBcYHh0jPT0L5QQpxoOiEtHbmtl5
+      oARJWAwRobEU5BeQnaLj/IFdXGjxcv9XHiMtLIhIjY1DxacY0aSSHiEnNS0LidOCLDyN1IgA
+      HKPDSMPTSAwWsLq15GfH43FbGXNpKMhJICw2gYGKY5xuHCIpIR6X001Wfg4Kn5thi4OsvALi
+      IvVUnDhEs0VOXHgw0SnZxN66LvxCYTAYyM7OJicnB6VSSUhICHPmzEGv13P06FH6+/u5fPky
+      +fn5hIeHc/XqVTQaDefPn+fSpUs0NTXR39/PggULMJvNlJeX09vbS0VFBQUFBWRkZHDx4kVa
+      W1upqKggJyeH2NhYOjo6cLvdDA8P+6PIysrKUKlUzJgxg+DgYPbv38/AwADV1dXMnTuXuLg4
+      SkpK6OrqoqysjKKiIqKjo2ltbQXGcwTt2rXrk+UFunryL+y72HXTsdjMpaxfW8RHichkGGgu
+      ZceOM1huPBiawbOP3HtXaFk+L1gsFjwej7/64uDgIL29vej1emJiYvwv3vr16/F6vbS3t+P1
+      eomJiSEoKAi32017ezs2mw2DwUBMTAwSiQSLxUJbWxtarZa4uDi8Xi/vvfcey5YtIzIykoGB
+      AQYGBpDJZCQlJaFSqRBFkb6+PoxGIwaDwb/2Hx0dpbOzE41GQ0JCAhaLhd27d7N+/XoCAwMx
+      Go2fg8RYU3zuEEWRzs5OQkNDb0pC9UkYGxtjZGTE/1J/GkZGRrBarURHf6Ctm1AA3O67MMf3
+      FHclU96gU9zVTPkCTXFXMyk7QNvlCqTxGcQFacAzxtXaRsLSCwmd5PLO53ZSX11Kl8mJRK4m
+      KTOfpEjdVEXFKf7mTEoATm19jYBHfjAuAI5+/h975xkY1XWu62d6U++9dyEhRMemF5sOtjG4
+      xElOfGM7sVNPyrnn3pNyb3pMTmwncdxtjAvFdIxBGNFBqKPeex+16W3v+0NogoycCJPkOjDP
+      L2lm9prRaH97r/V973q/AzveYPG3byIAbKPsf/ktorZ+kXjXMHv+tJ05jzzN4tRPmlp5+FfE
+      6XTS1tbG0aNHeeyxx9yNMAC3UG7fvn0YjUYWLlzInDlzMJvNHDlyhJaWFmbPns3ixYtxuVwU
+      FhZy/vx5pFIpK1euJCsra4IWqLq6mo8++gilUsl9991HaGgoVVVV5OXlYTabSUxMZM2aNahU
+      Kl577TUGBgaQSCRMnz6de++9173J3mQycfz48VvTAolOM+XnTnC+ooP43OUsnZuK2jnE8UNH
+      qO8dQReWwX3rF19LjWpJmzGTOf5aMgJt/HTnfjL/83H8bV18eOgYHWYlC+9dT2aUjtrzJ+hV
+      hjNUV8gAYWzesp4gjzXb55ba2lqKiooYGBi4oYYEYy5smzZtQq1W8+qrr5KamkpBQQE+Pj48
+      /fTT7Nmzh9raWvz9/bFarXz9619ndHSUXbt2kZqa6tb9mEwmTp48ybZt2zAYDBw9epSHH37Y
+      bX/i5eXFoUOHKCwsZObMmajVar73ve9N2r/M5XKRkZEx1QuwhdrCi+Tl5ZF3+hI9hrE0aeHB
+      VzhULfLAw1vQn3+T90/XgNmAT/rdbNt2P34dH/JWfssnxpIQkJmNrq+Bjo4uXvnd73AlLmLz
+      slTe/e//pm7QQGPBCY4V97Dg3jV4d+Rz6MokVhMePjekpKSwdetWoqJulL5IJBKio6MJCwtj
+      ZGQEX19fJBIJXV1d3HXXXeh0OubPn09DQwMhISEsXboUrVaL0+nEy8trQuqztbWVhIQEwsLC
+      SE5ORq1WMzg4SHJyMr6+vphMJmw2G0FBQYyMjNDV1cWZM2coKiq6oX2rj48PKSkpU70DSFFp
+      NGMSV7nB7eVZWlJDzoP3ExIQwtx5abxYUIVz3iL6r7xPftcIg23tyIOG+KSplEQUQCrDbmmj
+      Ru/Pg1lxBKgiyA7cQUmzCW+ZgtiUdEKDAvDRytBb7ZN8Jg+fFxQKxaRX/uvZv38/TU1NLFu2
+      DJVKhVwud1+ZdTqd21FCEATq6+s5ffo0y5YtmyBfsFgs7n0DAL6+vjgcDmw2G2+88Qbd3d3k
+      5uaSmJiIKIqsWLECp9NJTU0Nra2trF+/fsLG+qqqqqkGgIq4zBzmTY8BYyP5h04BoJTLrqk3
+      wWm3IVf4UX9yB4VCLt//3iL68v/Am4OfHEtkoKIcU3ASYYFeSHCMWZALInY76JSehfHtyObN
+      m2lqauLw4cOEhobicDhwOByoVCqsVqvbKfrSpUvU1taybds2fH19J4yhVCrdojkYq0aPO8h9
+      9atfxWAwcOTIEa5cucLixYuZM2cOALm5ubzyyiuYzeYJY2ZmZt7aGmDRmhW8c+wgxwaSqbzY
+      zcoH1uE9YsRUVMHZM07aLlTiTJ5/7dVGSs+dYUhqpqywnq1f+hoxQUrunaHl3b2HSPI10qCc
+      ztOJPhScupVP5eHzhCAIdHd34+3tTVhYGAqFApvNRnBwsHsfQWlpKQkJCbS1tdHa2sojjzwy
+      4co/TkxMDBcuXECv12OxWDCZTPj5+dHa2kpISAheXl7ExcXR1tZGR0cHTqeT6Ohoent7ASa4
+      zI1XhadUCOusq0IWFk+YjwacZpoaWvCPy8BP6aCnpZ7W3hH8I5JIiA5CLpioLq/CJPUiKlCN
+      SR5IQrCG5toyekccSOQqouJTiAzyQioBl22U2uo6Ru1y4lLSCPVV0t/agNU7hphAJf0tDVi8
+      o4kJvFWVkYd/FMeOHaOwsJDOzk5CQ0NJS0tjw4YNHDlyhFWrVtHU1MTJkydxOBykpqaydu1a
+      DAYDe/bsQa/Xk5KSwsaNGykqKmLfvn3uq3RQUBBf/OIXuXDhAlFRUSQnJ3PhwgXOnj2LVCpl
+      06ZNJCQkkJeXR1lZmVubtHHjRmQyGQcPHmRgYACFQsGGDRvcr83MzEShUHDgwAFPJdjD3x9R
+      FCksLMTpdDJ37txb6hI5NDREXl4ea9euvWVdUVdXFxcuXGDz5s2f3iXSxD01MAAAIABJREFU
+      g4dbRRRF906uWzn5YSxd6XK5UCgUtyyGGx/r+unVpGK4T6aMPHi4XZl0EfzJ7WMePNyueJQI
+      Hu5ophQA+e9t55fbX6PNODZbcpgG2PPnn/Hrl96j71O2w+orT/LakUIcgshobwV/+vNu+jpr
+      2fHKXvr/xvuJTiund7/M2Ybh8Ue4evxd9l9umuKf5eF2xW63MzQ0xODgIHa73b3hfWRkBL1e
+      j9lsdtvei6KI2Wye0BhjHEEQMJlMU6sDdHYN4DT3U1LfT/SMEIz6ZvSdA5QZwfIpBUCbvp2q
+      FhuCY5RTu3YhS30YjctITWUDS/7G+0lkcrylIxwvqGVB0lxkGLl4voTYLcum8nE93KZYLBb2
+      7duHyWTC5XLh7+/P+vXrKS8v58qVK6jVamw2Gw8++CCBgYFcuXKF48ePs2DBAlasWDFhrKGh
+      IQ4fPjzVQpiCxPQE2iqrEXKC6W+uxS9lGrKSHsBJ85WTHDp7FbPVjioqlyceXuU+svlKHuXO
+      VJ5ZmoKsuwSXY4hLx/awq7ACV8R8vvFv93Do+R/ht/xJVmaEs/eFH+G95AnunjGTPW+V0Wud
+      Q/BQNR1iNPfE+VP4wXOUae/hK/cmUrTvT5SoVvBvq6I588G7FLQModBFsPUrjxKh/jt+8x4+
+      F0gkElauXIm/vz8SiYT33nuP3t5eqqur2bZtG4GBgeTn59PQ0IBarUYQBBYuXDhp9sjPz48H
+      H3xw6msAv8gUHMONWG2jNDaZyEiN5FojFbShqTz6xDf49te+gKXsIq02ByDQfOVDXj5QwPQF
+      C/C51lhbIlWQMncNT3xhHSNXSxkAzIZhrPYxSYXZMILV4UIbk0mktJO2zhFaqyvRpeQQ7iXB
+      bjZgtIxt2bRbDBitDoaqPuZYvYovPv0tvvbFdfj9/7Mt9fAPRK1WExgYiM1mo6urC5lMRlBQ
+      EN7e3rS2tmK322lrayM4OBgfHx8WLFjgtmj8JDKZ7Oaa5GkDY1jgO8SBE+fpCp1BVtDYWSaY
+      h9j1yp+p6DOhUOnw1yixiSIgJX72av7jmS2UHthBec+YQY9U5kWAvxapVIZEFPnUfJM8hOUL
+      E7l47jLHL7Vyz8ocbiyOj2Hs70IZFouvWonKyw+PecTtS1VVFbt27UKhULB161aUSqVbJCeT
+      yQgLC3N7C/0tJBLJzWSBFEyfn0ne0UvEx1y3q16mIMBbTlP1VS6eP01N60T1m3dkDluWRfPu
+      mx8wbJ/8dA8PCaS+rJCCS+do7PvLgiUyaRr6xjx6CSfWRwtICYqIYKChiAtXCqio78IJhM+5
+      l6DOcxz7+DQXTp+h887wqbrjMBgMFBcXs2nTJrfbs8vlwmg0otPp3MZd1wvm/tpYfX19U7NF
+      aa+vQh2eSLDaSlFxCwmZ6fgzTGHTIBlpKbgGWymv68InJBKV00pIajKq4Q4aRlRkJIQh2kep
+      vNpMbHIUna164rNTUJmHqWnoJT47FVHfQWVNC3L/KLwYxjsilXA/DaLDRE1lFU6vaNITw5BL
+      wGUd4mpZNRa5F6E+cgRtJEkRPoz2t1Jd3w6aYLJz0tB4Ery3HXV1dbz66qtu/1B/f382bdpE
+      S0sL58+fx+Fw4Ofnx/r167FYLOzevZuhoSGcTifx8fFs2bKF8vJyUlJSkMlkHDp0yOML5OHO
+      oaenh4sXL7Jhw4ZP1wJ5AsDD7YrD4cDlcqFW/yVFeEMAiKLodtX14OF2x6MG9XBH8y+7VLSP
+      9tDaa/hM3ec9eBhnSgFw+r1n+cX212g3jZ1uTpP+mhbo/U/VAomCk57ai7y4/df84rfPkV/W
+      jlP4O52uooPK429ztlnPh++9SVnbCAD24Q52vvgOvUDn1Y/YebTk2gEOqk68w8GSnr/P+3v4
+      uyAIAhaLZYL6WBRFbDbbp/rTOhwOjEajWw5x/XF2ux2LxeLeX+x0OjEaje7HrkcURRwOx9QC
+      oKWlC/NgBYW1A4jAaH8DPU0dXCqtwvwpPrpDjef55YsfsviRZ/jml9dS8PaznKiaWoHib+Ey
+      dJJfq2X5LH8arpbQOzJWOxCso5RfKccIGHobKKvvHj+CvsYyaruNf5f393DrGI1G9u/fz49+
+      9CO6urqAsYAoLS3lpz/9KcePH7/hGKvVyo4dO3jxxRd54YUXOHr0qDtQbDYbr7/+Or/5zW/c
+      TfLeeecd/vznP/Pcc8/R2Ng4IQhGRkbYsWPHFLVAEiXJmQm0XK1AmLGEgeYa/FKykJf0Ak6a
+      C/LYd6oEo9WBd+I8nti2lLIzJ4ledB8pIWpkxPPg6nT+8NFlZkam8cLzh/nOvz+Nyt7GL587
+      wLe++yQDZXkcOF2J2WYnIG0xj29dwoXXfkGlJgWvwWYa+11s/spTzIzxobuxCmlsCmGfYUt/
+      xbFX+Gg4ne9uuwt900X+sK+e7z+1mo/37aW0VY9UG8b6LVvIdBTyjdeusiTTj+qr5YQtfJxH
+      V6aj+pedNH6+aG1tJSkpiYGBAfdjQ0NDmM1mFi1aNOkxHR0dKBQKvvnNbyIIAq+//jpDQ0ME
+      BwdTVFREaGio+27S2tqKUqnkmWeeob+/nxMnThAdHe22YqmuriYqKmrqawD/6FTM+gYcTiON
+      dUOkZ8Rc65glwTcmm8e++jRPP76F/rN5tFgNDAyaCQwKQCaRgERKRGQUxv4uDFY7ff2DCIKI
+      INjp69fjEiQExs/kS089zdNfWkPP+RM0mcA01I9RFsLDT32b2V6DFDV2AgI1VbUkT8sce39j
+      H/veeI6f/exn/Pr516jv/esp3LCkVFqvnGNUEOmsLEEVkUz75YOUm+N44ulvsjR6lAP5ZeAw
+      0a23MX3FVr7/yELO51/A8Nk7PHn4BJmZmWRnZ0/YnhgYGMhdd93lFrt9ksDAQIxGI729vbS1
+      tSGXy9HpdAwODtLU1MS8efPcx3V2dpKUlIRSqSQ4OBhggiza6XTi7e09dVsUnX8YMfYCqtsa
+      qBUTWBQyVkgQXXYaLh7gUJWBAIWL9j4TVlGOVi1Db7UhAFJEhgYHUPsEoplMp+OyUHX2AMfr
+      jPirrPQMjmBzAigIDAlCJZMhl0kRBBHRWM/VFi1bNocDI+AVwuZt32BVVgjWnip+9J9vASCR
+      yZBOkuAKjM5gpvceTtV0M1zVx91bs2g78QG1Zc28ZawGIHa6PzCM1tsfXy81ikE5gujCky/7
+      /4tWqyUsLIzdu3cjlUrJyclBIpFw8uRJlixZgre3t/u1LpfLvYl+vFPk9VOgpKQk9uzZcxO+
+      QApv5kxT8P6hIpKnz0HHmF2hyzLKxxeb2PjdH5Ep7eHXTS8DSrJn55J3Ip+B+XH4S0c4da6S
+      GXd/HR+JBZngwC64EA0jWF2AsZf8y91s/J//i1RHLc+1v/MpH0KgtagY1fR5hP8NgwCfkFgs
+      3TXoLffgLehp6LCQsigUiUrH6rVz+O1br6AOz2ZTtI7W8CgCh8L48pP34y23M2QUYKB5yl+N
+      h38OJSUlaLVannnmGQRBYPfu3Wg0GioqKqitrcXlclFfX49KpSIxMZGenh7S09NxOByYzeYJ
+      vkBhYWE89thjUwsAuUKBTCInac4cGt7fw/I1G0DSg0qpQK7xZk5GIO88/xzpCVFYBClSCUTM
+      WM2Gtrd58dlfITiHqe7z5vdPRaCWGZkV5eSF518gIS4Q5EokXsHMTlezY/tvyEmLwiRKkQIy
+      hdJtwyhTKJCJdi5d7WXOxvVcK2QjVyiRXnsNEikKlQIJEJK4gPtmNfK7X/4CpcSFJnYF21LH
+      rhBB01ehfPZLRK1+GF8ZpN69mWk1L/GLn9UQGBBI+oJ7WB8kQ6W89vVIZagU8ju8Serfj/EM
+      jMvlwul0YrPZsNvtyGQyHA4Hdrsdu92O1WpFqVRO6AxZUlLCzJkzsdls9PX1sWTJEn76058C
+      Y+a5O3bsYNu2be6f09PTqaysJCgoCLVajdPpRCqVYjKZ6O3t/ecUwhzmAV75yQ9x3fU1Hl+X
+      i/ozLiStg7W88OppvvLM4/h/1kEA52gbP//1a2z75vdJCfYYbv2zcblcnDhxgsrKSvdjaWlp
+      pKamcuzYMfdcXaPRsGXLFg4fPszcuXNJT0+nvLycc+fOIZfLWb16NdHR0e55v91u58qVK8yZ
+      Mwe5XE5jYyMfffQRkZGRrFu3DofDwZtvvsmaNWsICgri5MmT/6RKsChgGh5g1KEkJNgP2We8
+      lOqrjnOyL4H7Fyd95jEMvbXs2vkB4YseZmVuDAqp57r+eWZwcJC6ujpmzZo1YQrzWejt7aW1
+      tZXZs2e7g2ZSLZAHD3cKN4SUKIoeNaiHOwZPWcfDHc2UJlWCy4kgSpDJZEgkY3cJweVC5C+P
+      fZIxvxYXgiAikUiRyaQgkdyQSREFFy6XcJ2oTYJUJgVBGMvlexrpefgHMqUAePdXT/FRkxff
+      +vlvyA2RYx1s4Y//94dcEabxq5/+b2J9bzxmoP4COz7IR1RqkcjVzF6+ibsyw28IgKHGAt47
+      dom2qiv0KBLIjo9l3qolXHn1RWb/8EcsCPG5cXAPn4rT6aSiooLw8HBCQ0MnPF5SUoKvry/J
+      ycnYbDZOnDiBw+FAIpEwY8YM4uLi3K93uVw0NTVRWVmJj48Pc+bMQafTYTKZuHz5MqIoMnfu
+      XHfxSRRFOjo6aGlpYc6cORP6cplMJgoKCjCbzeTm5hIQEMClS5fce3clEgkZGRmkpKRgtVq5
+      dOkSRqORrKysCZ+po6ODoqIitwjOy8uL+fPnY7FYKCkpwWKxEBcXx7Rp0xAEgeLiYnp6etBo
+      NG6HiPHFb2trKyUlJch+/OMf//j6L3BcRXc9V69cISDcD6M0iqzYAAbbSmlrN9FmkbN8yUI0
+      jkFaWlrp6R/EKVPjpXZxetcbWKdt4+uPrGVmdiqBvl6oFVLMw700t7QxYnGh02nxDo5h9tz5
+      eI9W4ki9n298aQ1R3nIKPj5NYPY0XP09DFnBx0uLZbCLAasML40Ss76TAYsML40c81AvTS1t
+      jFic6HQ6d+3gTsNoNHLw4EHOnz9PSEgIkZGR7ufq6urIz8/HbDaTnp5OZ2cnNTU1zJo1i9DQ
+      UIKCgiactA0NDZSUlJCVlcXIyAiVlZUkJydz6NAhvLy8kMlklJSUkJqaikwmw2Aw8NFHH1FT
+      U0N2drZ715UoijQ1NeFwOPD19eXEiRNMmzYNnU5HYGAgoaGhdHZ2IpFICA0N5dChQ/j5+REZ
+      GYnD4XDLGACkUik6nY7Q0FB8fX0pKioiIyODpqYmvL29iYiI4MqVK8jlchQKBe3t7SQlJeFw
+      OLh48SJpaWnuTJJUKsXLy2vqPcLCk5LoqK/FtSiB3uY6QtLTkA00Ag6aygup6rMhWvooanLx
+      ve99ET9fFceLi9EviCdQ641SIsHSW8uOHfvwTszA2FKJ78z72boo5VMKTMNUlVZjU1o4e66a
+      L/7HdzGdfJ2T0rV8+4EZ1H/8Bh+xhqeW+rDnncN4xycw0lRH4NzNbJ6XcJOnzu2B0+lk8eLF
+      E06a8aRGcXExc+fOpaOjAxhLCaalpZGQkIBEIrlBexMXF0diYiJSqRQ/Pz+OHz/OwMAAgiC4
+      xWp79+6lv7+f8PBwiouLSUxMxGw2TxhHIpGQlpbmljmXl5cjCIK7od54Y7ucnBxaW1tRq9XM
+      nz/WVeiT1upeXl54eXkhiiLFxcVkZmbi7+/P3Llz3dnL/v5+DAYD06dPZ8WKFYiiSGRkpLtS
+      PI6Pjw8+Pj5Tl0L4h6XSXncBg7WH6gYV81YEsudsI6AgcVo2/QUlDDo0mOtLaHPA3C3fQnHq
+      IK9u/xkEJHH/A/cxfO4IpphlPLl5DiONIfzyjWOsWpRCwKTv6EfuooXM9ZHQcPoi/TY7k5Ws
+      movyqOgXWBTjQqG0cv5CyR0bAH5+fsCYd844oiiSn59PdnY2Op3OHQBKpZKPP/7Y3W1l27Zt
+      hIeHuwNBqVQiiiJdXV2cOnWKmTNnMjo6SnBwsHtDeXBwMCMjI5jNZkZGRli3bh0VFRWTfrbC
+      wkJKS0vJzMyc0Ee4oqKC+Ph4fHx8KC0tpb6+nj/+8Y9YLBbS0tJYt27dDYFgs9moqqpi/fr1
+      SKVSHA4Hp0+fpq2tDY1Gw8aNGxFFkfr6ekpKStDr9dxzzz2TNtiYcgDIvXzJVFu4UtbAYGgc
+      keoxHbZoG2Hfuy/jzFzNrPQQqi7UAiBVaJl9zzamLxyl8MDLvH20gKVyB3LfMfWfTC5DYrFx
+      qwlXh8mIJCCKjIwMyMhgsU/w3z7oDqKzs5OGhgYiIyNpbm6mt7eXvr4+ZsyYwYwZM3C5XNTW
+      1nLq1Cm2bt3qniIIgkBtbS0XL15k6dKlxMbG0tjYOGGjisPhQBAETp48SVpaGnV1dej1etra
+      2samF9cVrqKiojAajTQ0NJCTk4NWq8XhcNDQ0MDKlSuBsbtFZmYmK1euxGq1smvXLoaHhwkI
+      +MslUhRFmpubCQgIcK8/ZDIZSUlJ+Pv7U15eTnt7OykpKQQFBZGVlUVzczMVFRVER0dPUJ+K
+      ongTaVCJhtzcYA4fLiA2PtodOYLDTlevieRp6QSo7QwMmgADVz48QXW3AZlcjsPuQKPREJee
+      Tv/VAnotDurKi1AkZRByE/9MlUqF2WTCMjpAU+eYAVdwYirOlhqkwTHERgRgGBm9iRFvf2Qy
+      GXFxcbS2ttLa2kp/fz99fX04HI6xE0AqJTAw8IZ1X2dnJ5cvX+ahhx4iPj7ePRXS6/U4HA6c
+      TicDAwP4+fkRHx/P6OgoDQ0NDA4OuhvUAe7dWWFhYSxatAiVSkVPTw+iKFJbW0tAQIDb5ycw
+      MJDBwUGkUilqtdrt73k9DoeD4uJiZs+ejUwmc7dXjY2NJTc3l0WLFlFaWgqM+Qalp6ezatUq
+      BgYGGB2deG44nc6p3QGSsmfh76shKGYpM8vPkREfDthYMm8Gvv6BPPToWna9+xrtaTO5d/Ny
+      AuW+aNJCOHboDY4aXUSkLOLr987DW+bkCeU5dr/4HF5xuXzjsUXuDxCSlEuWMmAsIuVKsubP
+      I1StQCKTkDlvHmEaFbHLHyblrfd558AgGZkL0AUEEpWdxb9/ScsHrz+PzCuUectX39wZcpsg
+      iiJtbW1cvXqV6upqVCoVRqORuXPnsn79egCam5spKioiPT2djz/+mL6+PrRaLS0tLWzevNm9
+      IyszM5Py8nKMRiMnTpwAIDQ0lNmzZxMUFMRbb72FRCIhPDyc8PDwCYvt7u5uFixYgEKhoLS0
+      lOTkZK5cueL28hwcHCQkJASr1UpRUREbN250T3GSkpKoqqrizTffRKFQ4O3tTUBAAE1NTe7F
+      b11dHf7+/oSEjF06HQ4Hhw4dcrc+6uzsZNGiRVRUVFBUVISfnx8WiwWtVouXlxd1dXUEBgYS
+      EBBAfX29xxfodkEURUZGRujr63MvCJVKJVFRUe7m0DabDbPZjJ+fHy6Xi87OTmw2Gz4+PoSG
+      htLc3ExxcTGbN29maGhogsWgTqdzZ2Y6O8ek8BERERMyRzC2CPX396e1tZXy8nLWrl2LIAh0
+      dXUhCAIhISF4e3vjcrnc05vr5/g2m23C+KIosm/fPlasWEFISAgGgwGJROI2vRVFkdHRUfr7
+      +3G5XPj4+BASEuJuz2qxWFAoFERERGC1Wjl06BCbNm3Cy8trbCxPAHgYp7+/H6VSeUOD6ptl
+      fPEcEBCARqO5pbFMJhOjo6NuL9BbYXR0FIvFMqE+MmkAfNqOfA8ebjc8xlge7mg8YjgPdzRT
+      ygLVF52kaVjH3IXz8FOCYDdRVnAWvSSYubNn4v3JzhXWIS5cKmBg9C+78H2j0pgeqaCy2cTs
+      edMmaXYhoG+ppMURwszkv8zRBIeN0qIi4nNm46eU0FR+CVtQNtGSDmpGfJmREYlcdNFefQWz
+      3zRSIybvCOLBw2RM6Q5w4dgeDux/m6JWIyJg1Ddzau/b/OHtA+jNkxwgUxEeGUO8qp/3jxbi
+      FRFPRLAfxr4GTuYXcWPPPgCB9qJjfHChYcKjTruZfTvfotNgw9xfxcuvHcIqiugrPmZXXiUO
+      ANFFed675Ff97cYIHj6/iKJIf38/O3bs4Pz585M+Pzg4yKFDhzh06BCCILizX6+//jq//OUv
+      OXXqFA6HA6vVyvHjx/n1r3/Nb37zGyoqKibUFMrLy/nFL34xxUqw3I+c7BCqy2tZmjST4Y56
+      vKOmIW+2AAIDDYXs+/A8ww4F05esYfmMeOKT00Hegc7HTFpmFhEaMCpiyUyXIgfOH3kXMSiG
+      hqLLCME5bFq/EAC7oYdj771CRZ+MDQ9vI248iSAYOf/BHsJXfoGsSF86qz7tw3r4V2VwcJBT
+      p05hsVgwGAw3PG+32zlx4gSCIOB0Ot1FtpMnT5KamsrWrVt5++23iYuLQ6fToVar+cY3voHR
+      aOS9994jLi7OnT7Nzs4mOzt76muAkKQMRtsqcAo2GquaSM9Nu3awC7PLm/WP/A8e37qY4y+9
+      TIvZPukY1sEOzl4sxQZUnT3I5XZ44MtfxVy2h4t1Y76dBv0o01Zt4e6gLnYeKxs70DbAR++9
+      wdHeKP5tTSYKKYBAT2MxHx46xKHDRylt7Pv0fmMe/iUICAjggQceICcn5wb9D4zVNR544AHu
+      vvtu9/MOh4ORkRGysrLQaDTMnDmT5uZmgoODWbhwISqVCqvVeoM0Y5wpa4G8/KPwtVXTOdhK
+      3XAE982/VgARJcjtPbz32kFMJiMdHcOMTMUEV+VDclIsXhovNHIBh3NMqRcYl0JUgBd6jQrH
+      8LV0rExNSFgo3b16DFYXXjo5IEHjHUhUTAwqwUmHt9pjW/IvzmSq1E8+Py7EG0cURVQqFXK5
+      HIlEgo+PDwMDA0gkEpxOJ6WlpRQXF7Nu3bobinY3pQWSanyZGW7hVH4lksQEgq99Dpd5kJ07
+      jzBryxP8x/e+xfz0m1H3TBG5FzOWrGVjqoWX91zA6hQBCb4hsWRNn8706VnEhPh4AuAORCKR
+      YLPZ3Nojg8GAXC5HEATy8/Npbm5m69atRERETBpcNyGGU5K7eCbHDpwjKS7qLw/LVUT7yyk4
+      k8+Hx45R2fIPWohKtcx94N9QFL7L8audnr4AHgDcmqGamhqsVislJSXExcXR0dFBT08PGzdu
+      /NTKttFonFohrLe9GVVgJH4qOzW13UTEx+GDgepOA/FxMQij3TS09aPzD0HhshMQG42XTArW
+      Ieq7LcTERKCSgcM8TFuvkdj4KPpb61EGxhDopaKntR55YDRq6wADLh/iQr0xDnQy4PImJkhH
+      W0szwTEJaOUS9J1NmJShhCoMdJk1xEb6IxMFBruasWkjCff3tIj/V6WhoYH9+/czMDCA0+kk
+      IiKCL3zhCxQXFxMXF0dAQABvvfUWIyMjjIyMEB0dzX333Yevry979uxhcHCQnJwcli9fTklJ
+      Cbt378bf3x8Yk2Pfd9995OfnM336dKKjoykpKfFUgj18vhnPDK1Zs+aWdUVdXV1cvnz5r3eJ
+      9ODh88R4rl8qld6yGG58rOsX0pOK4ez2ydOYHjzcbkyaBv3kLhwPHm5XPGI4D3c0UyqE5b31
+      cwpGU3nqyfvwl1vJ3/0OTNvIkvSgW3pzl81A+YWPOVvaALpgVq6/H6HiAJW6OTy4IOmWxr6e
+      2rO7OXixmdFBPXIff3SqQB548n8Qp/u7vcUdj9PpZHh4GH9//xuKVTC202toaAiNRuN2hbBY
+      LAwPDyOXywkICMBisTA6Oure0aZQKAgODp5QFbbb7e59w4GBgchkMlwul3uvsre3t3uz/Pjj
+      LpcLPz8/NBrNhHWEIAhTC4DevmHsxmIuVC9mTZaGvrZGiJlc0jZ1XNSd3sXeKh++8+Q30DiH
+      0JsF2ntaafdNv8WxJ5K6cAv/vsDBK//5fWK3/RurEv4Bxbo7GKPRyLFjxzh37hz/9V//NcHF
+      AcaC44MPPsBmsxESEsI999yDwWBg3759KBQKpFIpS5YsYXR0lJKSEkRRxGw209nZyQ9/+EN3
+      BVcQBD788EN6e3txOBzMnDmT2bNnc+nSJcrKyvD29mZ4eJgHH3yQoKAg8vLy6O7uRqFQkJyc
+      PMEWXRAELl26NEUphFRDzqJ51J/Px55x71/+MFMfx/a8T1mXGR+dDL02ix8/fg8Fh1/lbM0g
+      NsMIoXPvZ9NsNb/ffpCn/te3CZVZeOO/t5N+30MUna1j1eP/B3+NAgkhRHlDOy56m6/y7stn
+      qW4dZNFDTzFHWsqzB4b45g+3Ia8+zvb9ep769np2/uT7RMxbzlBTPZ2OEL7x9S+gM9bzxhsf
+      YJRp8ZKa0M74Al9eGjfJf62B7c++y8qn/jdZ2kZ+9+xOlj/1X2R7YuOm6enpcTvIfRJRFCkt
+      LXW7Qoy7OFy5coWcnBxycnLcV/yIiAjS0tKAMR+hxMTECTYmvb29mM1mvvSlL+Fyudi1axcJ
+      CQnU1dWxdetWAgICOH36NI2NjbhcLkZGRnjkkUdQKBTuLjPj9PX10dzcPPU1gG9YMjGuNsqu
+      68LYVppH4VAYz3zn31k3OwrDtS8gMXc5Wx96mEceXEjj6TwM0igy/fVcahjFPNpOpyOIFJ2A
+      3qbE30/5CQmDBG1ADPd9+WnuSVFR1tiF6HJgtdoRGGvAbbHaERGxWu1EZN7NV578Gpq+UnoM
+      ei4f2IU050G+/e2nyPS2Y3B8yoJedGGzWnCJ1/3sWft/JpKSkkhMTJxUbCYIAg0NDXR3d/On
+      P/2JixcvYrfbaWpqorq6mu3bt7Nz584JUx+n00lDQwMZGRkTTtr+/n4iIiJQKpXuqZTFYiEs
+      LIyrV6+6rV8iIyNpbW1Fr9fz0ksv8fzzz1NfXz+h90VfXx+jo6NTF8NJFT6sWJXOyx9eIkAA
+      HdDX0YRv1Dp8VDIGx+dp4ggf732PLnkwgd4WbHYLglTH4kU5/OFsAUlZA/hmLMDXR4u33IHR
+      5ALf6+eMUrx9fVHJxxylhb8mrJNr8PPRIpVKkUoERJuBxvZ+klbHQfINAAAV7UlEQVSmoJRZ
+      bzlv7OHWGZ/OZGVlkZKSwjvvvENMTAxWq5UlS5aQlJREYWEhH3/8MZs2bQKgtrYWX1/fCRaP
+      MDanv17QNt75MSwsjPLyclpbW92tU00mE8HBwWzYsAGDwcD7779PRESEe/1ht9tRqVQ3kwWS
+      4JO0jGh7EVXtwwD4BYcz3NmMySlgNhpxCoCpncoOOeu2PsKapbljkgikhM5aQcRgPgfy2pm3
+      IAuZVwR3zwjj5JE8Ru1ObOZhBoYn210DMpkcl2DH6XAwPDSEy/UpQaHQEhHkQ0tzC3a7HaP5
+      r7hbyGRIhbFmbcaRYSwOTxPgfwRSqZSQkBBkMhk+Pj7ExsbicDgICgpyz/8TEhJwuVwIgoDN
+      ZqO0tJTZs2ffIIn28/Ojp6cHQRBwuVwMDQ0hkUgoKirivvvu47HHHiMnJ4dz584RHh6OTCZD
+      oVDg5+dHUFDQBLMHX19f1Gr11AJA5+OHWiEFiYo5udOxChK0KjkJs+4lQ1HP77a/wMW6fpBI
+      QRtPTryDd196kfyKHrz9fJFLQSIPISfNly5pHNlhSiQSJTNWP8RMrw5efu53/PH1PbQPO1Dq
+      fPHRjM37VDoffLRKtDFZpGk7eP2FVynpsODr54VMIsXXPwCldExC6+sfgELhw933PcDw2df5
+      42u7aRqwTPgSvf390civ3W3UkczOCuHwG7/nw4Jm1D7+KG9MXniYAqOjo/T29mI0Gunv72do
+      aAhBEBgZGUEURXJzczl//jxlZWV0dXUREhJCVlYWeXl5tLW1UVhY6D5hOzs70Wq1bg0P/MVA
+      NyIiAr1eT1lZGefPn0etVhMUFIREIqGqqoquri7KysoIDg4mJiaGjo4Orl69Sk1NDXa7Ha1W
+      i9FoxG63Ex4ejtlsvjVfoFF9J6MOLRGhPlze8xwXhLl8d+uCyV8sOjj2xnaGEzazbXHKZ/+2
+      /ypOeppaUITF4SMO8O7vniVwy49Zm+rJd/4jKSgooKamxv17ZGQkWVlZ7Nu3j0cffRSdTkdz
+      czNlZWXMmjWLyMhIRFGkurqa0tJS4uLimDdvHlKplIaGBvz8/NzTH5fLxc6dO5k/fz7JyckM
+      DAxw9uxZVCoVS5cuRa1WYzQaOXv2LENDQ6SmppKTk4NMJkOv13PmzBkkEgnLly9HoVCwc+dO
+      1q5dS3h4+ORq0JsJAMtgKyeOHae+cwS/mEzW3LuMcF/VjS90mDlzdBetJLNh9Tx8/2GXWhcD
+      DSXs++gco1YJ0dMXsmlZLkpPue+fiiiKVFVVERIS4r5Cf1aGhobo6OggMzNz0l1iN8O4L+r1
+      i+tJA2C8T6sHD7c7HjWohzsaz+TAwx3NlOoA5lE9FkGFv58XUgTMBgOovNDe0lxexGIYwWh1
+      ABKUGi98dOpJO05OhmA3ox8xASCVq/D19b5je4N5+Ozc0CRvMt75+eM8t6+a3KVLCFCa2f27
+      n1CtnEZ29K10cLRw5Pf/k5fymxjqqOZ0/kWEwARigr0mDQLLYDt5Z8qISopFARhKd/PFH+/E
+      Yuyn5OwpKodVpCdEoJB5guD/B0ajkY8//piIiAi3Hfv1dHV1cfjwYSwWC+Hh4QA0Njayf/9+
+      mpqaiI6Opra2loMHD1JYWEhRURFNTU0kJydPENf19fVx8OBBGhoaiI2NRaFQYLFYOHLkCOfO
+      nUMURbf7c1lZGUePHmVgYIC4uLhJF9FTqwRropmfrePU6avEr7m+/5bAcHcLNU1dKL18UfuG
+      khEXgr6jloa2fhwoic/IJkRtpqpugPTMJJQSF231tSgjokGuZtaqrTy+KIqB5gv83+dfJeX/
+      fI8A1wAVNS1YnRICY5JJi9FRefYk7+wrBK2ExKTphCEhPHUBX3x8GyrrAC///Cfkxcexfloo
+      hv42aho7ENWBZGWlonKZqKtuwydMRUdTL+rQBKYnhk35n+vhr9PS0sKxY8doaGhg9uzZN/Ti
+      GhwcZP/+/SxfvhyXy4UoijQ2NpKfn8/q1auxWCzYbDaSkpLcwdHd3c3ly5cnnPxWq5W9e/cy
+      f/58RkdHOXDgAJs2bWLPnj3ExMQwe/ZsDh065O5vVlxczMqVKykoKODYsWPce++9E8YTBGGK
+      awCJlIScuxioPM/oddoaU1cFr778Ni3DVjqu5vGn3acBaKoqY9BkZ7TxPH9+/TD9o6Pseekl
+      6odtOMyD7Hz1DXosjuuGlxEQMY1YaSdVA2b6GivpGDZjGWjkrT+8TJNJdLuAiYLAxGW7BJWX
+      P7Onh1Nc0ozD2MxLz71O26CR1sv7ee1AAYbBTl7/719xuqYX40ALr/7+dfqm+t/18Dfx9vbm
+      wQcfJC0t7YaUpyiKFBQUMH36dIKDg0lIGLuAFhUVMW/ePDQaDaGhoQQGBqLVagkODiYoKIje
+      3l53Pn+cjo4OQkJCyM7O5q677sJut6PX67HZbKSnpxMeHk5iYiIGg4GGhgaWLVtGdHQ0K1as
+      oLm5eUJ2UxRFent7p64F0gbHsiz8EkevDrgtSWoLPsIYuZhtaxfTfKGP4x1jJ3V8cgqtF0oZ
+      MlnprSvBLFvHkmwleZfbCEvtxOw/nWR/DS3XjS+VytAoZdicIqFJGSibTtE6NICpu5zmPi25
+      09IIONPJ/MWL8QdGu687WCJBo9ViN1rpvHCI/qjFfH3NUuTWRH7476/Tn7kViTSEOUsWEN0X
+      zIl9xYzATfUn8/DpTNZjbByXy0V7ezsOh4OSkhLkcjkPPfQQra2tjI6O4nK5MBqNrF27lvT0
+      dCQSCSaTifb2dne71HGGh4cJDw93T2X8/f1xOBzMnTuXXbt2IZfLkclkPPjgg1gsFiorK4mM
+      jMRisWC1WidIISwWC3l5eTfjC6Qid/29dJ44TK9p7C5gs1pQKD9hQ2Jr4c/P78Yv4242bF5J
+      hFIOUhULVq2kp+AUly4Wk7hgERr5xCuFzTJIu1FJvK+Zg3/+Ez2+2azdsJqsyMC/+dFEl5Om
+      hnYS4mNw2O3IFYprf5gUQXT+dUGdh38oEokEuVzOqlWreOKJJ/D19aW7uxsvLy82btzIk08+
+      yZYtWygpKXHrgS5cuOBu63o9MpkMi8Xi/t1msyEIAtXV1cyePZt169bh6+tLS0sLCxYswGKx
+      8Nvf/pZDhw65P8s4ly5dYmRk5ObSoHK/DLJChihuGPPxjErMZLjuInXdA7S3d2JxAoIVi1OK
+      j05Nf0M9fQ4XIEETO480RQn7z1m4a2Y0YwkbEYtxhIGeVvL278Y7dw0J3nJMZhvefn5YB7pp
+      7R8CQKP1xodRGtoGMFjGNu077WaGB/upvvQhl/SRLM2NJGrmIhyVZ6hp6aDqTB7apLkE+ExS
+      nfbwT0EqlRIbG0tdXZ3bkUGlUhEcHExLS4vb8UEmkyGRSDAajbS3t086nQoLC6OjowOr1YrR
+      aGRkZAS1Wk1fXx/p6elERkaSlpZGbW0tSqWSTZs28YMf/IBVq1YRFhY2wVYlNjaWzMzMqWWB
+      REEgLCYBf62KkJAQRIWOaVnZpKRlEKEc5vTZYlxSF/12f+5ddDeRvmauXKlAlzSdtOBQ4lLi
+      0SoUMNpIkzybLQvHusOLdhttDZVU1bURmLmCR9fNQaXUERsbSOm505h0keSkJhGVmEJIcAAp
+      EWrOnDyD0z+e2EANvZ3N1NXUMCiG8NhXHiHKW4HcK4LsBDUXT5+lW4zny4+twVchAZmaxPQk
+      NKKIKFORmJE8aeNtDzfPxYsXOX78OMXFxfT29jI8PExMTAwXL14kKCiImJgY8vPzuXLlCkql
+      kvnz5xMaGsqRI0eoqKigqqqKxYsXExAQQHFxMd7e3qSkpLgDoLKyEpvNRnh4OM3NzZw6dYqC
+      ggJyc3NJTU1Fr9eTn5/P1atXqaqqYtmyZTidTt5//32Ki4u5evWquzFeWdmY4XJMTAzx8fG3
+      VgkeaL1KcXUvXt5qqi7loZ31MA9PJnRzOWirL+PA/uNkb36cxame2fftxHi3+HHGewE3Njay
+      evVq5HI5FosFo9GIt7e3W9NvMpkwGo2o1Wq3faHFYkEul7t3gplMJj744APWrFlDYGAgdrud
+      4eFhpFIp/v7+SKVSd8dJp9OJVqvF29sbQRAYHh7G4XCg0+nw8vJCr9dz9OhRtmzZ4r4b3FIA
+      OC3D1NXU0DtkxisklszUeLSKSWZVLjuNVaUYlBFkJkcx2Us83D6IokhfX59bc38rmM1mTCbT
+      LYvqYCyYLBaLuzE3TBIAoih+6oreg4fbjRvSoKIoetqkerhj8ExGPNzRTKkQZh3q4ML5y/QY
+      XUSn5jIrKwGN/MbYsRjauFioZ+GiHI8mx8O/BFMIAAM7nnuBgCUPsSjbm+r6FoZGI9EE3GhV
+      bRlp4vDRKubdNd0TAHcQVquVc+fOcfXqVVQqFZs2bSIiIsL9vCAI1NTU0N3dzfLly4GxIlZl
+      ZSWnT5/m4YcfJjQ0lMHBQY4ePUpPTw9yuZz58+czZ86cCYvfpqYmTp06xeDgIDNmzGDp0qU4
+      HA6Ki4s5f/48X//619FqtTidTk6dOkV5eTk6nY77779/wkLa5XJRWFg4lQAYoLlLwvykRCIj
+      vIiKSQBEXLZhTu7bzdUuMwkzl7H27mmTHCsy0lnDh8dO0mmUsXDtFmYmBiLz2JXcVlRWVmK3
+      2/na176Gw+G4wRqxvb2dpqamCWrM2tpaent7UavVuFxj/eGUSiXLly8nNDSU/v5+9u7dy/Tp
+      092ZJLvdzrlz51ixYgVRUVGMjo66339kZASZTOb2/unt7aWjo4OnnnqK1tZWTp06xebNm91K
+      1b6+PiorK6eyBohmxV2+7Hz5T+z98Az9Zic4LZx8479p8r+Lp776KNZLb7G/bBJ5mUPPm396
+      nYC5D/D0o8s5/ubzlHeabvoL9vD5pqamBkEQOHDgAEVFRTc8Hxsb65YpjJOdnc3q1avdPj0A
+      Xl5ehIWF4XQ6aWpqIjg4eIK0uq2tDbvdTkVFBfv27cNoNCKVSpk5cybLly+fMH5LSwvTpk1D
+      q9WSmJiIzWabsNe9v7+f+Pj4qQSAnMUPfZNvP34/wY5mnv3V77ja3E1ZlZl5dyWh9Qpgdk4M
+      VaW1NzbA7qumhTgyE0JRBSaT7m2nrrv/b7+lh38p+vv7kcvlzJ07l+HhYc6cOfOZxyopKWH7
+      9u1UVFSM9fG97q5hNBoxGAwkJSWRmZnp1vpPxrhRLoxpgNRqNZ8seWk0milMgQQHdkFOUGQ8
+      iyJjaS78LvWDBrx0IqMjTkSdhNERMzpfH+QMTzxW643GacJqcyGqXYw6BELVHl3O7UZQUBDp
+      6enExsai1WrJy8tze4DeLLm5ueTk5NDU1MTp06eJjIx0N7fW6XRER0eTnJyMVCqlvb0dvV5/
+      g4McjFWjx32Jxp1Org+mcdXp3w4ASztvvngITVgIKtFAu082j6WkoNy6gjfffpmWcB86OlRs
+      eSoTmek8lu5aPtizC5VGx6xFK1kz6zz7332DMKWRwbCFrE/ybES53YiNjeXixYuEhYXR0tKC
+      l5fXZzr5e3p6sNvtREVF4efnh8VimVCTioqK4tixYzQ2NhIZGUlPTw+ZmZmTjhUfH8/BgwfJ
+      yMigoaEBjUYzoSodGhrKhQsXpuALJAoYh/UMGy0ISPHxD8ZXp0KCi6H+XgxWF1rfQAJ9NAhO
+      C71d/Ti4tsklJByN1I5+QI/VKSEgOBSdWu7p53ubYbPZOHPmDOXl5URERHDPPfegVCrZv38/
+      GzZsoKamhjNnzmA2m9FoNDzwwAPU1NRQUVHByMgIOp2OrKwscnNzycvLo6+vD7VazV133UV2
+      djYffvghycnJpKSk0NLSwokTJzCbzSxZsoSMjAw++ugjqqurGRkZwcfHh5ycHJYtW0ZRURGX
+      Ll3C39+fzZs3o1arOXz4MLNnzyYyMpLq6upbM8by4GEyRFGkqKgIlUrFtGnTbknDMzg4yOXL
+      l1m2bNkNnd5vlu7ubsrKyli1apV7OuQJAA93NJOK4TxeWR7uFDzOcB7uaDxiOA93NFOQQgg0
+      XP6QI2euYnBCSEIu961dQpCX8oZXDvdc5g9v1POd7z6MxrPrxcNnQBAE+vr6UKlUE3oEjCOK
+      IkNDQzidToKDg90LbKvVSm9vL1FRUW4phiiK9PT0oNFo8PPzmzCOy+Wit7d3KneAXna8doxZ
+      m77Kf37/O6yYFY9cAogigsuJ0+nEda0FvctupKtLz19MGMSxnf6iOPFnUURwucaOdQnX1h1j
+      XT/GHxcEEfHaH+FyXnsflwvPhO32xel0cubMGX77299y4cKFG54XRZHLly/zwgsvcOTIEYRr
+      551er+fVV19l+/btbtcIp9PJRx99xO9//3suX758w1h6vZ68vLyp3AEkCA4zvX16XIkBJCQm
+      AwIDded5aedxRIUSuyKIrzz1ODe2oRjm59/7ESu/9hPmJcEvv/8jlj75Y6ZrO3j5jb0YJUps
+      TjVbHn+CaMPHfOfZy9y7MJHG6jIk6ffznYfmUndqFzs/biAoyBt9az8P/ORXzLzxwuDhNsBg
+      MBAcHMyWLVsm7Thpt9tRKpU8+uijXLx4EfiLwdXmzZs5ePCg+7XjFowbNmyYYKUyTkhICI89
+      9thU7gAhfOWZrbTmv8MvfvU7TpY2YTEMsX/HXjK3foMf/OC7LAvqYu+ZeqbUZNFl4fQH76Kd
+      8yg/+MEPeGimkr1HCrABSq8glm56jKceW05ndRUjXY3s+bCGh773H3znSxuRi56darcz/v7+
+      ZGZmfmrdQKVSkZubO0EgJ5VKycjIIDBwon+Ut7c306dP/6tNNabmCyRKiM1Zybd++B985f6F
+      nPjzbzhb20FXr0hcnA9yhZqoSH962jqxT+WvdDpo7zERGReCQiYjIiKc4dYOTIBCrUWtlI99
+      aFHENDrEsERHjL8aqUQyZedoDx6mgsFgmEIAWHu4VFCDwSElNCaeQLUcl0LLtBQlhQXtWC3D
+      FJW2kTo9jRv3/8tRSJxYHHZM+l4GLQIo1WSnBVNxpRqTzUppSSUROZn4TvLWOl9/fB2D1PWY
+      MJsNWCxTCjEPHqZEVFTUFNYAcjVDDWf586l9OEUpkcse5q60eORRT7L33b08e8FJUOIats6K
+      QDLUjb+9ie2//jkKjS+rt32FFUtzObL7VVqzs4iMicZLoyFt0+P07t3D7589iS48my+sykI1
+      ZCIm0olMAqLal5hIK9rgJL6wbQE7/7Sd8qhQLKKCW2wT5eFzjNFopLOzk7a2NgwGA7W1tcTF
+      xWE0GlEqlSiVSlpaWujq6qK3t5e6ujqioqIYGRlBr9fT399PbW0t4eHh+Pj40NbWRltbGxaL
+      hbq6OmJjYxkdHUWn09HX18f/25UrVwb5RNi39wyXHr9jUFNWZPh8az9D87zzDHWdJQwio9eZ
+      Dkvw4sULhtOnT8NXgLKxsTFYW1szrF27lsHR0ZFBVFSU4dChQwy/fkFaAqysrAwmJiYMjx8/
+      Znjy5AncHAUFBQYpKSmUkSQODg4GY2NjhnXr1jEEBQUx8PPzM1y6dIkBABOxuzzc9Y33AAAA
+      AElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

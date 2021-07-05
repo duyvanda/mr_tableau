@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<error xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <code>100</code>
+    <message>Item not found</message>
+    <details>Datasource with url raw_data could not be found. (errorCode=11)</details>
+</error>

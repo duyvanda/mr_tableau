@@ -1,0 +1,1520 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0511.0935                               -->
+<workbook original-version='18.1' source-build='2021.1.2 (20211.21.0511.0935)' source-platform='win' version='18.1' xml:base='http://203.205.27.73' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='Book1' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='raw_data' inline='true' name='federated.0bwgo040vrhh4k12q12w40qa6d7c' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='raw_data' name='cloudfile:googledrive-textscan.0esmuqq0feupx810q35z80jbxcdm'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='167Peg-qeua9vEbql07PMzXYjq1_faEHh' cloudFileMetadata_-_folder='1nTlohjovIm7e2pf2LSHf3wGnyuuStGbh' cloudFileName='raw_data.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/167Peg-qeua9vEbql07PMzXYjq1_faEHh?alt=media' filename='raw_data.csv' server='' server-oauth='server-custom' userLanguage='en' username='bimerap.main@gmail.com' workgroup-auth-mode='prompt' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.0esmuqq0feupx810q35z80jbxcdm' name='raw_data.csv' table='[raw_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='_Ma_Cong_Ty/CN' ordinal='0' />
+            <column datatype='string' name='_Cong_Ty/CN' ordinal='1' />
+            <column datatype='integer' name='_Ngay_Chung_Tu' ordinal='2' />
+            <column datatype='string' name='_So_Don_Dat_Hang' ordinal='3' />
+            <column datatype='string' name='_So_Don_Tra_Hang' ordinal='4' />
+            <column datatype='date' name='_Ngay_Tra_Hang' ordinal='5' />
+            <column datatype='integer' name='_Hoa_Don' ordinal='6' />
+            <column datatype='date' name='_Ngay_Toi_Han_TT' ordinal='7' />
+            <column datatype='string' name='_So_Hop_Dong' ordinal='8' />
+            <column datatype='string' name='_Trang_Thai' ordinal='9' />
+            <column datatype='string' name='_Ma_KH_Thue' ordinal='10' />
+            <column datatype='string' name='_Ten_KH_Thue' ordinal='11' />
+            <column datatype='integer' name='_Ma_So_Thue' ordinal='12' />
+            <column datatype='string' name='_Ma_KH_DMS' ordinal='13' />
+            <column datatype='string' name='_Ma_KH_Cu' ordinal='14' />
+            <column datatype='string' name='_Ten_Khach_Hang' ordinal='15' />
+            <column datatype='string' name='_Dia_Chi_KH' ordinal='16' />
+            <column datatype='string' name='_Ma_Vung_BH' ordinal='17' />
+            <column datatype='string' name='_Ten_Vung_BH' ordinal='18' />
+            <column datatype='integer' name='_Ma_Khu_Vuc' ordinal='19' />
+            <column datatype='string' name='_Ten_Khu_Vuc' ordinal='20' />
+            <column datatype='integer' name='_Ma_Tinh_KH' ordinal='21' />
+            <column datatype='string' name='_Ten_Tinh_KH' ordinal='22' />
+            <column datatype='integer' name='_Ma_Quan/HUyen' ordinal='23' />
+            <column datatype='string' name='_Ten_Quan/HUyen' ordinal='24' />
+            <column datatype='string' name='_Phuong/Xa' ordinal='25' />
+            <column datatype='string' name='_Ma_Kenh_KH' ordinal='26' />
+            <column datatype='string' name='_Ten_Kenh_KH' ordinal='27' />
+            <column datatype='string' name='_Ma_Kenh_Phu' ordinal='28' />
+            <column datatype='string' name='_Ten_Kenh_Phu' ordinal='29' />
+            <column datatype='string' name='_Ma_HCO' ordinal='30' />
+            <column datatype='string' name='_Ten_HCO' ordinal='31' />
+            <column datatype='string' name='_Ma_Phan_Loai_HCO' ordinal='32' />
+            <column datatype='string' name='_Ten_Phan_Loai_HCO' ordinal='33' />
+            <column datatype='string' name='_Ma_Phan_Hang_HCO' ordinal='34' />
+            <column datatype='string' name='_Ten_Phan_Hang_HCO' ordinal='35' />
+            <column datatype='string' name='_Ma_San_Pham' ordinal='36' />
+            <column datatype='string' name='_Ten_San_Pham_NB' ordinal='37' />
+            <column datatype='string' name='_Ten_San_Pham_Viet_Tat' ordinal='38' />
+            <column datatype='integer' name='_So_Lo' ordinal='39' />
+            <column datatype='integer' name='_So_Luong' ordinal='40' />
+            <column datatype='integer' name='_Don_Gia_(Co_VAT)' ordinal='41' />
+            <column datatype='integer' name='_Doanh_So_(Co_VAT)' ordinal='42' />
+            <column datatype='integer' name='_Don_Gia_(Chua_VAT)' ordinal='43' />
+            <column datatype='integer' name='_Doanh_So_(Chua_VAT)' ordinal='44' />
+            <column datatype='real' name='_Ngay_Dat_Don' ordinal='45' />
+            <column datatype='string' name='_Nguoi_Tao_Don' ordinal='46' />
+            <column datatype='date' name='_Ngay_Giao_Hang' ordinal='47' />
+            <column datatype='string' name='_Ma_NV' ordinal='48' />
+            <column datatype='string' name='_Ten_CVBH' ordinal='49' />
+            <column datatype='string' name='_Ma_NVGH' ordinal='50' />
+            <column datatype='string' name='_Nguoi_Giao_hang' ordinal='51' />
+            <column datatype='string' name='_Trang_Thai_Giao_Hang' ordinal='52' />
+            <column datatype='string' name='_So_Xuat_Hang' ordinal='53' />
+            <column datatype='string' name='_Don_Vi_Giao_Hang' ordinal='54' />
+            <column datatype='string' name='_Ten_Nha_Van_Chuyen' ordinal='55' />
+            <column datatype='string' name='_So_Xe' ordinal='56' />
+            <column datatype='string' name='_Nguoi_Chiu_Trach_Nhiem_No' ordinal='57' />
+            <column datatype='string' name='_Kieu_Don_Hang' ordinal='58' />
+            <column datatype='string' name='_Ma_Ly_Do' ordinal='59' />
+            <column datatype='string' name='_Ma_CSBH' ordinal='60' />
+            <column datatype='string' name='_Ma_CTKM' ordinal='61' />
+            <column datatype='string' name='_Ma_CTTL' ordinal='62' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.0esmuqq0feupx810q35z80jbxcdm' name='raw_data.csv' table='[raw_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='_Ma_Cong_Ty/CN' ordinal='0' />
+            <column datatype='string' name='_Cong_Ty/CN' ordinal='1' />
+            <column datatype='integer' name='_Ngay_Chung_Tu' ordinal='2' />
+            <column datatype='string' name='_So_Don_Dat_Hang' ordinal='3' />
+            <column datatype='string' name='_So_Don_Tra_Hang' ordinal='4' />
+            <column datatype='date' name='_Ngay_Tra_Hang' ordinal='5' />
+            <column datatype='integer' name='_Hoa_Don' ordinal='6' />
+            <column datatype='date' name='_Ngay_Toi_Han_TT' ordinal='7' />
+            <column datatype='string' name='_So_Hop_Dong' ordinal='8' />
+            <column datatype='string' name='_Trang_Thai' ordinal='9' />
+            <column datatype='string' name='_Ma_KH_Thue' ordinal='10' />
+            <column datatype='string' name='_Ten_KH_Thue' ordinal='11' />
+            <column datatype='integer' name='_Ma_So_Thue' ordinal='12' />
+            <column datatype='string' name='_Ma_KH_DMS' ordinal='13' />
+            <column datatype='string' name='_Ma_KH_Cu' ordinal='14' />
+            <column datatype='string' name='_Ten_Khach_Hang' ordinal='15' />
+            <column datatype='string' name='_Dia_Chi_KH' ordinal='16' />
+            <column datatype='string' name='_Ma_Vung_BH' ordinal='17' />
+            <column datatype='string' name='_Ten_Vung_BH' ordinal='18' />
+            <column datatype='integer' name='_Ma_Khu_Vuc' ordinal='19' />
+            <column datatype='string' name='_Ten_Khu_Vuc' ordinal='20' />
+            <column datatype='integer' name='_Ma_Tinh_KH' ordinal='21' />
+            <column datatype='string' name='_Ten_Tinh_KH' ordinal='22' />
+            <column datatype='integer' name='_Ma_Quan/HUyen' ordinal='23' />
+            <column datatype='string' name='_Ten_Quan/HUyen' ordinal='24' />
+            <column datatype='string' name='_Phuong/Xa' ordinal='25' />
+            <column datatype='string' name='_Ma_Kenh_KH' ordinal='26' />
+            <column datatype='string' name='_Ten_Kenh_KH' ordinal='27' />
+            <column datatype='string' name='_Ma_Kenh_Phu' ordinal='28' />
+            <column datatype='string' name='_Ten_Kenh_Phu' ordinal='29' />
+            <column datatype='string' name='_Ma_HCO' ordinal='30' />
+            <column datatype='string' name='_Ten_HCO' ordinal='31' />
+            <column datatype='string' name='_Ma_Phan_Loai_HCO' ordinal='32' />
+            <column datatype='string' name='_Ten_Phan_Loai_HCO' ordinal='33' />
+            <column datatype='string' name='_Ma_Phan_Hang_HCO' ordinal='34' />
+            <column datatype='string' name='_Ten_Phan_Hang_HCO' ordinal='35' />
+            <column datatype='string' name='_Ma_San_Pham' ordinal='36' />
+            <column datatype='string' name='_Ten_San_Pham_NB' ordinal='37' />
+            <column datatype='string' name='_Ten_San_Pham_Viet_Tat' ordinal='38' />
+            <column datatype='integer' name='_So_Lo' ordinal='39' />
+            <column datatype='integer' name='_So_Luong' ordinal='40' />
+            <column datatype='integer' name='_Don_Gia_(Co_VAT)' ordinal='41' />
+            <column datatype='integer' name='_Doanh_So_(Co_VAT)' ordinal='42' />
+            <column datatype='integer' name='_Don_Gia_(Chua_VAT)' ordinal='43' />
+            <column datatype='integer' name='_Doanh_So_(Chua_VAT)' ordinal='44' />
+            <column datatype='real' name='_Ngay_Dat_Don' ordinal='45' />
+            <column datatype='string' name='_Nguoi_Tao_Don' ordinal='46' />
+            <column datatype='date' name='_Ngay_Giao_Hang' ordinal='47' />
+            <column datatype='string' name='_Ma_NV' ordinal='48' />
+            <column datatype='string' name='_Ten_CVBH' ordinal='49' />
+            <column datatype='string' name='_Ma_NVGH' ordinal='50' />
+            <column datatype='string' name='_Nguoi_Giao_hang' ordinal='51' />
+            <column datatype='string' name='_Trang_Thai_Giao_Hang' ordinal='52' />
+            <column datatype='string' name='_So_Xuat_Hang' ordinal='53' />
+            <column datatype='string' name='_Don_Vi_Giao_Hang' ordinal='54' />
+            <column datatype='string' name='_Ten_Nha_Van_Chuyen' ordinal='55' />
+            <column datatype='string' name='_So_Xe' ordinal='56' />
+            <column datatype='string' name='_Nguoi_Chiu_Trach_Nhiem_No' ordinal='57' />
+            <column datatype='string' name='_Kieu_Don_Hang' ordinal='58' />
+            <column datatype='string' name='_Ma_Ly_Do' ordinal='59' />
+            <column datatype='string' name='_Ma_CSBH' ordinal='60' />
+            <column datatype='string' name='_Ma_CTKM' ordinal='61' />
+            <column datatype='string' name='_Ma_CTTL' ordinal='62' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_Cong_Ty/CN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ma_Cong_Ty/CN]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_Cong_Ty/CN</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Cong_Ty/CN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Cong_Ty/CN]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Cong_Ty/CN</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ngay_Chung_Tu</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_Ngay_Chung_Tu]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ngay_Chung_Tu</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_So_Don_Dat_Hang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_So_Don_Dat_Hang]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_So_Don_Dat_Hang</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_So_Don_Tra_Hang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_So_Don_Tra_Hang]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_So_Don_Tra_Hang</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ngay_Tra_Hang</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[_Ngay_Tra_Hang]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ngay_Tra_Hang</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Hoa_Don</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_Hoa_Don]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Hoa_Don</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ngay_Toi_Han_TT</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[_Ngay_Toi_Han_TT]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ngay_Toi_Han_TT</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_So_Hop_Dong</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_So_Hop_Dong]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_So_Hop_Dong</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Trang_Thai</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Trang_Thai]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Trang_Thai</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_KH_Thue</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ma_KH_Thue]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_KH_Thue</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ten_KH_Thue</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ten_KH_Thue]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ten_KH_Thue</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_So_Thue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_Ma_So_Thue]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_So_Thue</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_KH_DMS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ma_KH_DMS]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_KH_DMS</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_KH_Cu</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ma_KH_Cu]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_KH_Cu</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ten_Khach_Hang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ten_Khach_Hang]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ten_Khach_Hang</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Dia_Chi_KH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Dia_Chi_KH]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Dia_Chi_KH</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_Vung_BH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ma_Vung_BH]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_Vung_BH</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ten_Vung_BH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ten_Vung_BH]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ten_Vung_BH</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_Khu_Vuc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_Ma_Khu_Vuc]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_Khu_Vuc</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ten_Khu_Vuc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ten_Khu_Vuc]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ten_Khu_Vuc</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_Tinh_KH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_Ma_Tinh_KH]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_Tinh_KH</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ten_Tinh_KH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ten_Tinh_KH]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ten_Tinh_KH</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_Quan/HUyen</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_Ma_Quan/HUyen]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_Quan/HUyen</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ten_Quan/HUyen</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ten_Quan/HUyen]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ten_Quan/HUyen</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Phuong/Xa</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Phuong/Xa]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Phuong/Xa</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_Kenh_KH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ma_Kenh_KH]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_Kenh_KH</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ten_Kenh_KH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ten_Kenh_KH]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ten_Kenh_KH</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_Kenh_Phu</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ma_Kenh_Phu]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_Kenh_Phu</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ten_Kenh_Phu</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ten_Kenh_Phu]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ten_Kenh_Phu</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_HCO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ma_HCO]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_HCO</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ten_HCO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ten_HCO]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ten_HCO</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_Phan_Loai_HCO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ma_Phan_Loai_HCO]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_Phan_Loai_HCO</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ten_Phan_Loai_HCO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ten_Phan_Loai_HCO]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ten_Phan_Loai_HCO</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_Phan_Hang_HCO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ma_Phan_Hang_HCO]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_Phan_Hang_HCO</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ten_Phan_Hang_HCO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ten_Phan_Hang_HCO]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ten_Phan_Hang_HCO</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_San_Pham</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ma_San_Pham]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_San_Pham</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ten_San_Pham_NB</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ten_San_Pham_NB]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ten_San_Pham_NB</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ten_San_Pham_Viet_Tat</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ten_San_Pham_Viet_Tat]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ten_San_Pham_Viet_Tat</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_So_Lo</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_So_Lo]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_So_Lo</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_So_Luong</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_So_Luong]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_So_Luong</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Don_Gia_(Co_VAT)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_Don_Gia_(Co_VAT)]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Don_Gia_(Co_VAT)</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Doanh_So_(Co_VAT)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_Doanh_So_(Co_VAT)]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Doanh_So_(Co_VAT)</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Don_Gia_(Chua_VAT)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_Don_Gia_(Chua_VAT)]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Don_Gia_(Chua_VAT)</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Doanh_So_(Chua_VAT)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_Doanh_So_(Chua_VAT)]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Doanh_So_(Chua_VAT)</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ngay_Dat_Don</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[_Ngay_Dat_Don]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ngay_Dat_Don</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Nguoi_Tao_Don</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Nguoi_Tao_Don]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Nguoi_Tao_Don</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ngay_Giao_Hang</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[_Ngay_Giao_Hang]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ngay_Giao_Hang</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_NV</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ma_NV]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_NV</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ten_CVBH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ten_CVBH]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ten_CVBH</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_NVGH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ma_NVGH]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_NVGH</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Nguoi_Giao_hang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Nguoi_Giao_hang]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Nguoi_Giao_hang</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Trang_Thai_Giao_Hang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Trang_Thai_Giao_Hang]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Trang_Thai_Giao_Hang</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_So_Xuat_Hang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_So_Xuat_Hang]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_So_Xuat_Hang</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Don_Vi_Giao_Hang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Don_Vi_Giao_Hang]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Don_Vi_Giao_Hang</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ten_Nha_Van_Chuyen</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ten_Nha_Van_Chuyen]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ten_Nha_Van_Chuyen</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_So_Xe</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_So_Xe]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_So_Xe</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Nguoi_Chiu_Trach_Nhiem_No</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Nguoi_Chiu_Trach_Nhiem_No]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Nguoi_Chiu_Trach_Nhiem_No</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Kieu_Don_Hang</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Kieu_Don_Hang]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Kieu_Don_Hang</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_Ly_Do</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ma_Ly_Do]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_Ly_Do</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_CSBH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ma_CSBH]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_CSBH</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_CTKM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ma_CTKM]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_CTKM</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Ma_CTTL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_Ma_CTTL]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>_Ma_CTTL</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='_Cong Ty/CN' datatype='string' name='[_Cong_Ty/CN]' role='dimension' type='nominal' />
+      <column caption='_Dia Chi KH' datatype='string' name='[_Dia_Chi_KH]' role='dimension' type='nominal' />
+      <column caption='_Doanh So (Chua VAT)' datatype='integer' name='[_Doanh_So_(Chua_VAT)]' role='measure' type='quantitative' />
+      <column caption='_Doanh So (Co VAT)' datatype='integer' name='[_Doanh_So_(Co_VAT)]' role='measure' type='quantitative' />
+      <column caption='_Don Gia (Chua VAT)' datatype='integer' name='[_Don_Gia_(Chua_VAT)]' role='measure' type='quantitative' />
+      <column caption='_Don Gia (Co VAT)' datatype='integer' name='[_Don_Gia_(Co_VAT)]' role='measure' type='quantitative' />
+      <column caption='_Don Vi Giao Hang' datatype='string' name='[_Don_Vi_Giao_Hang]' role='dimension' type='nominal' />
+      <column caption='_Hoa Don' datatype='integer' name='[_Hoa_Don]' role='measure' type='quantitative' />
+      <column caption='_Kieu Don Hang' datatype='string' name='[_Kieu_Don_Hang]' role='dimension' type='nominal' />
+      <column caption='_Ma CSBH' datatype='string' name='[_Ma_CSBH]' role='dimension' type='nominal' />
+      <column caption='_Ma CTKM' datatype='string' name='[_Ma_CTKM]' role='dimension' type='nominal' />
+      <column caption='_Ma CTTL' datatype='string' name='[_Ma_CTTL]' role='dimension' type='nominal' />
+      <column caption='_Ma Cong Ty/CN' datatype='string' name='[_Ma_Cong_Ty/CN]' role='dimension' type='nominal' />
+      <column caption='_Ma HCO' datatype='string' name='[_Ma_HCO]' role='dimension' type='nominal' />
+      <column caption='_Ma KH Cu' datatype='string' name='[_Ma_KH_Cu]' role='dimension' type='nominal' />
+      <column caption='_Ma KH DMS' datatype='string' name='[_Ma_KH_DMS]' role='dimension' type='nominal' />
+      <column caption='_Ma KH Thue' datatype='string' name='[_Ma_KH_Thue]' role='dimension' type='nominal' />
+      <column caption='_Ma Kenh KH' datatype='string' name='[_Ma_Kenh_KH]' role='dimension' type='nominal' />
+      <column caption='_Ma Kenh Phu' datatype='string' name='[_Ma_Kenh_Phu]' role='dimension' type='nominal' />
+      <column caption='_Ma Khu Vuc' datatype='integer' name='[_Ma_Khu_Vuc]' role='measure' type='quantitative' />
+      <column caption='_Ma Ly Do' datatype='string' name='[_Ma_Ly_Do]' role='dimension' type='nominal' />
+      <column caption='_Ma NVGH' datatype='string' name='[_Ma_NVGH]' role='dimension' type='nominal' />
+      <column caption='_Ma NV' datatype='string' name='[_Ma_NV]' role='dimension' type='nominal' />
+      <column caption='_Ma Phan Hang HCO' datatype='string' name='[_Ma_Phan_Hang_HCO]' role='dimension' type='nominal' />
+      <column caption='_Ma Phan Loai HCO' datatype='string' name='[_Ma_Phan_Loai_HCO]' role='dimension' type='nominal' />
+      <column caption='_Ma Quan/HUyen' datatype='integer' name='[_Ma_Quan/HUyen]' role='measure' type='quantitative' />
+      <column caption='_Ma San Pham' datatype='string' name='[_Ma_San_Pham]' role='dimension' type='nominal' />
+      <column caption='_Ma So Thue' datatype='integer' name='[_Ma_So_Thue]' role='measure' type='quantitative' />
+      <column caption='_Ma Tinh KH' datatype='integer' name='[_Ma_Tinh_KH]' role='measure' type='quantitative' />
+      <column caption='_Ma Vung BH' datatype='string' name='[_Ma_Vung_BH]' role='dimension' type='nominal' />
+      <column caption='_Ngay Chung Tu' datatype='integer' name='[_Ngay_Chung_Tu]' role='measure' type='quantitative' />
+      <column caption='_Ngay Dat Don' datatype='real' name='[_Ngay_Dat_Don]' role='measure' type='quantitative' />
+      <column caption='_Ngay Giao Hang' datatype='date' name='[_Ngay_Giao_Hang]' role='dimension' type='ordinal' />
+      <column caption='_Ngay Toi Han TT' datatype='date' name='[_Ngay_Toi_Han_TT]' role='dimension' type='ordinal' />
+      <column caption='_Ngay Tra Hang' datatype='date' name='[_Ngay_Tra_Hang]' role='dimension' type='ordinal' />
+      <column caption='_Nguoi Chiu Trach Nhiem No' datatype='string' name='[_Nguoi_Chiu_Trach_Nhiem_No]' role='dimension' type='nominal' />
+      <column caption='_Nguoi Giao hang' datatype='string' name='[_Nguoi_Giao_hang]' role='dimension' type='nominal' />
+      <column caption='_Nguoi Tao Don' datatype='string' name='[_Nguoi_Tao_Don]' role='dimension' type='nominal' />
+      <column caption='_So Don Dat Hang' datatype='string' name='[_So_Don_Dat_Hang]' role='dimension' type='nominal' />
+      <column caption='_So Don Tra Hang' datatype='string' name='[_So_Don_Tra_Hang]' role='dimension' type='nominal' />
+      <column caption='_So Hop Dong' datatype='string' name='[_So_Hop_Dong]' role='dimension' type='nominal' />
+      <column caption='_So Lo' datatype='integer' name='[_So_Lo]' role='measure' type='quantitative' />
+      <column caption='_So Luong' datatype='integer' name='[_So_Luong]' role='measure' type='quantitative' />
+      <column caption='_So Xe' datatype='string' name='[_So_Xe]' role='dimension' type='nominal' />
+      <column caption='_So Xuat Hang' datatype='string' name='[_So_Xuat_Hang]' role='dimension' type='nominal' />
+      <column caption='_Ten CVBH' datatype='string' name='[_Ten_CVBH]' role='dimension' type='nominal' />
+      <column caption='_Ten HCO' datatype='string' name='[_Ten_HCO]' role='dimension' type='nominal' />
+      <column caption='_Ten KH Thue' datatype='string' name='[_Ten_KH_Thue]' role='dimension' type='nominal' />
+      <column caption='_Ten Kenh KH' datatype='string' name='[_Ten_Kenh_KH]' role='dimension' type='nominal' />
+      <column caption='_Ten Kenh Phu' datatype='string' name='[_Ten_Kenh_Phu]' role='dimension' type='nominal' />
+      <column caption='_Ten Khach Hang' datatype='string' name='[_Ten_Khach_Hang]' role='dimension' type='nominal' />
+      <column caption='_Ten Khu Vuc' datatype='string' name='[_Ten_Khu_Vuc]' role='dimension' type='nominal' />
+      <column caption='_Ten Nha Van Chuyen' datatype='string' name='[_Ten_Nha_Van_Chuyen]' role='dimension' type='nominal' />
+      <column caption='_Ten Phan Hang HCO' datatype='string' name='[_Ten_Phan_Hang_HCO]' role='dimension' type='nominal' />
+      <column caption='_Ten Phan Loai HCO' datatype='string' name='[_Ten_Phan_Loai_HCO]' role='dimension' type='nominal' />
+      <column caption='_Ten Quan/HUyen' datatype='string' name='[_Ten_Quan/HUyen]' role='dimension' type='nominal' />
+      <column caption='_Ten San Pham NB' datatype='string' name='[_Ten_San_Pham_NB]' role='dimension' type='nominal' />
+      <column caption='_Ten San Pham Viet Tat' datatype='string' name='[_Ten_San_Pham_Viet_Tat]' role='dimension' type='nominal' />
+      <column caption='_Ten Tinh KH' datatype='string' name='[_Ten_Tinh_KH]' role='dimension' type='nominal' />
+      <column caption='_Ten Vung BH' datatype='string' name='[_Ten_Vung_BH]' role='dimension' type='nominal' />
+      <column caption='_Trang Thai' datatype='string' name='[_Trang_Thai]' role='dimension' type='nominal' />
+      <column caption='_Trang Thai Giao Hang' datatype='string' name='[_Trang_Thai_Giao_Hang]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='raw_data.csv' datatype='table' name='[__tableau_internal_object_id__].[raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Viet Nam&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='raw_data.csv' id='raw_data.csv_541ACC9030D848AEA8E3740040A9EDDF'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.0esmuqq0feupx810q35z80jbxcdm' name='raw_data.csv' table='[raw_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='_Ma_Cong_Ty/CN' ordinal='0' />
+                  <column datatype='string' name='_Cong_Ty/CN' ordinal='1' />
+                  <column datatype='integer' name='_Ngay_Chung_Tu' ordinal='2' />
+                  <column datatype='string' name='_So_Don_Dat_Hang' ordinal='3' />
+                  <column datatype='string' name='_So_Don_Tra_Hang' ordinal='4' />
+                  <column datatype='date' name='_Ngay_Tra_Hang' ordinal='5' />
+                  <column datatype='integer' name='_Hoa_Don' ordinal='6' />
+                  <column datatype='date' name='_Ngay_Toi_Han_TT' ordinal='7' />
+                  <column datatype='string' name='_So_Hop_Dong' ordinal='8' />
+                  <column datatype='string' name='_Trang_Thai' ordinal='9' />
+                  <column datatype='string' name='_Ma_KH_Thue' ordinal='10' />
+                  <column datatype='string' name='_Ten_KH_Thue' ordinal='11' />
+                  <column datatype='integer' name='_Ma_So_Thue' ordinal='12' />
+                  <column datatype='string' name='_Ma_KH_DMS' ordinal='13' />
+                  <column datatype='string' name='_Ma_KH_Cu' ordinal='14' />
+                  <column datatype='string' name='_Ten_Khach_Hang' ordinal='15' />
+                  <column datatype='string' name='_Dia_Chi_KH' ordinal='16' />
+                  <column datatype='string' name='_Ma_Vung_BH' ordinal='17' />
+                  <column datatype='string' name='_Ten_Vung_BH' ordinal='18' />
+                  <column datatype='integer' name='_Ma_Khu_Vuc' ordinal='19' />
+                  <column datatype='string' name='_Ten_Khu_Vuc' ordinal='20' />
+                  <column datatype='integer' name='_Ma_Tinh_KH' ordinal='21' />
+                  <column datatype='string' name='_Ten_Tinh_KH' ordinal='22' />
+                  <column datatype='integer' name='_Ma_Quan/HUyen' ordinal='23' />
+                  <column datatype='string' name='_Ten_Quan/HUyen' ordinal='24' />
+                  <column datatype='string' name='_Phuong/Xa' ordinal='25' />
+                  <column datatype='string' name='_Ma_Kenh_KH' ordinal='26' />
+                  <column datatype='string' name='_Ten_Kenh_KH' ordinal='27' />
+                  <column datatype='string' name='_Ma_Kenh_Phu' ordinal='28' />
+                  <column datatype='string' name='_Ten_Kenh_Phu' ordinal='29' />
+                  <column datatype='string' name='_Ma_HCO' ordinal='30' />
+                  <column datatype='string' name='_Ten_HCO' ordinal='31' />
+                  <column datatype='string' name='_Ma_Phan_Loai_HCO' ordinal='32' />
+                  <column datatype='string' name='_Ten_Phan_Loai_HCO' ordinal='33' />
+                  <column datatype='string' name='_Ma_Phan_Hang_HCO' ordinal='34' />
+                  <column datatype='string' name='_Ten_Phan_Hang_HCO' ordinal='35' />
+                  <column datatype='string' name='_Ma_San_Pham' ordinal='36' />
+                  <column datatype='string' name='_Ten_San_Pham_NB' ordinal='37' />
+                  <column datatype='string' name='_Ten_San_Pham_Viet_Tat' ordinal='38' />
+                  <column datatype='integer' name='_So_Lo' ordinal='39' />
+                  <column datatype='integer' name='_So_Luong' ordinal='40' />
+                  <column datatype='integer' name='_Don_Gia_(Co_VAT)' ordinal='41' />
+                  <column datatype='integer' name='_Doanh_So_(Co_VAT)' ordinal='42' />
+                  <column datatype='integer' name='_Don_Gia_(Chua_VAT)' ordinal='43' />
+                  <column datatype='integer' name='_Doanh_So_(Chua_VAT)' ordinal='44' />
+                  <column datatype='real' name='_Ngay_Dat_Don' ordinal='45' />
+                  <column datatype='string' name='_Nguoi_Tao_Don' ordinal='46' />
+                  <column datatype='date' name='_Ngay_Giao_Hang' ordinal='47' />
+                  <column datatype='string' name='_Ma_NV' ordinal='48' />
+                  <column datatype='string' name='_Ten_CVBH' ordinal='49' />
+                  <column datatype='string' name='_Ma_NVGH' ordinal='50' />
+                  <column datatype='string' name='_Nguoi_Giao_hang' ordinal='51' />
+                  <column datatype='string' name='_Trang_Thai_Giao_Hang' ordinal='52' />
+                  <column datatype='string' name='_So_Xuat_Hang' ordinal='53' />
+                  <column datatype='string' name='_Don_Vi_Giao_Hang' ordinal='54' />
+                  <column datatype='string' name='_Ten_Nha_Van_Chuyen' ordinal='55' />
+                  <column datatype='string' name='_So_Xe' ordinal='56' />
+                  <column datatype='string' name='_Nguoi_Chiu_Trach_Nhiem_No' ordinal='57' />
+                  <column datatype='string' name='_Kieu_Don_Hang' ordinal='58' />
+                  <column datatype='string' name='_Ma_Ly_Do' ordinal='59' />
+                  <column datatype='string' name='_Ma_CSBH' ordinal='60' />
+                  <column datatype='string' name='_Ma_CTKM' ordinal='61' />
+                  <column datatype='string' name='_Ma_CTTL' ordinal='62' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <repository-location id='Sheet1' path='/workbooks/Book1' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='raw_data' name='federated.0bwgo040vrhh4k12q12w40qa6d7c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0bwgo040vrhh4k12q12w40qa6d7c'>
+            <column caption='_Doanh So (Co VAT)' datatype='integer' name='[_Doanh_So_(Co_VAT)]' role='measure' type='quantitative' />
+            <column caption='_Ma Vung BH' datatype='string' name='[_Ma_Vung_BH]' role='dimension' type='nominal' />
+            <column-instance column='[_Ma_Vung_BH]' derivation='None' name='[none:_Ma_Vung_BH:nk]' pivot='key' type='nominal' />
+            <column-instance column='[_Doanh_So_(Co_VAT)]' derivation='Sum' name='[sum:_Doanh_So_(Co_VAT):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0bwgo040vrhh4k12q12w40qa6d7c].[sum:_Doanh_So_(Co_VAT):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0bwgo040vrhh4k12q12w40qa6d7c].[none:_Ma_Vung_BH:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{7C45EE8B-A1AB-45F4-8D5A-C8880D926A09}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <repository-location id='Sheet2' path='/workbooks/Book1' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='raw_data' name='federated.0bwgo040vrhh4k12q12w40qa6d7c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0bwgo040vrhh4k12q12w40qa6d7c'>
+            <column caption='_Doanh So (Co VAT)' datatype='integer' name='[_Doanh_So_(Co_VAT)]' role='measure' type='quantitative' />
+            <column caption='_Ten Khu Vuc' datatype='string' name='[_Ten_Khu_Vuc]' role='dimension' type='nominal' />
+            <column-instance column='[_Ten_Khu_Vuc]' derivation='None' name='[none:_Ten_Khu_Vuc:nk]' pivot='key' type='nominal' />
+            <column-instance column='[_Doanh_So_(Co_VAT)]' derivation='Sum' name='[sum:_Doanh_So_(Co_VAT):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0bwgo040vrhh4k12q12w40qa6d7c].[sum:_Doanh_So_(Co_VAT):qk]</rows>
+        <cols>[federated.0bwgo040vrhh4k12q12w40qa6d7c].[none:_Ten_Khu_Vuc:nk]</cols>
+      </table>
+      <simple-id uuid='{FD2970FF-CCFF-4689-AABE-57270121AC97}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{86A40540-12ED-4015-A816-6E98D060CBB3}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{27393157-A340-49B2-814D-28EBCD166F0D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='66' name='Sheet 1' width='184'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
